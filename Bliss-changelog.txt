@@ -1,0 +1,15 @@
+-----------------
+Source Changelog
+-----------------
+- Marge April patch
+- Added Face unlock
+- Internal audio recording fix
+- Added Gradient picker
+
+-----------------
+Device Chnagelog
+-----------------
+- Fix battery charging light 
+- Added dirac sound support on Advanced control
+- Update stock nlob from MIUI 
+- Removed some Bluetooth config (in order to fix bluetooth call ) nou you check and tell 
