@@ -7,7 +7,7 @@ Source Changelog
 - Added Gradient picker
 
 -----------------
-Device Chnagelog
+Device Changelog
 -----------------
 - Fix battery charging light 
 - Added dirac sound support on Advanced control
