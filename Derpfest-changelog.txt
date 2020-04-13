@@ -16,7 +16,7 @@ Source Changelogs:
 Device Changelogs:
 - Fixed Night light
 - Fixed Dirac control
-- Fixed Bluetooth call
+- Fixed Bluetooth call (finally)
 - Use fingerprint from Pixel 4 to pass CTS
 - Enable Smooth Streaming for secure video playback
 - Added Google AR Support
