@@ -1,15 +1,27 @@
 -----------------
 Source Changelog
 -----------------
-- Marge April patch
-- Added Face unlock
-- Internal audio recording fix
-- Added Gradient picker
+- Add adaptive playback ( system> gestures) 
+- add raise to wake for custom doze
+- fix custom lockscreen wallpaper
+- Owner info size and font changes
+- improve qs detail themeing
+- Fix android auto 
+- type clock o' minute
+- Type clock size changes with lockscreen clock size
+- Per app internet restriction in any app's app info screen 
+- fix display dpi density clipped view
+- fix font size clipped view
+- Revert aggresive battery, fixes drain on some devices
 
 -----------------
 Device Changelog
 -----------------
-- Fix battery charging light 
-- Added dirac sound support on Advanced control
-- Update stock nlob from MIUI 
-- Removed some Bluetooth config (in order to fix bluetooth call ) nou you check and tell 
+- Use fingerprint from Pixel 4 to pass CTS
+- Fixed Night light
+- Fixed Dirac control
+- Enable Smooth Streaming for secure video playback
+- Added Google AR Support
+- Update some config to Make UI more smooth
+- Update qti-telephony
+- 
