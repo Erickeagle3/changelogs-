@@ -24,4 +24,7 @@ Device Changelog
 - Added Google AR Support
 - Update some config to Make UI more smooth
 - Update qti-telephony
-- 
+
+Big thanks to my friend @smokey_18 (smokey)
+
+Note :- please use that recovery which i've mention in chnagelog 
