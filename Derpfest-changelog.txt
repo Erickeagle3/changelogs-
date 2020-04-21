@@ -1,23 +1,64 @@
-Source Changelogs:
+:-Source Changelogs:
 
-- April security patch (r33 tag merged)
-- Removed the junky LockScreen clock date animation
-- Redistribute QS tile on orientation change
-- Moved brightness slider settings out of tuner - Adds the ability to back em up as the rest and fixes some bugs related
-- Added ability to change battery text color when charging
-- In-rom changelog got a new look, and is more readable and user friendly now
-- Set a default custom QS header image
-- Make sure the padding changes in QS header only apply if a header is really selected
-- Reverted RGB picker (was causing issues on some 3rd party apps)
-- Switch to use AOSP SettingsIntelligence (No more random settings crashes for some users & search is more reliable)
-- Updates to translations
-- 100% Forgot stuff - But this is it roughly
+- Android April Sec Patch R33 Merged
+- Added Firmware & Recovery PlaceHolder In DerpQuest About
+- Fixed system crashing after connected to Android Auto or started screen record
+- OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
+- Removed restrictions for system audio record
+- Cleaned up pixel live wallpaper port
+- Updated some qs tile icons to MD2
+- Ported pixel navigation bar
+- Ported more Assist things from Pixel SystemUI
+- QS blur improvements
+- Fixed binary clock update
+- Added Eggtimer to Caffeine tile
+- DataSwitchTile: Added drawable for No SIM
+- Added outline style to caffeine qs tile drawable
+- Added advanced location qs tile options
+- Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
+- Partial screenshot block gestures/headsup: code improvements
+- Fixed screenshot shutter sound toggle
+- Screenshot: Removed white flash if dark mode is enabled • Added a toggle for the QS tint 
+- Allowed to backup LS clock & date styles values
+- Added a permission group for signature spoofing
+- Make sure media artwork blur restored radius value is valid
+- Added full accent sammy clock style
+- Brand new colorful and shape adaptable icons under DerpQuest section
+- Disabled junky LS clock & slice transition animations
+- Fixed padding bug when header image is enabled but not selected
+- Cleaned up running services fragment layout
+- Added notification log history
+- Brought back pixel layout in qs panel
+- Added Flame primary color
+- Added OnePlus Dark primary color
+- Removed duplicate exposures
+- Cleaned up hardcoded colors and used/overlay AOSP values
+- Added Matlog prebuilt
+- Some more things maybe I can't remember more :P
 
-Device Changelogs:
-- Fixed Night light
-- Fixed Dirac control
-- Fixed Bluetooth call (finally)
-- Use fingerprint from Pixel 4 to pass CTS
-- Enable Smooth Streaming for secure video playback
-- Added Google AR Support
-- Update some config to Make UI more smooth
+:-Device Changelogs:
+
+- Fix take HDR picture spin forever issue 
+- Update qti-telephony-common from motoroal-10-QPU30.52
+- Disable mobile data always active 
+- QPower and Deep Sleep at the same time
+- Fix lag while screen recording
+- Enable auto power modes
+- Enable status bar burn-in protection 
+- Improve Ram management
+- Update API config
+- Update IR node
+- Restore stock ACDB blobs
+- Drop mediaextractor seccomp policy
+- Update sha1sum: (Add condition for line split,Better handle line breaks,Handle line with opts)
+- Format update-sha1sums.py with yapf 
+- Address cnd & dpmd denials
+- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE
+- Convert remaining configstore settings to props
+- Replace qcom's deep_buffer with AOSP low_latency
+- Added GCam Go
+- Added Via Browser as default 
+- Added aosp gallery 
+- Fixed Bluetooth call thanks to @smokey_18,@beingstargazer ( tested by me,@ndroidLover,@deepakagarwal29,@Sd6600)
+- Fixed Random reboot issue 
+- Fixed reboot on setup wizard
