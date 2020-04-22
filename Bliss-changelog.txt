@@ -1,30 +1,48 @@
------------------
-Source Changelog
------------------
-- Add adaptive playback ( system> gestures) 
-- add raise to wake for custom doze
-- fix custom lockscreen wallpaper
-- Owner info size and font changes
-- improve qs detail themeing
-- Fix android auto 
-- type clock o' minute
-- Type clock size changes with lockscreen clock size
-- Per app internet restriction in any app's app info screen 
-- fix display dpi density clipped view
-- fix font size clipped view
-- Revert aggresive battery, fixes drain on some devices
+:-Source Changelog
 
------------------
-Device Changelog
------------------
-- Use fingerprint from Pixel 4 to pass CTS
-- Fixed Night light
-- Fixed Dirac control
-- Enable Smooth Streaming for secure video playback
-- Added Google AR Support
-- Update some config to Make UI more smooth
-- Update qti-telephony
+* remove lawnchair n move to trebuchet
+- added icon pack support to trebuchet
+- dt2s
+- recents swipe with gesture
+- among many other features
 
-Big thanks to my friend @smokey_18 (smokey)
+* Added 6 new clocks in styles and wallpapers
+- Divided lines
+- SFUNY
+- MMNL Box
+- MMNL minimal
+- orona
+- Added Nerves clock in blissify > lockscreen 
+* all these clocks have ability to change size and font 
+* except for Sfuny only font can be changed
+- possible fix for themes crashing
 
-Note :- please use that recovery which i've mention in chnagelog 
+Notes: 
+1. For all the four clocks have date inside the clock.
+2. Recommended to hide date widget in blissify> locksreen.
+
+Bugs:
+* divided lines clock preview in themepicker doesn't work yet.
+* trebuchet recents dock icons misplaced.
+
+:-Device Changelog
+
+- Fix take HDR picture spin forever issue 
+- Update qti-telephony-common from motoroal-10-QPU30.52
+- Disable mobile data always active 
+- QPower and Deep Sleep at the same time
+- Fix lag while screen recording
+- Enable auto power modes
+- Enable status bar burn-in protection 
+- Improve Ram management
+- Update API config
+- Update IR node
+- Restore stock ACDB blobs
+- Drop mediaextractor seccomp policy
+- Update sha1sum: (Add condition for line split,Better handle line breaks,Handle line with opts)
+- Format update-sha1sums.py with yapf 
+- Address cnd & dpmd denials
+- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE
+- Convert remaining configstore settings to props
+- Replace qcom's deep_buffer with AOSP low_latency
+- Added GCam Go
