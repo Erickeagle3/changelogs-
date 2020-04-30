@@ -1,13 +1,4 @@
--	Add support to screenshot editor(Markup)
-- Import La fontage v2.2 from Bootleggers
-- OOB write in rw_t2t_ndef.cc
-- Update DerpFest logo from Q
-- Move wifi mac randomization to wifi settings
--	Allow to quickly open Running Services from QS panel 
-- Remove some debugging prop
-- Turn off jit profiles and just use speeds
-- Make script look good in recovery xd
-- Improve touch response slightly
-- Fix front cam on Playground
-- Added Google Go camera
-- Update Lawnchair
+- Button customization back
+- Add some prop in order to fix screen glitches 
+- Enable debbuging at boot 
+- Added some overlay
