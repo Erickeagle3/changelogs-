@@ -1,48 +1,54 @@
-:-Source Changelog
+Source Changelog
 
-* remove lawnchair n move to trebuchet
-- added icon pack support to trebuchet
-- dt2s
-- recents swipe with gesture
-- among many other features
+- Disabled Emergency and Advanced Reboot by default
+- Fixed Dark Theming
+- Updated AboutBliss to v2.0
+- UI Improvements
+- Reduced APPS debugging output
+- Removed Photos and Google Dialer
+- Three button Navigation by default (Change in Settings -> System -> Gestures)
+- R Style Notifications
+- Ambient Edge Improvements
+- Charging sound
+- R style notification
+- Translucent broken or not
+- QS primary color fix (maybe)
+- launcher long click to styles n wall
+- translucent notification feature in display > lockscreen 
+- ambient pulse layout feature for edge light  , its to choose between faded or solid 
+- screen recording, added video bitrate and improved audio 
+- improved screen recorder layout 
+- Remove prebuilt themes in styles and wallpaper, thus fixing themes crash
+- Switched to launcher3 now bliss launcher with a lot of updates
+- added primary color to wifi/bt panels
+- Fix statusbar padding for notch devices
+- Fix custom rounded corner cutouts for some devices
+- Fix network traffic layout in quick statusbar header
+- System wide dark theme improvements
+- fix header drop down list in qs header
+- fix notification guts to follow system theme (when u long press app notification)
+- improve settings themeing
+- improve many other parts system wide
+- Remove lte qs tile
+- Remove advanced location tile, was active even in battery saver mode thus removed
+- Added charcoal primary
+- Added lead black primary
+- Added OnePlus dark primary
+- Added solarised dark primary
+- Added flame primary
+- Added system icons toggle for vpn, data saver, roaming
+- Make bliss black proper black (notifications background)
+- Update gapps to latest
+- fixed oversized battery icon
+- date allignment for type clock , Omni Weather not yet
+- Owner info allignment with type clock
+- Misc Improvements
 
-* Added 6 new clocks in styles and wallpapers
-- Divided lines
-- SFUNY
-- MMNL Box
-- MMNL minimal
-- orona
-- Added Nerves clock in blissify > lockscreen 
-* all these clocks have ability to change size and font 
-* except for Sfuny only font can be changed
-- possible fix for themes crashing
+Device Changelog
 
-Notes: 
-1. For all the four clocks have date inside the clock.
-2. Recommended to hide date widget in blissify> locksreen.
-
-Bugs:
-* divided lines clock preview in themepicker doesn't work yet.
-* trebuchet recents dock icons misplaced.
-
-:-Device Changelog
-
-- Fix take HDR picture spin forever issue 
-- Update qti-telephony-common from motoroal-10-QPU30.52
-- Disable mobile data always active 
-- QPower and Deep Sleep at the same time
-- Fix lag while screen recording
-- Enable auto power modes
-- Enable status bar burn-in protection 
-- Improve Ram management
-- Update API config
-- Update IR node
-- Restore stock ACDB blobs
-- Drop mediaextractor seccomp policy
-- Update sha1sum: (Add condition for line split,Better handle line breaks,Handle line with opts)
-- Format update-sha1sums.py with yapf 
-- Address cnd & dpmd denials
-- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE
-- Convert remaining configstore settings to props
-- Replace qcom's deep_buffer with AOSP low_latency
-- Added GCam Go
+- Change default Hotspot name (Bliss_mido)
+- Added Gcam go 
+- Added Xiaomi Parts (thanks to my lovely friend @smokey_18)
+- Used FIngerprint from Pixel 4 to pass CTS
+- Exclude lineage-sdk overlays from RRO
+- Improve System stability
