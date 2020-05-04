@@ -1,0 +1,2099 @@
+Note :- it's not official  
+
+====================
+     05-04-2020
+====================
+
+[frameworks/base]
+SystemUI: Change QS Customizer to black for dark mode <4 months ago> [b2e381bcc57]
+by: 00day0 (therandomuser11@gmail.com)
+build: Don't check for fingerprint mismatch <6 months ago> [ab75f5bd79a]
+by: Dan Cartier (nospamdan1@gmail.com)
+SystemUi: Replace QS Tile  Battery Saver Tile icons to MD2 Design <3 weeks ago> [d1f7ccc70bd]
+by: deadmanxxd (deadmanxxd@gmail.com)
+Default Permissions: grant Storage Permission to GBoard <4 weeks ago> [fa21de6277f]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+AudioService: communicate audio HAL process pids to native audioserver <6 months ago> [e819a468cd6]
+by: Eric Laurent (elaurent@google.com)
+telephony: Make IMS method updateToState accessible <1 year, 5 months ago> [92728ad5f25]
+by: Pranav Vashi (neobuddy89@gmail.com)
+base: SettingsProvider: cleanup leftover logspill <1 year, 7 months ago> [f95b80d0709]
+by: maxwen (max.weninger@gmail.com)
+Prevent crash in TTS engine due to improper configuration <10 months ago> [759b76c7755]
+by: Pranav Vashi (neobuddy89@gmail.com)
+WindowStateAnimator: Fix NPE with wallpaper offset <6 months ago> [449c7d2378d]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Reset permission when network becomes default again. <11 months ago> [86fe9249c5c]
+by: Devi Sandeep Endluri V V (dendluri@codeaurora.org)
+Fix Another SystemUI crash <4 months ago> [d681d25fce4]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+ViewGroup: Remove child parent when a new view is added <1 year, 8 months ago> [dd7befb8fb0]
+by: mydongistiny (jaysonedson@gmail.com)
+base: Handle NPE for ContentObserver <4 months ago> [ed6f6eae321]
+by: Adhitya Mohan (me@adhityamohan.in)
+FingerprintManager: return "Try again" by default <4 months ago> [accb4ba0e75]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+EdgeBackGestureHandler: Handle all exceptions with WindowManagerService <5 weeks ago> [d6e293c13b7]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Whitelist OVERRIDE_WIFI_CONFIG for phone app <5 weeks ago> [a819b864fb8]
+by: Pranav Vashi (neobuddy89@gmail.com)
+fixup! lockscreen: Add support for showing unlock screen directly <7 days ago> [123f557aa3d]
+by: LuK1337 (priv.luk@gmail.com)
+Add isApplicationOnUicc API <1 year, 4 months ago> [cf7c87cd085]
+by: Hyungjun Park (hjun78.park@samsung.com)
+Revert "base: Toggle statusbar privacy indicators [1/2]" <29 hours ago> [87175c398ea]
+by: NurKeinNeid (mralexman3000@gmail.com)
+base: Introduce full circle battery style <2 weeks ago> [6c3f3836c5b]
+by: Christian Oder (myself5@carbonrom.org)
+ThemedBatteryDrawable: Hide plus when showing battery percentage inside icon <2 weeks ago> [f16a8cc2c9c]
+by: Christian Oder (myself5@carbonrom.org)
+SystemUI: Readd dotted Circle to Kotlin impl <3 weeks ago> [0849b519b5a]
+by: Christian Oder (myself5@carbonrom.org)
+Text battery style: show a bolt ⚡ when charging <2 years, 3 months ago> [f87820a532a]
+by: ezio84 (brabus84@gmail.com)
+SystemUI: Bring back good ol' circle battery style <5 months ago> [06c1bfa80df]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+SystemUI: BatteryPercentage: Detect when overlay changes <1 year, 6 months ago> [621dbb28b5a]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+base: Remove old battery implement <10 days ago> [8c6b110a030]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Revert "core: Add camera intents for camera state" <9 days ago> [fd4d7e922ac]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+base: Switch styles for media seekbar text <7 weeks ago> [9c7ae0c5831]
+by: El Dainosor (eldainosor@gmail.com)
+base: build Square shape <4 months ago> [e417e60a462]
+by: El Dainosor (eldainosor@gmail.com)
+base: hardcode their accent gradient counterpart <4 months ago> [9dc55a90760]
+by: El Dainosor (eldainosor@gmail.com)
+base: Black accent improvements <4 months ago> [b3f1072bc7e]
+by: El Dainosor (eldainosor@gmail.com)
+[1/2] base: Introduce UI Styles <5 months ago> [c4deda7e2de]
+by: El Dainosor (eldainosor@gmail.com)
+base: Add some colors that we use to theme system <6 months ago> [dad20ff5669]
+by: El Dainosor (eldainosor@gmail.com)
+AOSP Accents: Tweak the accents to use their counterparts <6 months ago> [4017e7d8658]
+by: El Dainosor (eldainosor@gmail.com)
+base: Add a line spacing variable for buttons <1 year, 8 months ago> [e74bdb8f835]
+by: ElDainosor (eldainosor@gmail.com)
+Squash the Battery Bar [1/2] <6 weeks ago> [9723697bc7c]
+by: bigrushdog (randall.rushing@gmail.com)
+clocks: Introduce MNML clocks <3 weeks ago> [9b9fae7aba7]
+by: El Dainosor (eldainosor@gmail.com)
+TypeClock: Properly calculate the height <2 weeks ago> [04f3c2aef21]
+by: El Dainosor (eldainosor@gmail.com)
+clock: add Sammy highlight clock <4 weeks ago> [f698d9a913d]
+by: El Dainosor (eldainosor@gmail.com)
+clock: Add Oroño clock <4 weeks ago> [071e62ebee9]
+by: El Dainosor (eldainosor@gmail.com)
+base: Add SFUNY clock <4 weeks ago> [d0b617777df]
+by: El Dainosor (eldainosor@gmail.com)
+screenrec: Layout improvements and summary cleanup <3 weeks ago> [c93388b0f6a]
+by: Anushek Prasal (anushekprasal@gmail.com)
+base: Set a better screenrec notification icon <4 weeks ago> [b5b6cc5cadc]
+by: El Dainosor (eldainosor@gmail.com)
+Screen rec: Add support for AudioPlaybackCapture <4 weeks ago> [98dead09b8c]
+by: El Dainosor (eldainosor@gmail.com)
+Screenrec: Switch to low quality switch to a bitrate selector <4 weeks ago> [abcf7e84491]
+by: El Dainosor (eldainosor@gmail.com)
+ScreenRec: Put the recording icon in the recordie palette <4 weeks ago> [072f07e614a]
+by: El Dainosor (eldainosor@gmail.com)
+base: Add Divided Lines Clock <4 weeks ago> [434e19219ea]
+by: El Dainosor (eldainosor@gmail.com)
+clock: Implement custom date font support on custom clocks <2 weeks ago> [4c5ffa72b14]
+by: El Dainosor (eldainosor@gmail.com)
+lockdate: Add our fonts back <2 weeks ago> [ce215911762]
+by: El Dainosor (eldainosor@gmail.com)
+base: Lockscreen Date Fonts [1/2] <7 months ago> [f0a527fee72]
+by: Varun Date (date.varun123@gmail.com)
+lockfonts: Set GoBold back to default <2 weeks ago> [0244a30cf73]
+by: El Dainosor (eldainosor@gmail.com)
+lockfonts: add our fonts back <2 weeks ago> [c279dccac03]
+by: El Dainosor (eldainosor@gmail.com)
+Lockscreen Clock Widget Font Style [1/2] <1 year, 8 months ago> [3c66ca06ba0]
+by: Alex Cruz (du.alexcruz@gmail.com)
+SystemUI: qs add tuner switch to restore old long press behaviour <3 weeks ago> [428ad2a7ebd]
+by: maxwen (max.weninger@gmail.com)
+Revert "SystemUI: revert the special long click handling of dual target qs tiles" <3 weeks ago> [dbdd03535c6]
+by: maxwen (max.weninger@gmail.com)
+VoWifi notification for emergency calls <3 months ago> [2a878b741f0]
+by: Sukanya Rajkhowa (srajkh@codeaurora.org)
+QS header: Update and style edit strings <6 weeks ago> [8e63eb6a1cf]
+by: Alex (du.alexcruz@gmail.com)
+aapt2: do not use compression <4 months ago> [2d2a8bc70a6]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+core: res: config: speed up animations <6 months ago> [c286dc2dfc2]
+by: Simao Gomes Viana (xdevs23@outlook.com)
+Changes to pass API check <3 years ago> [19cb6a08145]
+by: Simao Gomes Viana (xdevs23@outlook.com)
+ViewConfiguration: add support for max/min fling velocity sysproperties <3 years, 9 months ago> [ce462e14b22]
+by: Simao Gomes Viana (xdevs23@outlook.com)
+config: longer wifi scan interval <3 years, 5 months ago> [7cc38d41a38]
+by: Simao Gomes Viana (xdevs23@outlook.com)
+ViewConfiguration: misc changes (rev) <3 years, 4 months ago> [d7b81bb5e08]
+by: Simao Gomes Viana (xdevs23@outlook.com)
+ServiceRegistry: Don't throw an exception if OEM_LOCK is missing <1 year, 3 months ago> [2d506d990a1]
+by: Scott Warner (Tortel1210@gmail.com)
+DNM: HAX: Allow third party apps to access identifiers <5 months ago> [747339e6ddd]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Add semi bold font alias for custom fonts <4 months ago> [c681795b1d1]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Export all font configs <3 weeks ago> [7f6647bfd3d]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Typeface Clock: update thumbnail <5 months ago> [6d9ca5111bd]
+by: shagbag913 (sh4gbag913@gmail.com)
+base: Lower the internal audio capture restriction <4 months ago> [f429c767010]
+by: El Dainosor (eldainosor@gmail.com)
+qs footer: Tint build info as secondary text <4 months ago> [9cd6b8641ad]
+by: El Dainosor (eldainosor@gmail.com)
+SystemUI: Show something usefull in the QS footer <7 months ago> [0bc780ccd45]
+by: Fabian Leutenegger (fabian.leutenegger@bluewin.ch)
+pm: Add flags for UFS card for encryption in vold <10 months ago> [f9e515785dc]
+by: Gaurav Kashyap (gaurkash@codeaurora.org)
+Revert "storage: Do not notify for volumes on non-removable disks" <6 weeks ago> [7b019068ec6]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+fw/b: Prevent double interface restriction remove on interface name change <3 weeks ago> [6dedc235123]
+by: Sam Mortimer (sam@mortimer.me.uk)
+[1/2] SystemUI: Introduce Adaptive Playback <6 months ago> [58777525306]
+by: Jyotiraditya (jyotiraditya@aospa.co)
+Fix Bluetooth auto turns ON in airplane mode <6 weeks ago> [f47e0412576]
+by: Ugo Yu (ugoyu@google.com)
+Gesture nav toggle: show IME when needed and improve code <3 weeks ago> [2474b9e3ebf]
+by: ezio84 (brabus84@gmail.com)
+Allow to hide navigation bar gesture completely [1/2] <3 weeks ago> [6f3083678fd]
+by: Nicolas Dhouailly (ndhouailly@gmail.com)
+Add Dual Channel into Bluetooth Audio Channel Mode developer options menu <1 year, 8 months ago> [5409a442a17]
+by: ValdikSS (iam@valdikss.org.ru)
+Allow SBC as HD audio codec in Bluetooth device configuration <1 year, 8 months ago> [f362c69518c]
+by: ValdikSS (iam@valdikss.org.ru)
+Add CHANNEL_MODE_DUAL_CHANNEL constant <1 year, 8 months ago> [8b29b5b901c]
+by: ValdikSS (iam@valdikss.org.ru)
+base: do not use new lockscreen layout for bypass <3 weeks ago> [5cc6eb160b3]
+by: Ethan Halsall (ethan.halsall@gmail.com)
+base: Drop LTE tile{1/2] <3 weeks ago> [d171bab7abf]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Active Edge & Gestures nav: Add Skip/Previous Song Function [1/3] <1 year, 2 months ago> [d3a2b4bff86]
+by: bigrushdog (randall.rushing@gmail.com)
+fw/b: Squash of app fw restriction commits <4 years, 2 months ago> [f7be344bd1f]
+by: Danesh M (daneshm90@gmail.com)
+fixup! SystemUI: Allow to disable Lockscreen Media Art [1/3] <4 weeks ago> [f2d938b796d]
+by: LuK1337 (priv.luk@gmail.com)
+AudioService: fix audio mode not reset to MODE_NORMAL <4 weeks ago> [08e5c8a890b]
+by: wumin3 (wumin3@xiaomi.com)
+Show QS data saver info dialog until enabled <3 years, 10 months ago> [02e95e5823e]
+by: Yuta Yamada (yuta.x.yamada@sonymobile.com)
+Fix: "Clear All" recent app screen loop bug <6 months ago> [e099672a7b8]
+by: vincent.cw_lee (vincent.cw_lee@htc.com)
+UninstallAlertDialogFragment: Catch IllegalArgumentException <4 weeks ago> [377f07d05eb]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+SystemUI: Allow listening for face only on pin/pass view <5 weeks ago> [8258f0aa475]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+fwb: Guard some functions against face unlock <5 weeks ago> [9013b4e38d8]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+[3/4] Port face unlock feature <6 weeks ago> [3f925c09bde]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+SystemUI: QS blur improvements <7 weeks ago> [1957fc4e381]
+by: Lucchetto (lucchetto.tie@live.com)
+update qs blur keyguard check <4 months ago> [121f4595b6e]
+by: 00day0 (therandomuser11@gmail.com)
+Blur behind quick settings thanks to @Dil3mm4 utility which allows to take screenshots and blur them <4 months ago> [570b7c17db9]
+by: 00day0 (therandomuser11@gmail.com)
+ImageUtilities: A utility that's able to take screenshots via screenshotSurface and to blur images via blurImage <1 year, 2 months ago> [22178012ce1]
+by: Dil3mm4 (dil3mm4.dev@gmail.com)
+Screenrecorder: don't show heads up notification <4 months ago> [3f5ed1d4f62]
+by: ezio84 (brabus84@gmail.com)
+Add a new screenrecord icon for statusbar <4 months ago> [1e9fe66a91c]
+by: Alex Cruz (du.alexcruz@gmail.com)
+SystemUI: simplify qs tile helper <5 weeks ago> [80f5152782d]
+by: maxwen (max.weninger@gmail.com)
+Camera: Clearing exception for Extended Face <2 years, 8 months ago> [066eb5e5281]
+by: Sauhard Pande (sauhardp@codeaurora.org)
+Camera: Extend face detection <4 years, 10 months ago> [02fc89e3a8d]
+by: Shuzhen Wang (shuzhenw@codeaurora.org)
+Camera: Don't throw exceptions when value pairs have spaces in them <5 years ago> [0e1424fe5cc]
+by: Ricardo Cerqueira (ricardo@cyngn.com)
+Guard in short-circuit evaluations for stringSplit methods. <4 years, 10 months ago> [99b0b62be41]
+by: Mohammed Irfan (mohammedirfan1992@hotmail.com)
+SystemUI: StatusBarWindowView: Double tap for ambient display improvements <6 months ago> [69613b91270]
+by: Anushek Prasal (anushekprasal@gmail.com)
+SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod <6 months ago> [330be64dfb8]
+by: maxwen (max.weninger@gmail.com)
+Allow to show music heads up on new tracks [1/2] <5 weeks ago> [d68e3205578]
+by: ezio84 (brabus84@gmail.com)
+Implement R style notification section headers <4 weeks ago> [76866b182d4]
+by: shagbag913 (sh4gbag913@gmail.com)
+ActivityTaskManagerService: don't show build consistency dialog <6 weeks ago> [f0a98ad5e1b]
+by: shagbag913 (sh4gbag913@gmail.com)
+base: Double tap to trigger doze [1/2] <3 years, 3 months ago> [2ae19832823]
+by: Jean-Pierre Rasquin (yank555.lu@gmail.com)
+RecorderConstants: Use OP Screen Recorder package name <5 months ago> [d26c1144614]
+by: Stallix (team.evolutionx.rom@gmail.com)
+SystemUI: Whitelist our recorder on CastController <8 months ago> [94ffb6380cf]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Send battery low intent when battery warning boundary changed <8 weeks ago> [ce6a0070d94]
+by: Xin Guan (a18772@motorola.com)
+SystemUI: Always disable rotation on lockscreen <8 weeks ago> [950be74e24c]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+SystemUI: Use color accent for user avatar default color <3 months ago> [d17b4546373]
+by: Joey Huab (joey@evolution-x.org)
+PackageInstaller: Remove side padding from the dialog <4 months ago> [222abe9bfff]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Introduce bold digital and Samsung like lockscreen clocks <4 months ago> [915cb8a3b03]
+by: Christian Oder (myself5@carbonrom.org)
+KeyguardClockPositionAlgorithm: Allow forcing default clockY positioning <4 months ago> [77b727548ec]
+by: Christian Oder (myself5@carbonrom.org)
+ScreenshotSelector: handle rotation issues <3 weeks ago> [e2f35ca6186]
+by: Demon000 (demonsingur@gmail.com)
+base: Increase Longshot timeout to 2 seconds <3 months ago> [20459f59bac]
+by: celtare21 (celtare21@gmail.com)
+base: Port extended screenshot function from OOS <9 months ago> [8dd67a5bc6f]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+SystemUI: fix notification light pulse for repeating notifications <8 weeks ago> [c7feca25362]
+by: maxwen (max.weninger@gmail.com)
+Screenshot: Show a toast when deleted and close notification panel <6 weeks ago> [f7c8897dd12]
+by: Alex (du.alexcruz@gmail.com)
+Screenrecord: Android R dev preview style dialog <6 weeks ago> [ad7ee3f070d]
+by: Alex (du.alexcruz@gmail.com)
+Screenrecord dialog: Make it less ugly <3 months ago> [0bc387a47f8]
+by: Alex (du.alexcruz@gmail.com)
+QS: Add and use Bluetooth Panel instead of full Settings <9 weeks ago> [1637de599ef]
+by: Joe Maples (joe@maples.dev)
+SystemUI: revert the special long click handling of dual target qs tiles <6 weeks ago> [55cb5478a01]
+by: maxwen (max.weninger@gmail.com)
+QS: Add and use Mobile Data panel <9 weeks ago> [8f8a6c77321]
+by: Joe Maples (joe@maples.dev)
+QS: Use Settings.Panel intents for WiFi and NFC <9 weeks ago> [d6dcbc17c34]
+by: Joe Maples (joe@maples.dev)
+Screenshot: remove white flash if dark mode is enabled <8 weeks ago> [49490c436b3]
+by: ezio84 (brabus84@gmail.com)
+base:PhoneWindowManager: simplify toggleCameraFlash <6 weeks ago> [4151f291047]
+by: Alex (du.alexcruz@gmail.com)
+Gestures: Use EFFECT_HEAVY_CLICK for long swipe actions <9 weeks ago> [ee31d073e73]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Gesture nav extended swipe: show a double arrow when almost triggered <8 weeks ago> [d74eaeaaca5]
+by: Nico (nicorg2529@gmail.com)
+SystemUI: Allow overlaying max system icons <7 months ago> [b19fd45caa9]
+by: ZeNiXxX (zenixxx.havoc@gmail.com)
+SystemUI: Link config_maxVisibleNotificationIcons{,whenDark} to internal <3 months ago> [e391d7f6a56]
+by: Anirudh Gupta (anirudhgupta109@gmail.com)
+[HACK] Network Traffic: remove statusbar animation <7 months ago> [e2b2a137093]
+by: Ali B (abittin@gmail.com)
+PowerManager: Add proximity check on wake <2 years, 5 months ago> [1ff0a7ba939]
+by: Bruno Martins (bgcngm@gmail.com)
+base: add settings for device features <3 years, 6 months ago> [b54497fd7c7]
+by: maxwen (max.weninger@gmail.com)
+base: Declare a gradient end color <1 year, 1 month ago> [ccc7ccebfeb]
+by: ElDainosor (eldainosor@gmail.com)
+base: Let's shrink file headers bigger than the device size <4 months ago> [ba4b2789b8a]
+by: El Dainosor (eldainosor@gmail.com)
+base: omnistyle: Stinky workaround for header shadow and tinted images <1 year, 3 months ago> [fead2c8f01a]
+by: ElDainosor (eldainosor@gmail.com)
+base: Correct top header <4 months ago> [0a7f20f87aa]
+by: El Dainosor (eldainosor@gmail.com)
+SystemUI: respect status bar header height also in edit mode <6 months ago> [1501c802413]
+by: maxwen (max.weninger@gmail.com)
+[1/2] base: SystemUI: header image tweaks aka the big marginator <1 year, 3 months ago> [2dd6cd2a285]
+by: maxwen (max.weninger@gmail.com)
+[1/4] base: qs status bar header image <7 months ago> [30351b747d3]
+by: Marko Man (darkobas@gmail.com)
+StatusBar/QS: only show alarm if it's within 24 hours <8 weeks ago> [d4334122a2e]
+by: shagbag913 (sh4gbag913@gmail.com)
+PhoneStatusBarPolicy: add flashlight icon to statusbar <9 weeks ago> [c9e0c9817c7]
+by: shagbag913 (sh4gbag913@gmail.com)
+SystemUI: fix qs footer divider width <3 months ago> [c4f60972335]
+by: maxwen (max.weninger@gmail.com)
+base: make aspect ratio hack configable on app level [1/2] <2 years ago> [d1cce9479b9]
+by: maxwen (max.weninger@gmail.com)
+base: charging: Disable charging animation by default <10 weeks ago> [0c6188af852]
+by: Max Weffers (rcstar6696@gmail.com)
+base: fix charging animation power level <6 months ago> [e951ce70f4b]
+by: Ali B (abittin@gmail.com)
+base: Add toggle to disable charging animation [1/2] <11 months ago> [f7567948309]
+by: Anushek Prasal (anushekprasal@gmail.com)
+base: Use wireless charging animation for wired charging too <11 months ago> [ac9e3be3711]
+by: Anushek Prasal (anushekprasal@gmail.com)
+base: Toggle statusbar privacy indicators [1/2] <3 months ago> [7a2681541a7]
+by: Ashwin R C (ashwin2001achu@gmail.com)
+StatusBarMobileView: Fix gap when toggling airplane mode <1 year, 2 months ago> [620340c202f]
+by: Willi Ye (williye97@gmail.com)
+core: Smoother Upload and Download Animation <6 years ago> [7c8afaea8d5]
+by: Muhammed Nazim (mnm9994u@gmail.com)
+SystemUI: force a clock update if the screen is turned back on <2 years, 11 months ago> [178cd9b039c]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+Disable statusbar time refresh when screen off <6 years ago> [f57ef3bcd1c]
+by: Jun Su (juns@nvidia.com)
+Cache pin algorithms in PinSet <1 year, 11 months ago> [e97ee68171e]
+by: Till Kottmann (deletescape@gmail.com)
+Cache the global proxy to avoid fetching it for every request <1 year, 11 months ago> [3306528fc7e]
+by: Till Kottmann (deletescape@gmail.com)
+Cache KeyStoreService <1 year, 11 months ago> [0869244503f]
+by: Till Kottmann (deletescape@gmail.com)
+(Point) Only calculate sin and cos once <1 year, 8 months ago> [2291a0e8182]
+by: Till Kottmann (till.kottmann@bison-group.com)
+config: Disable forced camera audio by default <2 years, 6 months ago> [c936d1bef4e]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+fonts: adopt for AOSP Font Engine <4 months ago> [4c1c14d31b0]
+by: Pranav Vashi (neobuddy89@gmail.com)
+base: SystemUI: use system fonts <4 months ago> [d619dba7196]
+by: Pranav Vashi (neobuddy89@gmail.com)
+SystemUI: set user detail item to use system font <4 months ago> [abae3be41fe]
+by: maxwen (max.weninger@gmail.com)
+base: Fix list style alert dialog to use system font <4 months ago> [b7ba2c8a01d]
+by: maxwen (max.weninger@gmail.com)
+base: set alert dialog message to use system font <4 months ago> [985952d8a89]
+by: maxwen (max.weninger@gmail.com)
+Restore light font styling of AOSP <4 months ago> [15513896d17]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Wire up default fonts with font engine <4 months ago> [caf905b8f72]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Add regular / light font config <4 months ago> [c94bd7beab6]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Update default config for headline fonts <4 months ago> [3b292135b57]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Update Google Sans font style [1/2] <4 months ago> [abdb50e6c24]
+by: Pranav Vashi (neobuddy89@gmail.com)
+base: Add Anaheim [1/2] <3 months ago> [c1ea482ef34]
+by: NurKeinNeid (mralexman3000@gmail.com)
+base: Add Tinkerbell [1/2] <3 months ago> [08b7ba0da2d]
+by: NurKeinNeid (mralexman3000@gmail.com)
+base: Kang La Fontage from Bootleggers [1/2] <3 months ago> [413af0927d4]
+by: El Dainosor (eldainosor@gmail.com)
+base: Add Fira Sans font [1/2] <4 months ago> [e5e25498a6e]
+by: Josh Chasky (jchasky@gmail.com)
+base: Add Samsung One font [1/2] <4 months ago> [7fbf7e5941d]
+by: Pranav Vashi (neobuddy89@gmail.com)
+base: add SF Pro Fonts Overlay <4 months ago> [276863e9136]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+overlays: Use Slate for OnePlus as OPSlate font [1/3] <4 months ago> [13657daa935]
+by: Stallix (team.evolutionx.rom@gmail.com)
+Added Fonts From Pie [1/2] <5 months ago> [ddfb03ef2fa]
+by: PainKiller3 (ninadpatil100@gmail.com)
+base: Add GoogleSans font overlay <6 months ago> [ec7779dbfdf]
+by: ZeNiXxX (zenixxx.havoc@gmail.com)
+Add new font overlays <7 months ago> [10e4fab237d]
+by: paphonb (paphonb@gmail.com)
+Add our favourite fonts in AOSP FontEngine [2/2] <7 months ago> [6d5d29d47b8]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+overlay: add IconShapeCircleOverlay <8 months ago> [be886b7f160]
+by: maxwen (max.weninger@gmail.com)
+Notify ClockChangedListeners on main thread <5 months ago> [88db3cb87cf]
+by: Robert Snoeberger (snoeberger@google.com)
+Get clock title on demand <5 months ago> [edaee76974e]
+by: Robert Snoeberger (snoeberger@google.com)
+Fix StorageManagerService linkToDeath more than one time when vold/storaged died. <11 months ago> [18d88cce6c2]
+by: peter.zhang (peter.zhang@spreadtrum.com)
+Camera: Avoid removing valid repeating requests <6 months ago> [6cf0f8e400e]
+by: Emilian Peev (epeev@google.com)
+Consolidate ActivityStack#finishCurrentActivityLocked checking <7 months ago> [ca0e27b49d5]
+by: wilsonshih (wilsonshih@google.com)
+Improve comparison of fractions <7 months ago> [638682bbc1b]
+by: Stan Iliev (stani@google.com)
+Improve integer aligned coordinate detection <9 months ago> [76f30c5bd59]
+by: Stan Iliev (stani@google.com)
+Improve logic when to use filtering in readback and TextureView <10 months ago> [0e59fb4bb9d]
+by: Stan Iliev (stani@google.com)
+SystemUI: Pass correct NetworkTemplate to CellularTile detail view <3 months ago> [0353ea3e2cb]
+by: LuK1337 (priv.luk@gmail.com)
+SystemUI: Disable heads up debugging on non eng builds <8 weeks ago> [ad4d0f60799]
+by: Han Wang (416810799@qq.com)
+LockSettingsService : Restrict access to getpassword API <6 months ago> [831d7043963]
+by: Prerna Kalla (prernak@codeaurora.org)
+Start BiometricService even if no hardware is present <10 weeks ago> [5b050d8e6e5]
+by: Alessandro Astone (ales.astone@gmail.com)
+Statusbar bluetooth battery level: Improvements <1 year, 6 months ago> [9224d1ba936]
+by: ezio84 (brabus84@gmail.com)
+[1/2] SystemUI: arrow keys while typing resurrection <5 months ago> [50e5f33aa2c]
+by: maxwen (max.weninger@gmail.com)
+AndroidManifest: add a permission group for signature spoofing <3 months ago> [f816c1ea143]
+by: Vachounet (vachounet@live.fr)
+Fix VOLUME_LINK_NOTIFICATION javadoc <6 months ago> [0af3ee3a25f]
+by: Michael Bestas (mkbestas@lineageos.org)
+frameworks: Add unlinked ringtone and notification volumes <7 years ago> [2e553d528b1]
+by: Adnan Begovic (adnan@cyngn.com)
+StatusBarIconController: Avoid cast exceptions <3 months ago> [b5271dfda6e]
+by: Harsh Shandilya (msfjarvis@gmail.com)
+Mono/Stereo QS tile: Add long click intent <3 months ago> [7eb9c607c3b]
+by: Alex (du.alexcruz@gmail.com)
+Add Mono audio tile (aka headphone in one ear only) <3 months ago> [4702f27e2ba]
+by: ezio84 (brabus84@gmail.com)
+Immersive tile: automatically disable immersive mode when in Settings <3 months ago> [27b9529c1e0]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+Add dynamic Immersive mode tile <1 year, 10 months ago> [d4c5c2538bb]
+by: ezio84 (brabus84@gmail.com)
+Fix enter deep doze when moving <5 months ago> [434579fe64f]
+by: xiamengsen (xms1714483165@gmail.com)
+Crash occured due to null pointer exception. <2 years, 7 months ago> [779b6d6099c]
+by: Niraj kumar Mishra (nmishr@codeaurora.org)
+ActivityManager: Fix NPE in ProcessRecord <1 year, 8 months ago> [29fcf9e171d]
+by: gaoshiqi (gaoshiqi@xiaomi.com)
+Avoid NPE in system_server in bringDownServiceLocked() <7 months ago> [cb349ec649a]
+by: Gopal Krishna Shukla (quic_gshukla@quicinc.com)
+ViewRootImpl: Fixed memory leak caussed by viewrootImpl objects <1 year, 10 months ago> [78f6df177a0]
+by: Qin Jing (qin.jing7@zte.com.cn)
+Fix MtpDatabase multithreading NullPointerException <1 year, 10 months ago> [d54177b38ba]
+by: katao (katao@xiaomi.com)
+AMS: Fix the null pointer exception in IntentResolver <1 year, 4 months ago> [b99444adfcd]
+by: Terigele (terigele@huawei.com)
+Fix NullPointerException of AMS <7 months ago> [3f3e9bdf00f]
+by: xiaohuin (xiaohuin@codeaurora.org)
+AccountManagerService: Fix ConnectionRecord Leak <1 year, 3 months ago> [94bbd543cb4]
+by: Ethan_Hu (huyuxin3818@gmail.com)
+ProgressBar: Media volume bar indicates a wrong value <3 months ago> [1bfe27fd069]
+by: Tetsutoki Shiozawa (tetsutoki.x.shiozawa@sonymobile.com)
+Keyguard: Fix failed unlock attempt dialog button <3 months ago> [470195da42e]
+by: Alex (du.alexcruz@gmail.com)
+Battery percentage: Fix cut off issue in the keyguard <3 months ago> [b0a19f0b273]
+by: Alex (du.alexcruz@gmail.com)
+Gestures: Add haptic feedback to left/right long swipe actions <9 weeks ago> [ed95ff10b80]
+by: Alex (du.alexcruz@gmail.com)
+Add kill-app api (with new fresh implementation) <9 weeks ago> [7b43a03bfbf]
+by: ezio84 (brabus84@gmail.com)
+Allow long back swipe on bottom screen when launcher is showing [1/2] <9 weeks ago> [7d8d24df329]
+by: ezio84 (brabus84@gmail.com)
+Allow a wider back swipe to trigger actions (instead of timeout) [1/2] <9 weeks ago> [8d2e0d1616c]
+by: ezio84 (brabus84@gmail.com)
+Add actions to derpUtils [1/2] <9 weeks ago> [54b267774ec]
+by: ezio84 (brabus84@gmail.com)
+Allow long back swipe to trigger custom actions/app/activities [1/2] <9 weeks ago> [ce8101f19ab]
+by: ezio84 (brabus84@gmail.com)
+Gestures nav edge dead zone: code cleanup <4 months ago> [4a65a184d23]
+by: ezio84 (brabus84@gmail.com)
+Revert "Remove keyguard_indication_area_overlay" <9 weeks ago> [6b50923b365]
+by: Josh Chasky (jchasky@gmail.com)
+Custom button light [1/2] <2 years, 5 months ago> [e5c5228db2f]
+by: maxwen (max.weninger@gmail.com)
+derpUtils: add statusbarservice <9 weeks ago> [e006dda01ba]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+aosipUtils: Reverse actions for QS and notification panel <1 year, 2 months ago> [37705da3a56]
+by: ezio84 (brabus84@gmail.com)
+derpUtils: Add more custom actions <2 months ago> [ff5aab3ce2c]
+by: Alex (du.alexcruz@gmail.com)
+derpUtils: Add Expand notifications action <2 months ago> [13c04258005]
+by: ezio84 (brabus84@gmail.com)
+derpUtils: Add custom actions <2 months ago> [21c2d12b588]
+by: Alex (du.alexcruz@gmail.com)
+Flashlight action: allow to use it when all ambient/wake options are off <10 weeks ago> [cdd359f9126]
+by: ezio84 (brabus84@gmail.com)
+PowerMenu: Move resources to SystemUI to avoid jank <4 months ago> [2c4b649a922]
+by: Alex (du.alexcruz@gmail.com)
+base: add 3 button nav editor back to tuner <2 months ago> [e5360be302b]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+[1/2] base: expose auto night mode sunset and sunrise values on API <3 months ago> [7e982618256]
+by: maxwen (max.weninger@gmail.com)
+base: fix TwilightService start and initial location update <3 months ago> [4067f52d48b]
+by: maxwen (max.weninger@gmail.com)
+Ims: Add suppport for "Ims Preferred" WFC Preference <5 months ago> [e0392827179]
+by: Ravi Paluri (rpaluri@codeaurora.org)
+DozeSensors: do not use binned brightness sensor for proximity if not supported <4 months ago> [1b2e4144c49]
+by: Demon000 (demonsingur@gmail.com)
+base: Use CustomTunerSettings in place of ExTunerSettings <2 months ago> [f0e784b1055]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+base: set accent_material_dark to light value <3 months ago> [d9304acf482]
+by: maxwen (max.weninger@gmail.com)
+SytemUI: fix qs page num calc again <2 months ago> [b3e8d9ffa8f]
+by: maxwen (max.weninger@gmail.com)
+Tuner: Fix preference category not matching system theme <3 months ago> [b941c9789db]
+by: Alex (du.alexcruz@gmail.com)
+NFC tile: Make inactive drawable match other tiles <1 year, 4 months ago> [f0b06a390db]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Use alphaoptimized layout for custom icons on left <1 year, 7 months ago> [6cc1d2deb3b]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Active Edge: Restore custom app actions [1/3] <3 months ago> [ce68a2cb17a]
+by: ezio84 (brabus84@gmail.com)
+SystemUI: Prevent dummy expansion of status bar <2 years, 3 months ago> [68291ff12a7]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: Improve Privacy indicators layout <6 months ago> [deaa92aec94]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Utils: Add method to determine battery temp <1 year, 3 months ago> [e77f46d2ae1]
+by: Alex Cruz (du.alexcruz@gmail.com)
+base: double tap to sleep on statusbar [1/2] <7 months ago> [5b63511392f]
+by: Marko Man (darkobas@gmail.com)
+CellularTile: Fix mobile data usage qs details view content <4 months ago> [bc2fe26b8b8]
+by: SpiritCroc (dev@spiritcroc.de)
+base: tuner: remove unneeded statusbar tuner switches <1 year, 8 months ago> [901f2627e04]
+by: maxwen (max.weninger@gmail.com)
+CarrierLabel: Notch friendly carrier label [1/2] <3 months ago> [91fe34eebbd]
+by: Alex (du.alexcruz@gmail.com)
+CarrierLabel: Adapt to heads up when notifications arrive <4 months ago> [2e9c0034a39]
+by: Josh Chasky (jchasky@gmail.com)
+CarrierLabel: Bring back the scroll (marquee) effect <1 year, 3 months ago> [54a14d0c8f1]
+by: Alex (du.alexcruz@gmail.com)
+CarrierLabel: Hide carrier label properly <1 year, 3 months ago> [28fddc99150]
+by: Ali B (abittin@gmail.com)
+CarrierLabel: Make carrier label's visibility gone <1 year, 3 months ago> [ec4cc78c6ff]
+by: TheScarastic (warabhishek@gmail.com)
+CarrierLabel: Keyguard/Statusbar carrier label options <4 months ago> [1a2410fdc65]
+by: Altaf-Mahdi (altaf.mahdi@gmail.com)
+CarrierLabel: Adapt carrier label to DarkController <2 years, 4 months ago> [225f550f316]
+by: Ali B (abittin@gmail.com)
+CarrierLabel: Show carrier label / custom label [1/2] <4 months ago> [41a53a424e7]
+by: martincz (martincz@mokeedev.com)
+SwipeToScreenshot: Import MIUI implementation <12 months ago> [a6474d4a61f]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+Improvements for swipe to screenshot <12 months ago> [d35a27d2f13]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+base: Add three-fingers-swipe to screenshot [1/2] <4 years, 9 months ago> [542dc1f70bf]
+by: ghbhaha (ghbhaha@gmail.com)
+SystemUI: Expose QS panel statusbar background <12 months ago> [22436f44b01]
+by: Harsh Shandilya (msfjarvis@gmail.com)
+Use non-wakeup alarm for delay constraint. <4 months ago> [7378ee6b9d0]
+by: Kweku Adams (kwekua@google.com)
+Volume panel: Adapt to the existing keyguard logic used <3 months ago> [1209cc8842a]
+by: Alex (du.alexcruz@gmail.com)
+Keyguard: ReInflate views when density or font scale change <3 months ago> [83163b8f3c5]
+by: Alex (du.alexcruz@gmail.com)
+base: Use ro.build.date to clear cache dirs on update <6 months ago> [8e2e7e7045e]
+by: maxwen (max.weninger@gmail.com)
+base: decrease size of battery icon slightly <3 months ago> [4e34946dc38]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+SystemUI: handle camera launch gesture from keyhandler <4 years, 3 months ago> [c98aec6d2c9]
+by: Roman Birg (roman@cyngn.com)
+SystemUI: rework notification pulse check to work for private notifications <10 weeks ago> [4db4e7c04ea]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: fix possible case where aod stays on after notification pulse <10 weeks ago> [3edfbeecaa9]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: use doze_pulse_duration_visible as timeout for showing ambient notifications <3 months ago> [88a8ca2155c]
+by: maxwen (max.weninger@gmail.com)
+[1/2] SystemUI: support using notification color for pulse light <3 months ago> [76862c4ecfe]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: day 0 notification light puilse fixes <3 months ago> [0aa365e94c8]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: add timeout for ambient notification pulse <3 months ago> [d2be2b55009]
+by: maxwen (max.weninger@gmail.com)
+[1/2] SystemUI: Add custom color to ambient pulse notification lights <3 months ago> [131ab26a6cd]
+by: kldoc (fred.berbigier@gmail.com)
+base: cleanup notification pulse values <3 months ago> [bbbd86c00b4]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: only call  showAodContent(true) if we are still on the keyguard <3 months ago> [6fbd719d94b]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: replace pulse light drawable with our own vector <3 months ago> [b259a1f95fc]
+by: Marko Man (darkobas@gmail.com)
+SystemUI: use ROWS_HIGH_PRIORITY for active notification pulse check <3 months ago> [6e4514b7788]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: kill any leftover notification pulse on new pulse start <3 months ago> [0ec39cc1dc8]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: Pulse light accent color option <3 months ago> [72e0410f863]
+by: Marko Man (darkobas@gmail.com)
+SystemUI: add Ambient Lights always on hide aod content option <3 months ago> [2bd8565f0b3]
+by: Marko Man (darkobas@gmail.com)
+SystemUI: trigger pulse light only for notifications <3 months ago> [dd042b84391]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: add Pulse and Ambient notification bars[1/2] <7 months ago> [b6b0831434e]
+by: kldoc (fred.berbigier@gmail.com)
+SystemUI: AODTile: Use MD2 Icon <3 months ago> [8501580f75b]
+by: Anushek Prasal (anushekprasal@gmail.com)
+SystemUI/AndroidManifest.xml: Override authorities for providers <3 months ago> [2305df0e9a8]
+by: Surge Raval (Surge1223@gmail.com)
+Lockscreen weather Soli port: more code improvements <3 months ago> [ff66ccaa74c]
+by: ezio84 (brabus84@gmail.com)
+Smartspace: Ensure we're inheriting smartspace in SystemUI <3 months ago> [9b2ab9f027d]
+by: Surge1223 (Surge1223@gmail.com)
+Smartspace: Import Lockscreen weather/live wallpaper [2/2] <3 months ago> [1af04612528]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Lockscreen weather: code fixes <3 months ago> [278fecc7cb8]
+by: ezio84 (brabus84@gmail.com)
+Port Lockscreen weather code to work with external/google [1/2] <3 months ago> [885f080cb8e]
+by: ezio84 (brabus84@gmail.com)
+base: move clock observer to controller <1 year, 4 months ago> [bc5a2179055]
+by: Ali B (abittin@gmail.com)
+SystemUI: Add tunables for clock position <1 year, 4 months ago> [05fd3e0c36e]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+base: add back seconds to clock <3 months ago> [1bcab0a3328]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Updates to various icons: <8 months ago> [958d33e6bd4]
+by: Dan Sandler (dsandler@android.com)
+BurnInProtection: Fix null object reference with timer <1 year, 7 months ago> [1133662ea1a]
+by: mydongistiny (jaysonedson@gmail.com)
+SystemUI: Implement burn-in protection for status/navbar <3 years, 4 months ago> [737d36816bf]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+QS: add right/left padding even if it's 0 for collapsed statusbar <2 years, 1 month ago> [da6375d8e7e]
+by: ezio84 (brabus84@gmail.com)
+Increase padding for notifs & qs panel <5 months ago> [396b4eccbe4]
+by: 00day0 (therandomuser11@gmail.com)
+base: move 4g/lte switch out of tuner[1/2] <3 months ago> [3d1d09c13f4]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+base: remove volte switch out of tuner[1/2] <3 months ago> [aaa88c2b72a]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+base: Add Touch HIDL support <4 months ago> [1af7ab69224]
+by: Anushek Prasal (anushekprasal@gmail.com)
+TypeClock: bring back O’minute <3 months ago> [57072357796]
+by: Rhyse Simpson (skittles9832@gmail.com)
+AmbientDisplayConfiguration: fix checkapi <3 months ago> [7b8a451892f]
+by: Akhil Narang (akhilnarang.1999@gmail.com)
+Fix DerpFest Logo from remaining active when notifications arrive <4 months ago> [06e3c84df12]
+by: Josh Chasky (jchasky@gmail.com)
+Logo: Add more Logo Styles [1/2] <2 years, 6 months ago> [f63c8dd9290]
+by: Prema Chand Alugu (premaca@gmail.com)
+Fix NPE when loading settings <1 year, 4 months ago> [074ec45731c]
+by: mydongistiny (jaysonedson@gmail.com)
+DerpFest logo in the status bar [1/2] <1 year, 5 months ago> [f5f9e07796a]
+by: LorDClockaN (lordclockan@gmail.com)
+Volume panel: Long press settings button to launch Sound Settings <3 months ago> [cbb9ff53b8d]
+by: Alex (du.alexcruz@gmail.com)
+QSFooterImpl: Animate multiuser avatar <4 months ago> [dc9b2df63d1]
+by: rajadeja (raj.jdja@gmail.com)
+GlobalScreenshot: Fix bad merge introduced on adaf8374bdaf4eabc69ac0a9263005691fe0974c <7 weeks ago> [1d4667e352f]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+GlobalScreenshot: do not capture multiple screenshots simultaneously <3 months ago> [4adcf025810]
+by: Demon000 (demonsingur@gmail.com)
+ScreenshotSelector: mark externally unused functions as private <3 months ago> [c7ed137ea62]
+by: Demon000 (demonsingur@gmail.com)
+Partial screenshot: Layout improvements <3 months ago> [9730e1ad17f]
+by: Alex (du.alexcruz@gmail.com)
+Partial screenshot block gestures/headsup: code improvements <3 months ago> [d3d7537913a]
+by: Demon000 (demonsingur@gmail.com)
+Partial screenshot: block gestures and heads up when running <5 months ago> [3db1ca2ff12]
+by: ezio84 (brabus84@gmail.com)
+ScreenshotHelper: ignore timeout when taking partial screenshots <4 months ago> [8d76dbb8be1]
+by: Demon000 (demonsingur@gmail.com)
+SystemUI: implement better partial screenshot <4 months ago> [5d628ae309a]
+by: Demon000 (demonsingur@gmail.com)
+Make NtpTrustedTime safer / expand docs <5 months ago> [eea2c252c0f]
+by: Neil Fuller (nfuller@google.com)
+FingerprintService: add overlay to prevent cleanup of unused fingerprints <1 year, 7 months ago> [238fbe0c019]
+by: codeworkx (daniel.hillenbrand@codeworkx.de)
+biometrics: Allow posting reset runnable for all clients <8 months ago> [2f3ca4771ed]
+by: LuK1337 (priv.luk@gmail.com)
+base: Allow switching to drawable for qs icons <6 months ago> [9c5be5ca0fc]
+by: Simrat Singh (simrats169169@gmail.com)
+fwb: Make contextual bluetooth string translatable <3 months ago> [b1dcad89566]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Context-aware Bluetooth airplane mode <7 months ago> [bc4e4eafdc6]
+by: Ugo Yu (ugoyu@google.com)
+base: Whitelist more permissions needed for SystemUIGoogle <3 months ago> [aed09d3775a]
+by: Anirudh Gupta (anirudhgupta109@gmail.com)
+base: Add Lockscreen cover art filter <6 months ago> [c4f04bb4280]
+by: El Dainosor (eldainosor@gmail.com)
+base: Optimize toGrayscale function <1 year, 1 month ago> [1a8b2dae21b]
+by: ElDainosor (eldainosor@gmail.com)
+ImageHelper: add getBlurredImage <1 year, 2 months ago> [206133a0ac3]
+by: Dil3mm4 (dil3mm4.dev@gmail.com)
+base: derp: Import ImageHelper util <2 years, 5 months ago> [6f3a3e17e6a]
+by: martinusbe (martinusbe@gmail.com)
+base: Allow to disable Lockscreen Media Art [1/2] <7 months ago> [0f12ff25776]
+by: beanstown106 (nbenis106@gmail.com)
+Properly set fonts and  icons on keyguard when changing styles <3 months ago> [ad6e7813efa]
+by: ezio84 (brabus84@gmail.com)
+LockscreenVisualizer: Use offload thread <1 year, 3 months ago> [aa32fd50d4d]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Lockscreen visualizer: fix SystemUI FC when using Pulse <1 year, 6 months ago> [73ac21b85b4]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+Add haptic feedback to QS tiles [1/2] <5 years ago> [ea56b4c943d]
+by: Evisceration (eviscerationls@gmail.com)
+PhoneWindowManager: Improve haptics and use VibrationEffect <4 months ago> [91591f149ad]
+by: rituj (ritujbeniwal@gmail.com)
+VibratorService: implement OnePlus proprietary vibrator format <4 months ago> [d1e9a59d218]
+by: rituj (ritujbeniwal@gmail.com)
+SystemUI: Add Asus VoLTE Icon [1/2] <5 months ago> [40b94d3ca3f]
+by: PainKiller3 (ninadpatil100@gmail.com)
+SystemUI: Add VoLIT icon [1/2] <5 months ago> [6e0f8e1db27]
+by: Stallix (team.evolutionx.rom@gmail.com)
+SystemUI: VoLIT <2 years, 2 months ago> [66846e68aac]
+by: Prashant (ungeeked@outlook.com)
+VoLTE Icon - User Selectable VoLTE Icon [1/2] <5 months ago> [78b8fa8f14f]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+Change default wallpaper name <4 months ago> [137cca2ece0]
+by: Alex (du.alexcruz@gmail.com)
+base: Add a config to remove the battery light preference <4 months ago> [ff68aa030c3]
+by: Subhajeet Muhuri (kenny3fcb@gmail.com)
+Battery light customization [1/2] <2 years, 8 months ago> [f94bdac7124]
+by: Sam Mortimer (sam@mortimer.me.uk)
+[1/2] Ambient Visualizer <6 months ago> [c8fbfad9c59]
+by: ElDainosor (eldainosor@gmail.com)
+Lockscreen Visualizer: Add pulse magic <1 year, 1 month ago> [fc13481725f]
+by: Pranav Vashi (neobuddy89@gmail.com)
+SystemUI: Add visualizer feature <4 years, 9 months ago> [562f49ffa97]
+by: Utkarsh Gupta (utkarsh.eminem@gmail.com)
+Camera: allow camera to use power key as shutter <7 years ago> [3038dda97c0]
+by: Danesh M (daneshm90@gmail.com)
+Flashlight toggle API: extend to screenOn state for Elmyra actions <4 months ago> [95182e3d2a3]
+by: ezio84 (brabus84@gmail.com)
+Introduce long squeeze action <1 year, 2 months ago> [ddfa4159388]
+by: Alex (du.alexcruz@gmail.com)
+Active Edge [1/2] <1 year, 3 months ago> [365af47b6c2]
+by: Alex (du.alexcruz@gmail.com)
+Add whitelist permissions needed for SystemUIGoogle <4 months ago> [5b0be1777a5]
+by: Surge1223 (Surge1223@gmail.com)
+derpUtils: Cleanup screen on action code <1 year, 3 months ago> [93c138892c0]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+derpUtils: Add screen on action <1 year, 3 months ago> [309acc93e5a]
+by: Alex (du.alexcruz@gmail.com)
+Utils: Add a method to enable/disable package components <4 months ago> [214f62a5be5]
+by: Nicolas Dhouailly (ndhouailly@gmail.com)
+Power button flashlight toggle: rely on aosp doze sensors check code <4 months ago> [cfa79f380ae]
+by: ezio84 (brabus84@gmail.com)
+Disable ticker DT2SkipTrack and wake to Ambient on Soli devices <4 months ago> [49b7b627a41]
+by: ezio84 (brabus84@gmail.com)
+Ambient instead of locksreen on wake gesture: code fixes <4 months ago> [f932bb71af8]
+by: ezio84 (brabus84@gmail.com)
+Allow to choose lockscreen or Ambient on wake gestures [1/2] <6 months ago> [f09619b6851]
+by: ezio84 (brabus84@gmail.com)
+Screen off animations [1/2] <2 years, 4 months ago> [1138cc86f62]
+by: bigrushdog (randall.rushing@gmail.com)
+base: add permission for SurfaceFlinger <4 months ago> [a4c0a3a8e12]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+SystemUI: refactor qs bg color into dedicated color resource <4 months ago> [c4f8607b6b6]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: add tuner switch to allow hiding lock status icon <4 months ago> [b80998037bc]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: old style mobile data type indicator layout update <5 months ago> [fda1337233b]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: add DerpSettingsService with dagger injection <5 months ago> [3946f8e2c3f]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: fix qs customizer column menu setup <5 months ago> [9f7b0bd7757]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: fix qs page num calc algo <5 months ago> [106e8bef411]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: make security footer height same as general footer <6 months ago> [683173821f9]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: fix qs footer side margin <6 months ago> [8449c27c904]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: fix layout of qs header info <6 months ago> [ca1e94778c8]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: keep width on qs expand move <6 months ago> [61c300d3f9e]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: bring back old style mobile data indicators <5 months ago> [d06ad6baeeb]
+by: maxwen (max.weninger@gmail.com)
+Themes: ensure some elements are fine and dandy after overlay changes and various inits <4 months ago> [a69a224569c]
+by: Dil3mm4 (dil3mm4.dev@gmail.com)
+Clean up class preloading <8 months ago> [576b5c9ec0e]
+by: Mathieu Chartier (mathieuc@google.com)
+Utils: Update notch check logic <5 months ago> [f71df918be0]
+by: Anushek Prasal (anushekprasal@gmail.com)
+AlarmManagerService: Add null check to QCNsrmAlarmExtension call <1 year, 3 months ago> [e563aac0992]
+by: Harsh Shandilya (msfjarvis@gmail.com)
+SystemUI: Allow setting custom rounded corner shapes <4 months ago> [ff01a95e3bc]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+DozeUi: do not prepare for gentle wakeup <4 months ago> [deb84fd85f4]
+by: Demon000 (demonsingur@gmail.com)
+Revert "Apply front scrim to doze pulsing" <5 months ago> [670b0fb79bb]
+by: kazerine (kamikaze.mrinal@gmail.com)
+SystemUI: Use matching data usage size formatting between QS and Settings <9 months ago> [c7a606ef506]
+by: LuK1337 (priv.luk@gmail.com)
+Update NotificationRecord of snooze even after it is cancelled <8 months ago> [5fb99806556]
+by: Koji Fukui (koji.fukui@sony.com)
+Limit the retry attemps on restarting Bluetooth <6 months ago> [35c6845835e]
+by: Ugo Yu (ugoyu@google.com)
+Services exit fg when bg-restricted app leaves top <8 months ago> [e69ac6e8930]
+by: Christopher Tate (ctate@google.com)
+core/Build: ro.system when comparing fingerprint <7 months ago> [8e5776f7a61]
+by: Felix (google@ix5.org)
+Telephony: Direct return false for unsupport sms platform. <8 months ago> [aaa2cdbe023]
+by: zhaoyouyi (zhaoyouyi@allwinnertech.com)
+fingerprint: handle PerformanceStats NULL pointers <2 years, 11 months ago> [ab0414a37db]
+by: Ícaro Hoff (icarohoff@gmail.com)
+sensors: Create bool to select what timestamp to use <4 years, 5 months ago> [34568a747e0]
+by: flintman (flintman@flintmancomputers.com)
+PowerProfile: allow overriding default power profile <5 years ago> [93a14d9de9f]
+by: Alexander Martinz (eviscerationls@gmail.com)
+Merge changes for launching wifidisplay from system settings <2 years, 1 month ago> [70a640312a1]
+by: Indranil Chakraborty (ichakrab@codeaurora.org)
+Check GL extension is supported before using it in glwallpaper <7 months ago> [2b796c4a038]
+by: Jorge E. Moreira (jemoreira@google.com)
+Reduce unnecessary NotificationListener binder transaction. <7 months ago> [856713695e9]
+by: woongki min (wk0831.min@samsung.com)
+Don't clear the output array if it failed to open the proc status file <9 months ago> [b7797276591]
+by: qiwang (wangqi_a@xiaomi.com)
+Fix memory leak in aapt2 <7 months ago> [b75a3b4d036]
+by: Ryan Mitchell (rtmitchell@google.com)
+aapt2: disable leak detection <8 months ago> [b178d1e8d3c]
+by: Steven Moreland (smoreland@google.com)
+Apply JNI optimizations to HwParcel <7 months ago> [20aded8a042]
+by: Daniel Colascione (dancol@google.com)
+AudioService: Remove Analog Dock from fixed-volume devices <12 months ago> [25130bcb947]
+by: Vachounet (vachounet@live.fr)
+Correction in logic of roundend size calculation of SD card <10 months ago> [98984cf4cc3]
+by: Chetan Gurjar (chetan.gurjar@mediatek.com)
+Fix bug Device that can't support adoptable storage cannot read the sdcard. <2 years ago> [863a0158e2d]
+by: sangho.yoon (sangho.yoon@lge.com)
+AppOpsService: Watch op mode changes when an AppOp restriction dies <1 year, 4 months ago> [5ac53c186f7]
+by: Bruno Martins (bgcngm@gmail.com)
+audio: Don't play sound effects if stream is muted <4 years, 1 month ago> [f1ffca4ff82]
+by: Steve Kondik (steve@cyngn.com)
+Color/tint the wifi/mobile status bar icons correctly <7 months ago> [f22e1ef928a]
+by: Edward Savage-Jones (edward.savage-jones@sony.com)
+Remove a user/userdebug difference. <7 months ago> [314f80f420a]
+by: Elliott Hughes (enh@google.com)
+Toasts: use fast toast enter/exit animations <5 months ago> [9dc00b3b86d]
+by: shagbag913 (sh4gbag913@gmail.com)
+toasts: Increase elevation to 4 <1 year, 8 months ago> [4e5c4a0a8c0]
+by: Joe Maples (joe@frap129.org)
+toasts: Use Animation_Toast_Material <1 year, 3 months ago> [e9953f8003f]
+by: Anushek Prasal (anushekprasal@gmail.com)
+toasts: Improve layout and center-align the content <1 year, 7 months ago> [9a4462291be]
+by: SKULSHADY (anushekprasal@gmail.com)
+toasts: Follows theme corner radius <1 year, 8 months ago> [f8484719e9e]
+by: Joe Maples (joe@frap129.org)
+core: Materialize Toast notifications <2 years, 8 months ago> [99aec197ba4]
+by: Joe Maples (joe@frap129.org)
+Gesture nav Assistant handles: don't show them in lockscreen <4 months ago> [14827512bdd]
+by: ezio84 (brabus84@gmail.com)
+PowerMenu: Tint lockdown with the system accent <4 months ago> [11f925b6e3a]
+by: Cruz (du.alexcruz@gmail.com)
+PowerMenu: Fix Advanced button position on low DPI <4 months ago> [7faaef896dc]
+by: SKULSHADY (anushekprasal@gmail.com)
+PowerMenu: Only tint items once <4 months ago> [3da70864206]
+by: Alex (du.alexcruz@gmail.com)
+Fix Launcher3 errors due to missing permissions <4 months ago> [53e3e1f4acd]
+by: Surge1223 (Surge1223@gmail.com)
+Improve scrolling cache <8 years ago> [82019d4a6b1]
+by: Pawit Pornkitprasan (p.pawit@gmail.com)
+base: set scrolling to 0.006f <3 years, 7 months ago> [99946f59f6d]
+by: Jake Weinstein (xboxlover360@gmail.com)
+Allow tuning of heaptargetutilization <5 months ago> [e7735af351a]
+by: David Sehr (sehr@google.com)
+Statusbar clock date: behave like on stock when showing QS panel <4 months ago> [a46d23d5015]
+by: ezio84 (brabus84@gmail.com)
+Add VOLTE icon toggle <11 months ago> [ca39f5435b7]
+by: SagarMakhar (sagarmakhar@gmail.com)
+SystemUI: Show 4G instead of LTE switch <4 years, 4 months ago> [88fbb3ad796]
+by: Alex Cruz (mazdarider23@gmail.com)
+Fix VOLTE icon color on Light statusbar <1 year, 7 months ago> [a7abdccc125]
+by: Adarsh-MR (adarshmr1998@gmail.com)
+VoLTE: Add New Minimal Icon <7 months ago> [7ae231e91ce]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+base: Fix padding for VoLTE icon <1 year, 5 months ago> [20122442bde]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+SystemUI: Enhancement for volte icon <1 year ago> [e4f7fce3715]
+by: Weijie Wang (weijiew@codeaurora.org)
+SystemUI: Query IMS state after CapabilityCallback is regisered <1 year, 5 months ago> [b757c4b09a0]
+by: Qimeng Pan (qimengp@codeaurora.org)
+SystemUI: Fix HD icon missing <1 year, 7 months ago> [4fb136fec5f]
+by: Weijie Wang (weijiew@codeaurora.org)
+Adapt to IMS registration changes. <1 year, 6 months ago> [d2f430bc2d9]
+by: Bill Peckham (bpeckham@google.com)
+SystemUI: Refactor the feature of volte icon <1 year, 8 months ago> [99438e86e17]
+by: Weijie Wang (weijiew@codeaurora.org)
+SystemUI: Fix volte icon doesn't update in real time <1 year, 8 months ago> [7d608a5667a]
+by: Weijie Wang (weijiew@codeaurora.org)
+SystemUI: Add new configuration for displaying Volte icon <1 year, 10 months ago> [fab359fd58e]
+by: Weijie Wang (weijiew@codeaurora.org)
+DEBUG: Turn off some debugging we don't need. <4 years, 7 months ago> [4c8090ee8bf]
+by: mydongistiny (jaysonedson@gmail.com)
+StorageManagerService: Fix for system_server crash while booting <1 year, 11 months ago> [847b449a84d]
+by: peter.zhang (peter.zhang@spreadtrum.com)
+overlay: Fix derp in package name <6 months ago> [8f729f41f32]
+by: Dyneteve (dyneteve@pixelexperience.org)
+SystemUI: Tiny expanding improvement <5 years ago> [919539a6f6c]
+by: BigBrother1984 (carlosavignano@aospa.co)
+Resolve NumberPicker display abnormal issue. <10 months ago> [1dcdda677a2]
+by: Mingyan Liu (mingyan.liu@spreadtrum.com)
+BatteryStats: Update WifiState even if EnergyInfo is invalid <2 years, 2 months ago> [77b8bbcf750]
+by: Jeevaka Prabu Badrappan (jeevaka.badrappan@intel.com)
+SystemUI: restart timeout causes black screen <1 year, 9 months ago> [06e8a267559]
+by: pengzhicai (pengzhicai@xiaomi.com)
+Audio: Do not disconnect profiles till Bluetooth Off <8 months ago> [bec32b8d208]
+by: Gurpreet Ghai (gghai@codeaurora.org)
+BackupAgent: add backup shared mode <4 years, 6 months ago> [30187b4af21]
+by: Arthur Shuai (shuaiq@codeaurora.org)
+hwui: Fix HWUI_COMPILE_FOR_PERF for non-arm <2 years, 6 months ago> [65c41472244]
+by: Joe Maples (joe@frap129.org)
+Move BT state to OFF when BLE app count is zero <2 years, 7 months ago> [a5f38d9c88a]
+by: Subramanian Srinivasan (subrsrin@codeaurora.org)
+SystemUI: add more notification snooze times <2 years, 5 months ago> [591d2b38ad4]
+by: Chris (chris@cypheros.co)
+base: Expose system icon area weight <1 year, 2 months ago> [899a43cd443]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Ambient music: send the proper pulse reason on slpi tap <4 months ago> [0fffd757d9d]
+by: ezio84 (brabus84@gmail.com)
+[SQUASHED] Add Combined & Dynamic Network Traffic Mode [1/2] <6 months ago> [e0a52872eea]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+NetworkTraffic: Set default font size of Single Traffic to 36dp <5 months ago> [3e6e635ad5d]
+by: NurKeinNeid (mralexman3000@gmail.com)
+NetworkTraffic: Fix Net Text Getting Cut at DPI Changes <5 months ago> [9a6986c4386]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+Avoid casting network traffic to StatusBarIconView to prevent crash <6 months ago> [717d7d7a1c9]
+by: SpiritCroc (spiritcroc@gmail.com)
+NetworkTraffic: Allow user to choose positioning [1/2] <1 year, 1 month ago> [d422e19fc18]
+by: calebcabob (calphonic@gmail.com)
+Bring back traffic indicator for Notch Devices !!! <12 months ago> [b43d26ff61d]
+by: Alex Cruz (alex@dirtyunicorns.com)
+TrafficSB: Pass the animate bool <7 months ago> [dee169fbd7c]
+by: ganeshi4u (ganeshvarmai4u@gmail.com)
+NetworkTraffic: Fix gravity <1 year, 5 months ago> [d8c50cc7693]
+by: xyyx (xyyx@mail.ru)
+Network Traffic: Add Option for Users to select size of Single Traffic (Up/Down) Font Size <7 months ago> [11e5919714c]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+NetworkTraffic: Show arrows in statusbar [1/2] <1 year, 2 months ago> [3f44d17dcd6]
+by: Nico60 (ndhouailly@gmail.com)
+Option for Up, Down as well for Network Traffic [1/2] <1 year, 7 months ago> [641c9b3b857]
+by: ezio84 (brabus84@gmail.com)
+Add network traffic monitor properly to statusbar icons <1 year, 6 months ago> [f07854f9fd3]
+by: SpiritCroc (dev@spiritcroc.de)
+Bring back traffic indicator for all! <1 year, 4 months ago> [a899d98446f]
+by: Alex Cruz (du.alexcruz@gmail.com)
+SystemUI: Increase battery icon width to avoid pct standing out. <4 months ago> [378be1f15d0]
+by: spezi77 (spezi7713@gmx.net)
+SystemUI: Make battery icon slightly thicker for text visability <6 months ago> [17966f0cbde]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Make percentage text inside battery readable <6 months ago> [66d15807f32]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+SystemUI: Reduce padding between battery & signal <6 months ago> [3c9f6a3f895]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+base: Fix Settings & endless SystemUI crash <6 months ago> [e4efa647045]
+by: AnkitGourav (Ankitgourav035@gmail.com)
+ThemedMeterDrawable: Fix system crash on theme change <5 months ago> [bde6904b84e]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Add battery styles and customizations for Android 10 [1/2] <6 months ago> [6f443bfeb93]
+by: neobuddy89 (neobuddy89@gmail.com)
+SettingsLib: inherit battery meter style in view [1/2] <2 years, 2 months ago> [3ac65f03622]
+by: ezio84 (brabus84@gmail.com)
+ThemedBatteryDrawable: Switch back to java. Why Google, why?! <6 months ago> [38516f71dd9]
+by: spezi77 (spezi7713@gmx.net)
+Disable tuner pref for battery <6 months ago> [98928723418]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Statusbar clock: make it play better with expanded QS date <4 months ago> [ba296fc6d17]
+by: ezio84 (brabus84@gmail.com)
+Status bar clock/date customizations [1/2] <3 years, 8 months ago> [889aa57e51e]
+by: Lars Greiss (kufikugel@googlemail.com)
+base: remove unneeded statusbar_items <4 months ago> [deedd1d4c8d]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+ScreenPinningRequest: Fix recents button not appearing <1 year, 9 months ago> [53995d9a6dc]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+base: Update ic_doc_folder drawable to MD2 <8 months ago> [3e1f5e78fbc]
+by: Anushek Prasal (anushekprasal@gmail.com)
+SystemUI: Hide back icon when screen pinned and gestural mode enabled <8 months ago> [3a1209222b9]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+base: Update few drawables <1 year, 6 months ago> [c2ca0454213]
+by: Jesus R (jesusroldanroldan@gmail.com)
+etc: Add privapp whitelist permissions for ThemePicker <6 months ago> [bb5109d2611]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Partially Revert "Don't update dark boot setting onStart" <7 months ago> [738abc69606]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Keyguard: reduce bottom text size <7 months ago> [a1f29389168]
+by: Marko Man (darkobas@gmail.com)
+base: Use MD2 icon for missed call notification <7 months ago> [7cd92691801]
+by: Anushek Prasal (anushekprasal@gmail.com)
+ChooserActivity: remove ugly separator <7 months ago> [6efc9ab6e20]
+by: Lucchetto (lucchetto.tie@live.com)
+Add make_unique function for jni <3 years, 3 months ago> [94a37e517b2]
+by: Nathan Chancellor (natechancellor@gmail.com)
+Increase Zenmode max hour limit from 12 to 24 <2 years, 7 months ago> [248c5c9820b]
+by: Alex Cruz (du.alexcruz@gmail.com)
+SmoothSpinners: Makes the loading "spinner" animation smoother <7 years ago> [c3c6cb0237c]
+by: Sar Castillo (sar.castillo@gmail.com)
+AppOps: Do not prune apps that are not present <6 years ago> [655a60d5044]
+by: Jorge Ruesga (jorge@ruesga.com)
+Allow Python Versions Higher than 2.6 <4 years, 11 months ago> [6ed8b891fa8]
+by: Chet Kener (Cl3Kener@gmail.com)
+aapt: Default to 0 compression ratio <5 years ago> [9f0e1213378]
+by: arter97 (qkrwngud825@gmail.com)
+NetworkStatsHistory: Prevent IllegalArgumentException <1 year ago> [fea1094b505]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+Framelayout: Fix NPE when view is missing <8 months ago> [521412b4d32]
+by: Pranav Vashi (neobuddy89@gmail.com)
+SystemUI: Keyguard: Check for a null errString <1 year, 5 months ago> [3cc7b9b4000]
+by: Scott Warner (Tortel1210@gmail.com)
+KernelWakelockReader: stop the panic <3 years, 5 months ago> [874b8e146db]
+by: Simao Gomes Viana (xdevs23@outlook.com)
+ParcelFileDescriptor: can we stop the panic here? <3 years, 5 months ago> [a11ca58bd43]
+by: Simao Gomes Viana (xdevs23@outlook.com)
+Enable NSRM (Network Socket Request Manager). <4 years ago> [426b3df88b0]
+by: Devi Sandeep Endluri V V (dendluri@codeaurora.org)
+base: limit direct share targets to reduce lag <1 year, 10 months ago> [fb5619adfe2]
+by: Joey (joey@lineageos.org)
+aapt: Fix compiler warning (clobbered by longjmp) <4 years, 6 months ago> [72aed253a51]
+by: Christopher R. Palmer (crpalmer@gmail.com)
+Camera: Don't crash when trying to disable shutter sound <1 year, 8 months ago> [d788829da1f]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+base: Update some icons to MD2 <7 months ago> [514a02f3b5b]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Add DeskClock in powersave whitelist <3 years, 7 months ago> [63c1f37fc78]
+by: xyyx (xyyx@mail.ru)
+core: Add camera intents for camera state <8 months ago> [85eb50f59b9]
+by: TheScarastic (warabhishek@gmail.com)
+Optimize IncallUI delay for voice calls <5 years ago> [00abbae47ac]
+by: Sandeep Kunta (skunta@codeaurora.org)
+CastTile: Fix availability of Cast Quick Setting Tile <11 months ago> [e5218acc1d4]
+by: Indranil (ichakrab@codeaurora.org)
+DataSwitchTile: Add drawable for No SIM <8 weeks ago> [bf51685fc43]
+by: micky387 (mickaelsaibi@free.fr)
+DataSwitchTile: grant missing permission <6 weeks ago> [e5a7af16deb]
+by: 00day0 (therandomuser11@gmail.com)
+SystemUI: DataSwitchTile: Use MD2 drawables <5 months ago> [fd00f5edd4f]
+by: Anushek Prasal (anushekprasal@gmail.com)
+DataSwitchTile: collapse notification panel onClick <5 months ago> [aaa47fc7fe0]
+by: DennySPB (dennyspb@gmail.com)
+fwb: Introduce DataSwitchTile <5 months ago> [6c0a15737ff]
+by: Christian Oder (myself5@carbonrom.org)
+Disable long click for Compass tile <10 months ago> [602ad9af244]
+by: Pranav Vashi (neobuddy89@gmail.com)
+CompassTile: Add a device supports compass check <1 year, 7 months ago> [8438e64f135]
+by: PMS22 (prathams99@rediff.com)
+CompassTile: Do not use slashed icon <1 year, 7 months ago> [fd2086a4d3b]
+by: Pranav Vashi (neobuddy89@gmail.com)
+CompassTile: Set default state inactive <1 year, 7 months ago> [16f5094f73d]
+by: Pranav Vashi (neobuddy89@gmail.com)
+SystemUI: QS: Add Compass tile <1 year, 7 months ago> [30239fbdb64]
+by: romanbb (romanbirg@gmail.com)
+qs: tiles: fix cellular tile after aaba8ef289dee0c143b3dc0fe47e6b9595f22c65 <6 months ago> [0d4538ca0ab]
+by: invisiblek (dan.pasanen@gmail.com)
+SystemUI: CPUInfoService: Don't show during doze <1 year, 7 months ago> [b8237da5e69]
+by: maxwen (max.weninger@gmail.com)
+QS: Add CPUInfo toggle tile <2 years ago> [51595a92fcc]
+by: Pranav Vashi (neobuddy89@gmail.com)
+QS: Battery saver tile improvements <2 years, 4 months ago> [19ba1f53275]
+by: Alex Cruz (du.alexcruz@gmail.com)
+SystemUI: Fix NFC tile icon when disabled <7 months ago> [9691c59f307]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Language toggle QS <2 years, 7 months ago> [5ae23823e71]
+by: SpiritCroc (spiritcroc@gmail.com)
+base: Check early if CPU temp is available <1 year, 10 months ago> [b706b49b9dc]
+by: Stefan Berger (s.berger81@gmail.com)
+base: Fix CPU info overlay text layout <1 year, 10 months ago> [d708b701b99]
+by: Stefan Berger (s.berger81@gmail.com)
+base: Bring back CPU temperature to CPU info overlay <1 year, 11 months ago> [062ce6f6b78]
+by: Stefan Berger (s.berger81@gmail.com)
+base: SystemUI: adjust CPU overlay style <2 years, 11 months ago> [3d83f838aab]
+by: maxwen (max.weninger@gmail.com)
+base: fix num cpu check for CPU overlay <4 years, 4 months ago> [89b504e8709]
+by: Max Weninger (max.weninger@gmail.com)
+[1/2] base: add CPU info overlay <6 years ago> [25bda142fae]
+by: Max Weninger (max.weninger@gmail.com)
+Toggle for "Require unlocking to use tiles" [1/2]. <1 year, 3 months ago> [d77bbe6997c]
+by: spezi77 (spezi7713@gmx.net)
+Require unlocking to use tiles (squashed) <1 year, 8 months ago> [29134ad9e62]
+by: Daniel Micay (danielmicay@gmail.com)
+Add partial/full screenshot QS tile single tap to choose the mode, long press to fire <2 years, 8 months ago> [8261107f731]
+by: ezio84 (brabus84@gmail.com)
+Base: Hide power menu on secure lockscreen [1/2] <4 years, 6 months ago> [ca8e2f1c55c]
+by: Altaf-Mahdi (altaf.mahdi@gmail.com)
+base: Lockscreen Charging info  (3/3) <2 years, 8 months ago> [19b52e176d0]
+by: xyyx (xyyx@mail.ru)
+Fix dnd tile longpress after no-title tiles commits <1 year, 5 months ago> [a649f3fee10]
+by: ezio84 (brabus84@gmail.com)
+base: SystemUI: stop crashing qs tiles during boot <2 years, 1 month ago> [0e78a79a7c3]
+by: maxwen (max.weninger@gmail.com)
+SoundTile: Change ZEN_MODE_NO_INTERRUPTIONS to ZEN_MODE_ALARMS <2 years, 7 months ago> [ebb95e59004]
+by: xyyx (xyyx@mail.ru)
+SoundTile: Make default state inactive <6 months ago> [28c35e305b8]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Add Sound tile to Quick Settings <3 years, 7 months ago> [4757399bf3c]
+by: Yoshinori Hirano (yoshinori.hirano@sonymobile.com)
+LteTile: Fix network modes for 10 <8 months ago> [8dbf4715e3c]
+by: xyyx (xyyx@mail.ru)
+Support more Network modes for LTE-tile. <1 year, 9 months ago> [1b41ce9d9a1]
+by: drpradsms (dr.pradsms@gmail.com)
+LteTile: multisim compatibility <2 years, 6 months ago> [39a626dbe39]
+by: xyyx (xyyx@mail.ru)
+SystemUI:Add LTE Tile <2 years, 8 months ago> [be294cf964c]
+by: Decad3nce (decad3nce@gmail.com)
+base: SystemUI: enable qs DUAL_TARGET_ALLOWED = true <1 year, 8 months ago> [f98a1db031a]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: Enable and fix QS detail view, adapt layout to Pie <1 year ago> [4cf4b6af461]
+by: eray orçunus (erayorcunus@gmail.com)
+base: SystemUI: make the battery saver tile useful <2 years, 5 months ago> [6d9d7a61f0f]
+by: maxwen (max.weninger@gmail.com)
+Revert "Remove BatteryDetail from BatterySaverTile" <2 years, 5 months ago> [b53056c4c69]
+by: mosimchah (mosimchah@gmail.com)
+SystemUI: Decrease battery icon size <8 months ago> [2ea2d3c4f63]
+by: Anushek Prasal (anushekprasal@gmail.com)
+base: SystemUI: reduce padding between clock and notification area <1 year, 8 months ago> [d63c079a6db]
+by: maxwen (max.weninger@gmail.com)
+base: SystemUI: enhance calendar link <1 year, 8 months ago> [27d122febde]
+by: maxwen (max.weninger@gmail.com)
+QS brightness slider: Update brightness thumb vector <3 months ago> [aeeadb6677f]
+by: JBCDroid2 (jonathan.lyndo@outlook.com)
+Brightness slider: Visual improvements <5 months ago> [a3732f3c2e5]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Brightness slider + - buttons: use more granular values <1 year, 5 months ago> [aae81e3f4b3]
+by: Ezio Lacandia Bijelkic (brabus84@gmail.com)
+Refresh QS brightness icon and improve its touch area and padding <1 year, 5 months ago> [5df8fc44ea6]
+by: ezio84 (brabus84@gmail.com)
+Adapt custom brightness actions to BrightnessDialog <1 year, 6 months ago> [c188eb2c208]
+by: Giuseppe Maggio (jertlokk@gmail.com)
+Brightness slider: fixes and improvements <1 year, 6 months ago> [a85ecd763cb]
+by: ezio84 (brabus84@gmail.com)
+Brightness slider: Vibrate after a long press <2 years ago> [52c5df939e3]
+by: PMS22 (pratham220399@gmail.com)
+Brightness Buttons: Improve touch area <2 years ago> [dcb3d39832e]
+by: PMS22 (prathams99@rediff.com)
+Brightness buttons: make touch area more reliable <2 years, 6 months ago> [cd53e42d1c5]
+by: ezio84 (brabus84@gmail.com)
+Brightness slider buttons: make them dynamic (auto and manual) <2 years, 6 months ago> [3387cb3e364]
+by: ezio84 (brabus84@gmail.com)
+Brightness slider: fix FC and code cleanup <2 years, 6 months ago> [180e04d95d1]
+by: ezio84 (brabus84@gmail.com)
+Make use of the brightness slider buttons <2 years, 6 months ago> [6d336daee3b]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Rework auto brightness implementation <2 years, 6 months ago> [302e4f400e5]
+by: JBCDroid2 (jonathan.lyndo@outlook.com)
+Fix brightness icon not showing <2 years, 9 months ago> [09e8ef0233f]
+by: SpiritCroc (spiritcroc@gmail.com)
+Fix automatic brightness QS toggle icon <3 years, 6 months ago> [d39e3e4b168]
+by: SpiritCroc (spiritcroc@gmail.com)
+Lockscreen no blur option: fix SysUI FC <4 months ago> [9dbec558e2d]
+by: ezio84 (brabus84@gmail.com)
+TunerService: Add parseInteger failsafe method <8 months ago> [a1b18b7d6b0]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Remove DUN requirement for tethering <6 years ago> [d35070ccf24]
+by: Dave Daynard (nardholio@gmail.com)
+fix error com.google.android.gms.persistent <6 months ago> [b20f7debc92]
+by: rc420head (dennislebhardt79@gmail.com)
+SystemUI: Fix statusbar padding and layout for system icons <7 months ago> [18db72fdc93]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Fix SystemUI crash <6 months ago> [8956b57e4d6]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Remove STATUS_BAR permission check from setRecentsVisibility & setShelfHeight <1 year, 9 months ago> [364affdef26]
+by: Surge Raval (Surge1223@gmail.com)
+Package installer: show current and new version on apk installation <4 months ago> [697491ff316]
+by: ezio84 (brabus84@gmail.com)
+aosipUtils: Method to detect a notch'd device <1 year, 4 months ago> [c2bdf4725a2]
+by: Alex Cruz (du.alexcruz@gmail.com)
+base: add zen mode off hook to prevent problems with ringer mode <3 years, 2 months ago> [427c4b0b68c]
+by: maxwen (max.weninger@gmail.com)
+Sync tile: make it behave like every other tile Instead of switching icon drawable based on state (on/off) now it will switch color <6 months ago> [9c13f9af2cc]
+by: 00day0 (therandomuser11@gmail.com)
+SystemUI: Add Sync QS Tile <3 years, 7 months ago> [9ce2ffa7815]
+by: Altaf-Mahdi (altaf.mahdi@gmail.com)
+SystemUI: Add heads up tile <5 years ago> [ede28285a05]
+by: Michael Bestas (mikeioannina@gmail.com)
+Sounds: Cleanup duplicate ringtones/alarms <5 years ago> [825cd28243d]
+by: Matt Mower (mowerm@gmail.com)
+Disable logspew <4 years, 10 months ago> [0000ce1032f]
+by: Alexander Martinz (eviscerationls@gmail.com)
+Don't spam logcat <6 years ago> [4c3f6efcfdf]
+by: fusionjack (dogfight60-fusionjack@yahoo.de)
+Silence density flag warnings <5 years ago> [68f7a1d6c2c]
+by: Alexander Martinz (eviscerationls@gmail.com)
+WindowManager: Add clearPrivateFlags <4 years, 5 months ago> [db1e3f74392]
+by: Michael Bestas (mikeioannina@gmail.com)
+Delete media tests <6 years ago> [d4d74df1963]
+by: Evan Anderson (evan1124@gmail.com)
+Remove unnecessary videos <5 years ago> [0445b178d5d]
+by: Janson Kang (temasek71@gmail.com)
+Add auth framework for outgoing SMS messages. <3 years, 2 months ago> [49901e8f229]
+by: Yida Wang (yidaw@codeaurora.org)
+Telephony: Don't crash for too long baseband version <3 years, 4 months ago> [d2f03998fab]
+by: Michael W (baddaemon87@gmail.com)
+Telephony: NPE observed in Settings when click on Search settings <1 year, 6 months ago> [ca6e304df4f]
+by: Ruthwar Ambeer (rambeer@codeaurora.org)
+Check if EIMS when confirming network <1 year, 8 months ago> [4a5319a7e25]
+by: Tyler Wear (twear@codeaurora.org)
+null check before accessing getCurrentScore() <1 year, 11 months ago> [145633a7317]
+by: Devi Sandeep Endluri V V (dendluri@codeaurora.org)
+net: modify connecitvity rematch logic to support MSIM devices <3 years ago> [ae8f55229df]
+by: Pavan Kumar M (rpavan@codeaurora.org)
+Add ICCID into CarrierIdentifier <2 years ago> [9f8ebf52021]
+by: Mengjun Leng (mengju@codeaurora.org)
+BT: Send info if call is CS type from telecomm service to BT apps. <4 years, 2 months ago> [593e63b6b3b]
+by: Sumit Bajpai (sbajpai@codeaurora.org)
+Emergency SMS carrier config flag <2 years ago> [3bf81ae4bf5]
+by: Avinash Nalluri (anallu@codeaurora.org)
+IMS-VT: Add config to control holding a video call <2 years, 7 months ago> [8eceb2f4de4]
+by: Ravi Paluri (rpaluri@codeaurora.org)
+SMS: Parsing of CDMA MMS notification carried by SMS <2 years, 4 months ago> [770e4ca663d]
+by: Mengjun Leng (mengju@codeaurora.org)
+Telephony: Get SIM card capacity count of SMS <3 years, 2 months ago> [ce6e8b3e09f]
+by: Mengjun Leng (mengju@codeaurora.org)
+IMS: Add carrier config for RTT always enabled <1 year, 1 month ago> [7a87b0755a2]
+by: Benergy Meenan Ravuri (bravuri@codeaurora.org)
+IMS: Conference URI support. <3 years, 1 month ago> [02f4fafce05]
+by: Suchand Ghosh (suchan@codeaurora.org)
+IMS: Propagate RTT capability of the called party to UI <2 years ago> [895217806bd]
+by: Benergy Meenan Ravuri (bravuri@codeaurora.org)
+IMS: Add CALL_TYPE for audio and video inactive <1 year, 9 months ago> [6068d7552ac]
+by: Ashit Sood (sooda@codeaurora.org)
+IMS: Propagate call session property changed message <1 year, 11 months ago> [6eb24dd05f8]
+by: Nivedita Sarkar (nsarkar@codeaurora.org)
+Use proper coded alphabet when a contact is written into EF_ADN of USIM. <2 years, 10 months ago> [77b2c6ea5c3]
+by: Umashankar Godachi (umasha@codeaurora.org)
+SEEMP: framework instrumentation and AppProtect features <2 years, 1 month ago> [aeb4b02e7d2]
+by: Preeti Nagar (pnagar@codeaurora.org)
+Telephony: Add DisconnectCause values for clear code <2 years, 1 month ago> [7f928760794]
+by: Qiang Chen (cqiang@codeaurora.org)
+IMS: Add UT interface to query CF setting for service class. <3 years, 1 month ago> [35f8373183d]
+by: pengfeix (pengfeix@codeaurora.org)
+IMS: Add flag to control reset UT capability <2 years, 1 month ago> [1bcbd0cb087]
+by: pengfei xiao (pengfeix@codeaurora.org)
+Add config to disable CDMA call forward/waiting <4 years, 4 months ago> [02128ef0cc7]
+by: pengfeix (pengfeix@codeaurora.org)
+Add api to force show led lights <2 years, 3 months ago> [4bae27d15c2]
+by: ezio84 (brabus84@gmail.com)
+Reduce unnecessary NotificationListener binder transaction. <7 months ago> [ec9e1b47ec5]
+by: woongki min (wk0831.min@samsung.com)
+base: Fix TypeClock string for Fifteen <3 months ago> [614fcd75bf1]
+by: Christian Oder (myself5@carbonrom.org)
+Partially Revert "Position "At a Glance" on type clock below status bar." <6 months ago> [42cb791016f]
+by: maxwen (max.weninger@gmail.com)
+Position "At a Glance" on type clock below status bar. <8 months ago> [cc897c49c74]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+Fix Photosphere/Camera FCs <7 years ago> [c5cc984ee58]
+by: Jostein Kjønigsen (jostein@kjonigsen.net)
+TypeClock: Add DE translations <7 months ago> [4d3b5f2e607]
+by: spezi77 (spezi7713@gmx.net)
+TypeClock: Add 24h format support <7 months ago> [c7074c14dd6]
+by: DennySPB (dennyspb@gmail.com)
+SystemUI: Add method for getting estimated battery time <8 months ago> [bb3e481c018]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+ActivityManagerService: Disallow requestSystemServerHeapDump on non-eng builds <8 months ago> [d7d8d575445]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+base: tuner: fix navbar layout switch and remove old cruft <7 months ago> [84f7d4a891f]
+by: maxwen (max.weninger@gmail.com)
+base: tuner: bring back tuner navbar editor from N <2 years, 3 months ago> [c6d37407d39]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: Remove annoying log caused by aosp bug <1 year, 8 months ago> [537128f4c0c]
+by: mydongistiny (jaysonedson@gmail.com)
+NavigationBarView: Avoid NPE before mPanelView is created <1 year, 8 months ago> [17b53f3ae02]
+by: Bruno Martins (bgcngm@gmail.com)
+Prevent NPE in Dependency.get() in BrightnessController <2 years, 9 months ago> [4ae03305ba1]
+by: Sridhar Kasukurthi (skasuk@codeaurora.org)
+SystemUI: Name Cellular Tile based on carrier <1 year, 11 months ago> [81e3e832f49]
+by: Manojkumar Murugeshan (muruge@codeaurora.org)
+keyguard: Actually kill Fancy Colon <2 years, 4 months ago> [0ed59960650]
+by: Joe Maples (joe@frap129.org)
+Suppress FingerprintManager logspam <2 years, 10 months ago> [d49d92bc264]
+by: Harsh Shandilya (msfjarvis@gmail.com)
+ Kill off provider info logspam <3 years, 3 months ago> [0955e48f5e2]
+by: Harsh Shandilya (msfjarvis@gmail.com)
+SystemUI: Fix Data Usage tile to match Settings <1 year, 10 months ago> [f6439ff2936]
+by: Paul Keith (javelinanddart@gmail.com)
+Catch IllegalArgumentException in stopScreenshot() <2 years, 1 month ago> [945db534897]
+by: Wang Han (wanghan1995315@gmail.com)
+BrightnessDialog: dismiss on focus lost <1 year, 3 months ago> [7a0cbdf55bc]
+by: Giuseppe Maggio (jertlokk@gmail.com)
+QS: Add advanced location tile options <4 years, 11 months ago> [e1c3bb25b1b]
+by: Joey (joey@lineageos.org)
+fwb: Fixes after r16 merge <5 months ago> [b6189722ffe]
+by: Stallix (team.evolutionx.rom@gmail.com)
+Add switch for vpn, data saver and roaming icons <7 months ago> [789a5983b3f]
+by: xyyx (xyyx@mail.ru)
+SystemUI: Add statusbar NFC icon <7 months ago> [053deaa4a6b]
+by: xyyx (xyyx@mail.ru)
+SystemUI: Bringup tuner statusbar changes <2 years, 7 months ago> [85f1ae58595]
+by: Rashed Abdel-Tawab (rashed@linux.com)
+base: SystemUI: tuner: fix hiding of statusbar clock <1 year, 8 months ago> [a805a8150a5]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: Add navbar layout inversion tuning <8 months ago> [d2c7819bd0d]
+by: LuK1337 (priv.luk@gmail.com)
+LockscreenShortcuts: enable default shortcuts <1 year, 8 months ago> [d4f654de0dd]
+by: xyyx (xyyx@mail.ru)
+Lockscreen bottom shortcuts fixes <2 years, 7 months ago> [c0b6492a2c5]
+by: ezio84 (brabus84@gmail.com)
+base: tuner: add a hide config to left and right shortcut <2 years, 7 months ago> [de6c063b3d2]
+by: maxwen (max.weninger@gmail.com)
+Run LockscreenFragment external <2 years, 8 months ago> [7afce92827f]
+by: ezio84 (brabus84@gmail.com)
+Run NavBarTuner external <2 years, 8 months ago> [e55729302e4]
+by: ezio84 (brabus84@gmail.com)
+fwb: Seperate statusbar from tuner and launch externally <2 years, 8 months ago> [79fc3cff9b7]
+by: mydongistiny (jaysonedson@gmail.com)
+Tuner: Don't clear out prefs, it's not disabled <1 year, 9 months ago> [d243afc8e79]
+by: Joe Maples (joe@frap129.org)
+SystemUI: re-enable Tuner <1 year, 9 months ago> [9caf487335c]
+by: Joe Maples (joe@frap129.org)
+base: SystemUI: enable tuner and show in Settings <1 year, 9 months ago> [d009f0d5c0e]
+by: maxwen (max.weninger@gmail.com)
+base: Q seekbar: Set opacity for the seekbar when it's not interactive <7 months ago> [21a3054d39f]
+by: El Dainosor (eldainosor@gmail.com)
+base: Q seekbar: Tweak it's size <12 months ago> [942cef19104]
+by: ElDainosor (eldainosor@gmail.com)
+base: Actually fix the padding on StatusBar <1 year, 8 months ago> [98f977d1b9e]
+by: ElDainosor (eldainosor@gmail.com)
+base: Add switch for screenrecord power menu item[1/2] <4 months ago> [e554394f891]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Move power menu methods to our Utils class <5 months ago> [0c85b5aaf53]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Disallow certain power menu items while in lock task mode <5 months ago> [519c395b05b]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Powermenu: Bring back Lockdown option [1/2] <5 months ago> [f640c547e96]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Make the power menu configurable [1/2] <1 year, 6 months ago> [8a5181a3ebe]
+by: Alex Cruz (alex@dirtyunicorns.com)
+Disable unused power menu items <5 months ago> [8f8dba9a7ef]
+by: Alex Cruz (alex@dirtyunicorns.com)
+Enable developer settings by default [1/2] <2 years, 7 months ago> [b9cc6b39501]
+by: ezio84 (brabus84@gmail.com)
+Uncomment SCREENRECORD_LONG_PRESS field <5 months ago> [068b1978b18]
+by: Nicolas Dhouailly (ndhouailly@gmail.com)
+Use custom globalActionsList to avoid conflicts <5 months ago> [182a0255a54]
+by: Alex Cruz (alex@dirtyunicorns.com)
+Update date on keyguard when ticking past midnight <6 months ago> [49d76047787]
+by: Joshua Hesketh (josh@nitrotech.org)
+Add option to disable auto brightness icon in brightness slider [1/2] <4 years, 4 months ago> [61a81ed929d]
+by: Varun (date.varun123@gmail.com)
+Add auto brightness toggle to Quick Settings <4 years, 4 months ago> [54ae452bbc7]
+by: maxwen (max.weninger@gmail.com)
+base: SystemUI: fix moving of qs brightness slider <8 months ago> [16882550dfe]
+by: maxwen (max.weninger@gmail.com)
+base: SystemUI: fix brightness slider animation on qs expand <1 year, 8 months ago> [0e4f5fb5315]
+by: maxwen (max.weninger@gmail.com)
+base: SystemUI: add prefs for qs brightness slider position (1/2) <2 years, 1 month ago> [91e446f4f92]
+by: maxwen (max.weninger@gmail.com)
+Gesture nav deadzone: be sure to set the value on boot <5 months ago> [1ff11a66101]
+by: ezio84 (brabus84@gmail.com)
+Gestures nav: allow to skip back swipe gesture on top half or top smaller area of the screen [1/2] <5 months ago> [b2aa10d1bb4]
+by: ezio84 (brabus84@gmail.com)
+AODTile: disable tile when power save mode is on <9 weeks ago> [2a5411d4282]
+by: shagbag913 (sh4gbag913@gmail.com)
+AODTile: Open ambient display settings on long click <3 months ago> [3f96540108f]
+by: shagbag913 (sh4gbag913@gmail.com)
+AODTile: cycle through AOD states <3 months ago> [4dfdd9f3be6]
+by: shagbag913 (sh4gbag913@gmail.com)
+base: NotificationPanelView: Double tap to sleep on lockscreen <2 years, 8 months ago> [b533ca935a7]
+by: ezio84 (brabus84@gmail.com)
+AoD on charge: update settings if we change options while charging <5 months ago> [01a266cde0d]
+by: ezio84 (brabus84@gmail.com)
+base: wake from aod on unplug if we show on charging only <1 year, 3 months ago> [b008a9866f6]
+by: maxwen (max.weninger@gmail.com)
+[1/2] base: add option to enable AOD on charging only <1 year, 3 months ago> [9da8044d392]
+by: Marko Man (darkobas@gmail.com)
+Allow to suppress notifications sound/vibration if screen is ON [1/2] <2 years, 4 months ago> [edef5350e69]
+by: ezio84 (brabus84@gmail.com)
+SystemUI: add pulsing callback to KeyguardUpdateMonitor <7 months ago> [f114b411221]
+by: Marko Man (darkobas@gmail.com)
+Ambient music: pulse on new tracks even if all Ambient options are off <6 months ago> [af606845303]
+by: ezio84 (brabus84@gmail.com)
+Ambient music: add Pixel Now Playing support <6 months ago> [c9d7e917349]
+by: ezio84 (brabus84@gmail.com)
+Ambient music ticker AoD: make it compatibile with double tap sensor <1 year, 11 months ago> [bf0096c305a]
+by: ezio84 (brabus84@gmail.com)
+Ambient music ticker: double tap on track title to skip track <6 months ago> [9b04552e511]
+by: ezio84 (brabus84@gmail.com)
+Aosp Ambient music: allow to pulse on new tracks [1/2] <6 months ago> [eea722fab92]
+by: ezio84 (brabus84@gmail.com)
+Fix bluetooth icon has wrong color <5 months ago> [bbb619a7ab9]
+by: Raff Tsai (rafftsai@google.com)
+Lockscreen art blur: smaller seekbar range and allow no blur [1/2] <6 months ago> [8ca300d9f2d]
+by: ezio84 (brabus84@gmail.com)
+Losckreen blur level: code fixes <6 months ago> [f132d51af97]
+by: ezio84 (brabus84@gmail.com)
+base: configure lock screen media artwork blur level [1/2] <3 years, 4 months ago> [60583a9e9c7]
+by: Marko Man (darkobas@gmail.com)
+Ask pin when tapping Cellular tile on secure lockscreen <6 months ago> [e3c14d61c74]
+by: ezio84 (brabus84@gmail.com)
+Remove call to expand QS panel while pressing the Airplane QS tile <2 years, 3 months ago> [b523bf4857e]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Ask pin when tapping Airplane tiles on secure lockscreen <2 years, 8 months ago> [64bc7314282]
+by: ezio84 (brabus84@gmail.com)
+SystemUI: fix black screen after AOD_PAUSED <5 months ago> [39d22720807]
+by: maxwen (max.weninger@gmail.com)
+Fix protected broadcast error for doze intents <5 months ago> [c9864222cda]
+by: ezio84 (brabus84@gmail.com)
+base: rescuce party: check isDisabled on all public API <2 years, 8 months ago> [2e185d08cfb]
+by: maxwen (max.weninger@gmail.com)
+Restore cache clean up code in PackageManagerService <6 months ago> [de0b2a79658]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Select the proper request list size <1 year, 8 months ago> [f72820e6948]
+by: Guruprasad Gaonkar (ggaonk@codeaurora.org)
+SettingLib: Add deep sleep info to uptime preference <8 months ago> [e51643c231c]
+by: maxwen (max.weninger@gmail.com)
+Wallpaper is half black after rotating quickly <1 year, 8 months ago> [d9bd9db0a76]
+by: jianhuac (jianhuac@codeaurora.org)
+Fix MediaProjection cast crash <5 years ago> [0df98c64ab6]
+by: Pawit Pornkitprasan (p.pawit@gmail.com)
+KernelCpuUidTimeReader: Decrease log level on non-eng builds <8 months ago> [08666515d8c]
+by: Han Wang (416810799@qq.com)
+SystemUI: Apply system_icons_keyguard_padding_end to parent view <8 months ago> [4b34f98d28e]
+by: LuK1337 (priv.luk@gmail.com)
+storage: Do not notify for volumes on non-removable disks <4 years, 5 months ago> [1ab124bd480]
+by: Tom Marshall (tdm@cyngn.com)
+UserManagerService: Use ro.derp.fingerprint to signal upgrades <7 months ago> [019ea7e6b7c]
+by: Sam Mortimer (sam@mortimer.me.uk)
+PackageManager: allow build-time disabling of components <7 years ago> [9e966ccae1c]
+by: Pawit Pornkitprasan (p.pawit@gmail.com)
+Camera: Skip stream size check for whitelisted apps.. <2 years, 11 months ago> [c9e9724d845]
+by: Gaoxiang Chen (gaochen@codeaurora.org)
+camera: Skip HFR checks for privileged apps. <2 years, 9 months ago> [e621ad8a849]
+by: Sai Kumar Sanagavarapu (ssanagav@codeaurora.org)
+Camera: Ignore torch status update for aux or compsite camera <3 years, 1 month ago> [f55c174dd82]
+by: Gaoxiang Chen (gaochen@codeaurora.org)
+Camera: Force HAL1 for predefined package list. <4 years, 9 months ago> [6af4b7452fa]
+by: Sai Kumar Sanagavarapu (ssanagav@codeaurora.org)
+Camera: Squashed support for Aux camera {black,white}list feature <3 years, 9 months ago> [7f943f4cc26]
+by: Sauhard Pande (sauhardp@codeaurora.org)
+Add DerpQuest CategoryKey <2 years, 8 months ago> [d01af23c5ba]
+by: XlxFoXxlX (joshfox87@gmail.com)
+Allow to dismiss notifications with back FP left/right swipe [1/2] <2 years, 3 months ago> [0fadc568e39]
+by: ezio84 (brabus84@gmail.com)
+ScreenOff skiptrack: support Spotify/kdeconn/... remote sessions <2 years, 1 month ago> [3e74f2f24de]
+by: ezio84 (brabus84@gmail.com)
+Fix volume rocker skip track on Ambient Display and Lift to Wake <2 years, 4 months ago> [1c180810370]
+by: ezio84 (brabus84@gmail.com)
+[1/2] base: volume key music control <4 years, 2 months ago> [a8ca81078d4]
+by: maxwen (max.weninger@gmail.com)
+Power button flashlight: allow to skip proximity check per device <1 year, 11 months ago> [149d5b1dc89]
+by: ezio84 (brabus84@gmail.com)
+Power button flashlight toggle: add proximity sensor check <2 years, 4 months ago> [188ec636ba7]
+by: ezio84 (brabus84@gmail.com)
+Allow doubletap/longpress power to toggle torch [1/2] <2 years, 8 months ago> [54ba525776f]
+by: ezio84 (brabus84@gmail.com)
+Disable long click for SoundSearch tile <10 months ago> [d421d67eb83]
+by: Pranav Vashi (neobuddy89@gmail.com)
+SoundSearchTile: Make default state inactive <1 year, 6 months ago> [c370233746b]
+by: Pranav Vashi (neobuddy89@gmail.com)
+SoundSearchTile: Update intent flags for the apps <1 year, 4 months ago> [cf490790471]
+by: ezio84 (brabus84@gmail.com)
+SoundSearchTile: Extend the use <2 years, 1 month ago> [dd361e2c3c3]
+by: El Dainosor (eldainosor@gmail.com)
+Add Google Sound Search tile <2 years, 3 months ago> [99a96255603]
+by: ezio84 (brabus84@gmail.com)
+Screenrecord: exclude dialog from Recents <5 months ago> [5b676fb5775]
+by: ezio84 (brabus84@gmail.com)
+Screenrecord: remember last recording options <5 months ago> [d37f877e851]
+by: ezio84 (brabus84@gmail.com)
+Screenrecord: start delayed <5 months ago> [c8b98e76a39]
+by: ezio84 (brabus84@gmail.com)
+SystemUI: ScreenRec: Redesign the dialog <6 months ago> [2ae2d7a16b3]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Screenrecord: fix possible SystemUI FC when stopping <6 months ago> [062f110fbf7]
+by: ezio84 (brabus84@gmail.com)
+Screenrecord: fix FC when using custom dpi values <6 months ago> [ab4dfb80404]
+by: ezio84 (brabus84@gmail.com)
+base: SystemUI: add back QS hide label <2 years, 7 months ago> [3fdae8e4aac]
+by: maxwen (max.weninger@gmail.com)
+base: SystemUI: Make QS columns count configurable <8 months ago> [64a8319565b]
+by: Marko Man (darkobas@gmail.com)
+base: fix imports after removal of keyguard.R in r18 <5 months ago> [b6aa1283604]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Powermenu: longpress Screenshot for partial s.s., add ScreenRec toggle <6 months ago> [dd88b087202]
+by: ezio84 (brabus84@gmail.com)
+Screenrec: use HEVC H.265 codec, add low quality option, fixes <6 months ago> [8cde15dc80b]
+by: ezio84 (brabus84@gmail.com)
+DefaultPermissionGrantPolicy: Add missing permissions <3 weeks ago> [13ad7fe74ba]
+by: Joey Huab (joey@evolution-x.org)
+Permissions: Grant Google Photos permissions <7 weeks ago> [fb475069775]
+by: Joey Huab (joey@evolution-x.org)
+base: Grant storage permission to Lawnchair <3 months ago> [1c921f6f646]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+Fix android setup permissions <5 months ago> [924bdface3c]
+by: mukesh22584 (mks22584@gmail.com)
+Ass missing SET_WALLPAPER_COMPONENT permission to prebuilt wp picker <5 months ago> [32aec80e68f]
+by: ezio84 (brabus84@gmail.com)
+Grant BIND_WALLPAPER permission to wp picker also on dirty flash <5 months ago> [166f6a3cbeb]
+by: ezio84 (brabus84@gmail.com)
+Grant BIND_WALLPAPER permission to prebuilt wp picker <5 months ago> [b6eb2c74d4c]
+by: ezio84 (brabus84@gmail.com)
+Permissions: allow to grant permissions to more apps on dirty flash <5 months ago> [d9e3bfcb4d5]
+by: ezio84 (brabus84@gmail.com)
+Grant Wellbeing the SUSPEND_APPS perm if already declared <5 months ago> [3a65f952af7]
+by: Surge Raval (Surge1223@gmail.com)
+Permissions: Grant Google Markup perms <8 months ago> [d68b1707178]
+by: DennySPB (dennyspb@gmail.com)
+Permissions: Grant Pixel's Wallpaper app access to SD <2 years, 1 month ago> [e8e2769c118]
+by: calebcabob (calphonic@gmail.com)
+Permissions: Grant Google Sound Picker storage perms <1 year, 4 months ago> [9129936e6e2]
+by: shagbag913 (sh4gbag913@gmail.com)
+Permissions: Grant Mediascanner access permissions to external storage <1 year, 5 months ago> [55670313f5b]
+by: Ali B (abittin@gmail.com)
+base: Grant storage permission to ThemePicker <7 months ago> [e82dc4ac3a5]
+by: Anushek Prasal (anushekprasal@gmail.com)
+Fix Google dialer FC due to missing permissions <2 years, 3 months ago> [a2375c17f60]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Allow chromium to sign in <4 years, 7 months ago> [ee6ee39ab6d]
+by: spaceman860 (spaceman8583@gmail.com)
+Fix Google Calendar FC <3 years, 6 months ago> [eb1223d67c4]
+by: Josh Chasky (jchasky@gmail.com)
+Fix permissons for ContactsProvider2 <8 months ago> [4001ab1cffc]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+Fix Fi permissions <8 months ago> [3c1f9fad77b]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+Fix Android 7.0 GApps permisions which were causing F/C <3 years, 8 months ago> [f53138eaf78]
+by: Alex Naidis (alex.naidis@linux.com)
+Power menu: improve longpress action on some buttons <2 years, 3 months ago> [5b3f18668e5]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Update power menu icons <2 years, 4 months ago> [32261fcb462]
+by: Alex Cruz (du.alexcruz@gmail.com)
+PowerMenu advanced reboot toggle <2 years, 8 months ago> [512b6fde409]
+by: ezio84 (brabus84@gmail.com)
+Screenrec: allow to show a blinking red stop dot <6 months ago> [69e2ad7542c]
+by: ezio84 (brabus84@gmail.com)
+ScreenRec: show MediaProjection permission warning only once <6 months ago> [a831ba338a1]
+by: ezio84 (brabus84@gmail.com)
+Unlink screenrecord toggle from featureflags and enable it <6 months ago> [ddeadac15d9]
+by: ezio84 (brabus84@gmail.com)
+Screenrecord: Change save location and make sure dirs exist <7 months ago> [a3ec39b3259]
+by: Surge Raval (Surge1223@gmail.com)
+CarrierConfigManager: enable LTE+ icon by default <7 months ago> [839db1de6ee]
+by: Jake Weinstein (jake@aospa.co)
+Statusbar bluetooth battery level: Adapt for SettingsObserver <5 months ago> [af2cfa5e8c2]
+by: Anushek Prasal (anushekprasal@gmail.com)
+base: Add ability to toggle bluetooth battery level [1/2] <3 years, 2 months ago> [05bb4d2b453]
+by: Pranav Vashi (neobuddy89@gmail.com)
+SystemUI: Show bluetooth battery level when available <1 year, 6 months ago> [0b710d196cb]
+by: LuK1337 (priv.luk@gmail.com)
+Add a custom Settings observer <6 months ago> [5cfc25f71c6]
+by: ezio84 (brabus84@gmail.com)
+Make Build.TYPE and Build.FINGERPRINT consistent for apps <3 years, 5 months ago> [104fb3651b3]
+by: Danny Baumann (dannybaumann@web.de)
+Fix Build Credentials refactored to use byte[] <1 year, 2 months ago> [ffc38ffe802]
+by: Justin DeMartino (jjdemartino@google.com)
+frameworks: base: Port password retention feature <3 years ago> [d940d463e94]
+by: AnilKumar Chimata (anilc@codeaurora.org)
+base: Add permission to allow an APK to fake a signature. <2 years, 8 months ago> [7bd0c4e9cad]
+by: Bernhard Rosenkränzer (bero@lindev.ch)
+Allow adjusting screen density to smaller sizes. <3 years, 8 months ago> [5cdf94d228e]
+by: Danny Baumann (dannybaumann@web.de)
+SystemUI: Use MD2 icon for adb over network tile <9 weeks ago> [d02345538e4]
+by: Anushek Prasal (anushekprasal@gmail.com)
+base: SystemUI: [QS] Add adb over network tile <3 years, 2 months ago> [df31ef54a9d]
+by: Danesh M (daneshm90@gmail.com)
+QS: Caffeine Tile: Eggtimer <2 years ago> [a43542e3244]
+by: phpBB3 (alan.dowden@gmail.com)
+SystemUI: caffeine: stop crashing during boot <2 years, 1 month ago> [d19bb4207db]
+by: maxwen (max.weninger@gmail.com)
+SystemUI: Use secondary label for caffeine tile <1 year, 6 months ago> [845d76c0213]
+by: SKULSHADY (anushekprasal@gmail.com)
+base: SystemUI: Add Caffeine QS Tile <2 years, 6 months ago> [7ea762599c9]
+by: Keith Mok (kmok@cyngn.com)
+base: SystemUI: add config check for aod available in qs tile <1 year, 10 months ago> [b12b82999e3]
+by: maxwen (max.weninger@gmail.com)
+base: SystemUI: Add AOD QS tile <2 years, 1 month ago> [d0383c621a6]
+by: Marko Man (darkobas@gmail.com)
+SystemUI: Allow disabling BrightlineFalsingManager with config flag <7 months ago> [496a0838d67]
+by: Arne Coucheron (arco68@gmail.com)
+Let's cut Max Excape Animation in Half <5 years ago> [8d3a5ad41cc]
+by: Chet Kener (Cl3Kener@gmail.com)
+base: view: Speed things up!! <5 years ago> [6b134284d72]
+by: Mazda (mazdarider23@gmail.com)
+Force disable PlayServices OTA checks <2 years, 7 months ago> [169e9ed8c74]
+by: ezio84 (brabus84@gmail.com)
+Fix Recent Apps not closing <7 months ago> [4bbb37910c0]
+by: vincent.cw_lee (vincent.cw_lee@htc.com)
+Explicitly grant START_ACTIVITIES_FROM_BACKGROUND to com.android.phone. <11 months ago> [fd820fb736c]
+by: Alan Stokes (alanstokes@google.com)
+Fix bootanimation stack overflow <10 months ago> [aa01122e9f7]
+by: Kyeongkab.Nam (Kyeongkab.Nam@sony.com)
+Stop USB Debugging authorization window dismissing on tap outside. <12 months ago> [54c4797bbbb]
+by: Tobias Thierer (tobiast@google.com)
+MountService: Prevent NPE with DropBoxManager <4 years, 6 months ago> [3bfc9ea54cf]
+by: AdrianDC (radian.dc@gmail.com)
+Add missing INTERACT_ACROSS_USERS_FULL permission <4 years, 4 months ago> [e4927012c73]
+by: AdrianDC (radian.dc@gmail.com)
+Add "android.permission.READ_PHONE_STATE" to manifest <4 years, 5 months ago> [8e5668c7d7d]
+by: Janson Kang (temasek71@gmail.com)
+FATAL EXCEPTION IN SYSTEM PROCESS: android.ui <3 years, 1 month ago> [5ee70f5c28d]
+by: yangbingqian (bqyang720@gmail.com)
+Add missing STORAGE_INTERNAL permission for BackupRestoreConfirmation <3 years, 10 months ago> [de25f66ce15]
+by: c_jyuan (yuanjiao@codeaurora.org)
+PackageManager: Add configuration to specify vendor platform signatures <2 years, 5 months ago> [6bd70996328]
+by: Ethan Chen (intervigil@gmail.com)
+PrivacyItemController: Enable permission hub by default <8 months ago> [27708e6aadc]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "DO NOT MERGE Revert "Adding the privacy chip to the CarStatusBar"" <8 months ago> [6b42c9ae9c9]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "DO NOT MERGE Remove Privacy Indicators" <8 months ago> [58799ff8d30]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Flashlight toggle api improvements <2 years, 4 months ago> [7054a1af141]
+by: ezio84 (brabus84@gmail.com)
+Add api to toggle flashlight and check if device has flashlight <2 years, 8 months ago> [fec09699924]
+by: ezio84 (brabus84@gmail.com)
+derpUtils: Add method to turn off the screen <1 year, 8 months ago> [00d17288516]
+by: ezio84 (brabus84@gmail.com)
+derpUtils: Add check for Chinese Language <1 year, 8 months ago> [3828cd8ca98]
+by: martincz (martincz@mokeedev.com)
+Add our Utils helper class <1 year, 8 months ago> [3a3f549b0e6]
+by: Alex Cruz (alex@dirtyunicorns.com)
+Add api to take screenshots <2 years, 8 months ago> [e2d02bde7a5]
+by: bigrushdog (randall.rushing@gmail.com)
+Add isPackageInstalled boolean <3 years, 6 months ago> [747044025b0]
+by: Roman Birg (romanbirg@gmail.com)
+Re-add in our device utils <3 years, 8 months ago> [8d3ef470c4b]
+by: Alex (mazdarider23@gmail.com)
+fw/b: Fix systemui tests with in-display fingerprint <7 months ago> [abf1f9b86b2]
+by: Sam Mortimer (sam@mortimer.me.uk)
+CameraServiceProxy: Loosen UID check conditionally <1 year, 8 months ago> [fdb0a65a13c]
+by: Danny Baumann (dannybaumann@web.de)
+Support for radio technology NR <1 year, 1 month ago> [2b71ea158b6]
+by: Sukanya Rajkhowa (srajkh@codeaurora.org)
+FR57912: Add support for pdp data reject with cause code 29,33,55 <12 months ago> [4ac40eebefe]
+by: Susheel Nyamala (snyamala@codeaurora.org)
+Initial support for in-display fingerprint sensors <1 year, 1 month ago> [e37aecb2ded]
+by: Peter Cai (peter@typeblog.net)
+TypeClockController: Make it compile with new plugin API <8 months ago> [4d34531ea15]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "Disable ClockOptionsProvider so clocks don't appear in picker app" <8 months ago> [4ed8d89505a]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "Disable custom clock faces in SystemUI" <8 months ago> [f0197b25241]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "Drop final remnants of Type clock face" <8 months ago> [457a40999fa]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+Revert "Drop Type clock face." <8 months ago> [0d1fe4896df]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+base: Add DerpFest MetricsEvents <8 weeks ago> [bc91c910d03]
+by: NurKeinNeid (mralexman3000@gmail.com)
+base: replace DERP fingerprint with ro.build.date <1 year, 3 months ago> [29659199b11]
+by: oshmoun (oshmoun100@googlemail.com)
+base: Store DERP fingerprint for package data <2 years, 3 months ago> [ef1213c5bbe]
+by: maxwen (max.weninger@gmail.com)
+Camera: Add feature extensions <4 years, 10 months ago> [683758214d5]
+by: Sauhard Pande (sauhardp@codeaurora.org)
+Camera2: Notify fps as Session Based Parameter <2 years ago> [61b1a59b253]
+by: Sauhard Pande (sauhardp@codeaurora.org)
+[1/3] base: add support for adb over network <7 years ago> [e59edd86796]
+by: maxwen (max.weninger@gmail.com)
+base: Remove Emergency call from power menu <8 months ago> [e402b7967ac]
+by: Anirudh Gupta (anirudhgupta109@gmail.com)
+SystemUI: Allow user to add/remove QS with one click <2 years, 9 months ago> [a21f2879dda]
+by: Andrzej Ressel (jereksel@gmail.com)
+base: allow disable of screenshot shutter sound <5 years ago> [063949ad66b]
+by: maxwen (max.weninger@gmail.com)
+Screenshot: Append app name to filename <2 years, 5 months ago> [0b383ae4922]
+by: ezio84 (brabus84@gmail.com)
+SystemUI: allow devices override audio panel location <1 year, 5 months ago> [1df0652ea74]
+by: a.derendyaev (a.derendyaev@magdv.com)
+SystemUI: Allow overlaying max notification icons <1 year, 8 months ago> [a2ee9914e34]
+by: LuK1337 (priv.luk@gmail.com)
+SystemUI: assist: disable old Assistant animations <12 months ago> [33a0b543c8d]
+by: argraur (argraur@gmail.com)
+Add button to AppErrorDialog to upload crash information to dogbin <1 year, 11 months ago> [0e2f6603332]
+by: Till Kottmann (deletescape@gmail.com)
+frameworks/base: Support for third party NFC features and extensions <4 years, 5 months ago> [f0424ffa8b2]
+by: Puneet Mishra (puneetm@codeaurora.org)
+SystemUI: Remove GarbageMonitor tile <1 year, 9 months ago> [e4efc082415]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+SystemUI: Add support for persistent usb drive notification. <3 years, 11 months ago> [f959fe5de2a]
+by: Adnan Begovic (adnan@cyngn.com)
+Enable Binder Proxy Tracking by Uid only on eng builds <1 year, 4 months ago> [d351fbbd214]
+by: dianlujitao (dianlujitao@lineageos.org)
+Disable notification channel warnings by default <2 years, 6 months ago> [9907c484132]
+by: Bruno Martins (bgcngm@gmail.com)
+Download: Add support to manually pause/resume download <6 years ago> [0c10ef0befe]
+by: qqzhou (qqzhou@codeaurora.org)
+SystemUI: enable NFC tile <3 years, 4 months ago> [ce242a6e425]
+by: Thecrazyskull (anaskarbila@gmail.com)
+Shell: Don't show bugreport on DocumentsUI <1 year, 9 months ago> [b6dcab98a91]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+frameworks: Reset battery stats [1/2] <4 years, 5 months ago> [52cd741d294]
+by: Jorge Ruesga (jorge@ruesga.com)
+Add colors to assistant animation <8 months ago> [fe508812dad]
+by: paphonb (paphonb@gmail.com)
+base: Add rounded corners to activity open/close animation <8 months ago> [df6a547a8c3]
+by: paphonb (paphonb@gmail.com)
+WindowOrientationListener: Check if proposed rotation is in range <1 year, 4 months ago> [9685dd894dc]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+utils: Introduce FileUtils class <3 years, 11 months ago> [8e1d6e2ac66]
+by: Michael Bestas (mikeioannina@cyanogenmod.org)
+fwb: Implement alternative device key handler <1 year, 9 months ago> [877b4fffd5b]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/apps/DerpQuest]
+Revert "DerpQuest: toggle privacy chip on QS" <10 hours ago> [53de3e6]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[packages/apps/Settings]
+Revert "Disable the "SIM cards" tile in new Network & internet page" <4 months ago> [1d8802acfa]
+by: Ritesh Saxena (riteshsax007@gmail.com)
+Squash Revert Sim toggle <10 weeks ago> [9044d10347]
+by: dinosnore1 (dino.yash0213@gmail.com)
+
+
+====================
+     05-03-2020
+====================
+
+[bootable/recovery]
+recovery: allow opting-in to fastbootd <10 weeks ago> [afc5e120]
+by: Alessandro Astone (ales.astone@gmail.com)
+
+[manifest]
+manifest: Start of manifest for Android 10 <8 months ago> [8a989e3]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[build/make]
+build: set build fingerprint for all devices <6 weeks ago> [27475a45f]
+by: Volodymyr Zhdanov (wight554@gmail.com)
+
+[packages/apps/DerpQuest]
+DerpQuest: Add battery styles and customizations for Android 10 [2/2] <8 months ago> [b37db98]
+by: TheStrix (parthbhatia98@gmail.com)
+DerpQuest: toggle privacy chip on QS <6 months ago> [a701f41]
+by: El Dainosor (eldainosor@gmail.com)
+Revert "DerpQuest: toggle statusbar privacy indicators [2/2]" <30 hours ago> [2a92af9]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[packages/apps/Settings]
+Settings: Adaptive Playback: allow choosing no timeout. <4 days ago> [8c87a6b6e2]
+by: Hernán Castañón Álvarez (herna@paranoidandroid.co)
+Searchbar: Clean up code for avatar view <13 days ago> [5e83133bc2]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Settings: fix again the pair new icon in BT slice <3 weeks ago> [7f1fa9f1da]
+by: maxwen (max.weninger@gmail.com)
+Settings: per-app cellular data, vpn and wifi restrictions <3 years, 5 months ago> [0e7e73b8f5]
+by: Uldiniad (olivercscott@gmail.com)
+[2/2] Settings: Introduce Adaptive Playback <5 weeks ago> [e999c044e4]
+by: Chris Crump (chris@cypheros.co)
+Add gesture nav toggle option and improve gear dialog <3 weeks ago> [2d188921cd]
+by: ezio84 (brabus84@gmail.com)
+Nav advanced settings: use custom preference category <9 weeks ago> [7dbf773c19]
+by: ezio84 (brabus84@gmail.com)
+Add Dual Channel into Bluetooth Audio Channel Mode developer options menu <1 year, 8 months ago> [6ab5a655f6]
+by: ValdikSS (iam@valdikss.org.ru)
+Add Touch Sensitivity functionality <4 weeks ago> [d963ccb77d]
+by: Surge Raval (Surge1223@gmail.com)
+panels: Add Bluetooth panel <9 weeks ago> [144fa323e4]
+by: Joe Maples (joe@maples.dev)
+Legacy suggestions: Remove alpha for close vector <5 weeks ago> [ad65e18b0d]
+by: Alex (du.alexcruz@gmail.com)
+[4/4] Port face unlock feature <6 weeks ago> [98b79cf05f]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Settings: Double tap to trigger doze [2/2] <10 months ago> [9e9ce71f99]
+by: SKULSHADY (anushekprasal@gmail.com)
+Settings: adjust system dashboard summary <4 weeks ago> [63a13b4d66]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Settings: Add Style picker from Styles & Wallpapers <35 hours ago> [d3e77c2eb9]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Settings: Add Statusbar Icon Picker from Styles & Wallpapers <4 months ago> [3e839b5e4c]
+by: SuperDroidBond (superdroidbond@yahoo.com)
+Settings: create and set the DarkUI pref controller in DisplaySettings too <3 months ago> [8d21ccca1b]
+by: Anay Wadhera (awadhera@berkeley.edu)
+Fix for User edit info dialog during rotation <3 months ago> [e834f6bcd7]
+by: Rafael Matias de Lima (rafamatias.1@gmail.com)
+Settings: Use an xml property for maintainer string * No need to use a build.prop for this and overlaying from DT will be easier for maintainers this way * A partial revert of aa95452a54 <3 months ago> [a35a9d26de]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Settings: Add simple maintainer string <2 years, 1 month ago> [9b7a53b4b7]
+by: TheStrix (parthbhatia98@gmail.com)
+Display menu: move lockscreen/ambient preference on top <4 months ago> [9b63636be0]
+by: ezio84 (brabus84@gmail.com)
+settings: Show more info on Firmware Info <6 months ago> [5ffa0604ee]
+by: ElDainosor (eldainosor@gmail.com)
+Changelog: fix possible title pattern mismatches <1 year, 7 months ago> [ce15fef149]
+by: Vol Zhdanov (wight554@gmail.com)
+Changelog: use normal font instead of italic for commiter name <1 year, 8 months ago> [4258254076]
+by: Vol Zhdanov (wight554@gmail.com)
+Changelog: Add left padding <2 years, 2 months ago> [1200d28f7a]
+by: xyyx (xyyx@mail.ru)
+Settings: update changelog activity * improve code <2 years, 6 months ago> [4b4bafdf60]
+by: dadi11 (dadi.sikorski@gmail.com)
+Changelog: Fix text selection with dot <2 years, 4 months ago> [d7464f697f]
+by: xyyx (xyyx@mail.ru)
+Changelog: clean and make themeable before: https://imgur.com/a/ylSQG after: https://imgur.com/a/GdnPN <2 years, 5 months ago> [a6c5b3a2bb]
+by: xyyx (xyyx@mail.ru)
+Changelog: prettify <4 years, 7 months ago> [2863a06109]
+by: pcarenza (pcarenza@gmail.com)
+Settings: Changelog <6 years ago> [67ea8e4407]
+by: david (davidteri91@gmail.com)
+Settings: Add platform and RAM to Model & Hardware <1 year, 10 months ago> [0b2dbbeb9e]
+by: Rashed Abdel-Tawab (rashed@linux.com)
+Settings: Use global fonts in styles <4 months ago> [13ff26814e]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Settings: display fstype for mounted volumes <4 years ago> [647d90644a]
+by: maxwen (max.weninger@gmail.com)
+Settings: Fix dismissal card bg color <6 months ago> [177bd1f867]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Settings: One does not simply become a Developer <7 years ago> [4081062b5b]
+by: Chirayu Desai (cdesai@cyanogenmod.org)
+Settings: Fix the failing strings <6 years ago> [d14da848ad]
+by: Michael Bestas (mikeioannina@gmail.com)
+Setting: Reverse an incorrect check in AutoRestrictionPreferenceController <1 year, 8 months ago> [cea96d8303]
+by: Han Wang (416810799@qq.com)
+BasebandVersionDialogController: Trim duplicated baseband if needed <1 year, 9 months ago> [2e940e0aec]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+WiFi: Remove country code checking. <2 years, 1 month ago> [3df29a900c]
+by: xyyx (xyyx@mail.ru)
+Port "Battery Usage Alerts" feature from factory images <2 years, 8 months ago> [70691ce7dd]
+by: ezio84 (brabus84@gmail.com)
+Settings: add pair new to BT panel slice <6 weeks ago> [be09ef6960]
+by: maxwen (max.weninger@gmail.com)
+QS panels: fix data usage display on mobile panel <6 weeks ago> [bc8d3fbd9d]
+by: maxwen (max.weninger@gmail.com)
+QS panels: Improvements <6 weeks ago> [43ba732503]
+by: Alex (du.alexcruz@gmail.com)
+panels: Add Mobile Data panel <9 weeks ago> [8cc0fe59c3]
+by: Joe Maples (joe@maples.dev)
+Fix QRCamera crash <3 months ago> [1f3f63da1e]
+by: Joel Stein (js@funkturm.net)
+Bug:PreferredNetworkModePreferenceController.java not being refreshed <4 months ago> [eb127bac38]
+by: SongFerngWang (songferngwang@google.com)
+wifi: Remove Qr Code scanner during Modify Network option. <8 months ago> [9d2bb631db]
+by: Purushottam Kushwaha (pkushwah@codeaurora.org)
+Running services fragment: clean up layout <8 weeks ago> [f89d9bad7c]
+by: ezio84 (brabus84@gmail.com)
+Notification log improvements <7 weeks ago> [1e260d9045]
+by: maxwen (max.weninger@gmail.com)
+Expose the notification log <7 weeks ago> [e78de02b63]
+by: Alex (du.alexcruz@gmail.com)
+Fix carkit can't get phonebook access permission by default. <1 year, 6 months ago> [f23a7a6be2]
+by: jiangyou li (jiangyou.li@unisoc.corp-partner.google.com)
+Settings: add back SwipeToNotificationSuggestionActivity <1 year, 8 months ago> [ea710464f5]
+by: maxwen (max.weninger@gmail.com)
+Settings: Add device parts to system settings <1 year, 4 months ago> [7b8f62dd58]
+by: DennySPB (dennyspb@gmail.com)
+Setting: Add DerpFest logo <1 year, 8 months ago> [09f89e7459]
+by: alexxxdev (alexxxdev@yandex.ru)
+Gestures: Improvements <9 weeks ago> [33909d8f28]
+by: Alex (du.alexcruz@gmail.com)
+Allow long back swipe on bottom screen when launcher is showing [2/2] <9 weeks ago> [550c042603]
+by: ezio84 (brabus84@gmail.com)
+Allow a wider back swipe to trigger actions (instead of timeout) [2/2] <9 weeks ago> [5d138bd610]
+by: ezio84 (brabus84@gmail.com)
+Allow long back swipe to trigger custom actions/app/activities [2/2] <9 weeks ago> [db012d56d5]
+by: ezio84 (brabus84@gmail.com)
+VolumePanel: fix showing notification volume slider when unlinked <6 months ago> [e99ac9ebae]
+by: Dan Pasanen (dan.pasanen@gmail.com)
+Settings: Use correct icon for ring volume <4 years, 2 months ago> [ea519f9cec]
+by: Michael Bestas (mikeioannina@cyanogenmod.org)
+Settings: Add switch for linked ring and media notification volumes <2 years, 4 months ago> [296dc5cebe]
+by: Bruno Martins (bgcngm@gmail.com)
+[2/2] Settings: expose auto night mode sunset and sunriuse values on API <3 months ago> [babf4c5ffa]
+by: maxwen (max.weninger@gmail.com)
+Settings: show battery times in summary <1 year, 2 months ago> [9eb4692cb0]
+by: maxwen (max.weninger@gmail.com)
+Settings: Fix volume slider color is not correct <5 months ago> [350190a76b]
+by: Raff Tsai (rafftsai@google.com)
+Settings: Fixes sound panel create multiple SoundSettings activity <5 months ago> [7f7999897f]
+by: Raff Tsai (rafftsai@google.com)
+Double tap to sleep on statusbar [2/2] <1 year, 7 months ago> [2679bcedcd]
+by: Marko Man (darkobas@gmail.com)
+Add Swipe to screenshot preference <1 year ago> [1a6bad8891]
+by: Henrique Silva (jhenrique09.mcz@hotmail.com)
+Screensaver: Tint button to match system theme <3 months ago> [1300e29b47]
+by: Alex (du.alexcruz@gmail.com)
+Settings: move theming section to Display Settings <3 months ago> [e26294f4ff]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Settings: Adaptive brightness: Fix summary fuckery <3 months ago> [a7fa21c57b]
+by: Alex (du.alexcruz@gmail.com)
+Use IEC units in app info data usage. <3 months ago> [fe6757e5d1]
+by: Chalard Jean (jchalard@google.com)
+Power detail pages: Finish off the rest of the icon tinting <3 months ago> [2fa43b4dd7]
+by: Alex (du.alexcruz@gmail.com)
+Settings: fix icon tinting in power detail pages <2 years ago> [932191e6cb]
+by: maxwen (max.weninger@gmail.com)
+Themes: make sure settings shortcut icons follow system accent <1 year, 3 months ago> [964d9fabc0]
+by: Alex (du.alexcruz@gmail.com)
+Desktop backup password: Tint buttons to match system theme <3 months ago> [393a46f910]
+by: Alex (du.alexcruz@gmail.com)
+Remove duplicate preferences <3 months ago> [41fe65b9d5]
+by: Alex (du.alexcruz@gmail.com)
+Network & Internet: Remove carrier settings preference <3 months ago> [d22f1ae00b]
+by: Dil3mm4 (dil3mm4.dev@gmail.com)
+Settings Icons: add VPN icon <3 months ago> [3b59b92aed]
+by: Dil3mm4 (dil3mm4.dev@gmail.com)
+Initial import for Pixel-specific feature Settings <5 months ago> [c2973b4a4b]
+by: Giuseppe Maggio (jertlok@protonmail.com)
+Fix cannot see "see more" button in UI <5 months ago> [54f26a15b6]
+by: Raff Tsai (rafftsai@google.com)
+Settings: Bump privacy category's initial expanded children count to 10 <5 months ago> [c249526ea4]
+by: LuK1337 (priv.luk@gmail.com)
+Don't change nouns in summaries to lower case for German <6 months ago> [5e538dedfb]
+by: Danny Baumann (dannybaumann@web.de)
+fingerprint: Allow devices to configure sensor location <3 years, 10 months ago> [1e5d57a2d6]
+by: d34d (clark@cyngn.com)
+DevelopmentSettings: Hide OEM unlock by default <2 years, 4 months ago> [6db5815615]
+by: Bruno Martins (bgcngm@gmail.com)
+Settings: google dont be such an a..hole doing app themes <4 months ago> [0a3872dc03]
+by: maxwen (max.weninger@gmail.com)
+Settings: fix hardcoded black text in storage summary <5 months ago> [aab1eef52d]
+by: maxwen (max.weninger@gmail.com)
+Address a memory leak <9 months ago> [aa0e29055b]
+by: dragonGR (alextsanisbadlorg@gmail.com)
+Suggestion cards: Align them to searchbar <7 months ago> [dbd6c9e445]
+by: Dil3mm4 (dil3mm4.dev@gmail.com)
+In sim1 APN settings interface and hot plug out/in sim2, APN information change to sim2's <8 months ago> [5511d91279]
+by: 苗苗 (Miao Miao) (miao.miao@unisoc.com)
+fingerprint: Remove unnecessary spacing in enroll layout <1 year, 5 months ago> [127fa63fd4]
+by: LuK1337 (priv.luk@gmail.com)
+Remove empty space in tether preference <6 months ago> [a9ac31fa84]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+SearchBar: Add avatar to search bar <4 months ago> [c0b2e85162]
+by: Alex (du.alexcruz@gmail.com)
+Settings: Remove battery percent switch <4 months ago> [bb5e03e467]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Settings: remove duplicate build number from firmware dialogue <6 months ago> [7a0297c1f1]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+Settings: Move aosp gestures to DerpQuest (1/2) <2 years, 3 months ago> [e9601a6250]
+by: xlxfoxxlx (joshfox87@gmail.com)
+Enable developer settings by default [2/2]. <6 months ago> [4a1c5f93e0]
+by: ezio84 (brabus84@gmail.com)
+Remove the option for an automatic OTA check <1 year, 7 months ago> [2514c7d913]
+by: ezio84 (brabus84@gmail.com)
+About phone: Make phone number sim slot 1 selectable <5 months ago> [2e46195e3b]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Add back SELinux info <7 months ago> [d43bad51ef]
+by: Stephen Smalley (sds@tycho.nsa.gov)
+Hide unsupported USB modes automatically <1 year, 8 months ago> [da1d6e756f]
+by: Wang Han (416810799@qq.com)
+Remove legal information from being indexable <5 months ago> [d97f6b7c90]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Add back arrow to Desktop backup password <5 months ago> [20a5acb3a2]
+by: Alex Cruz (du.alexcruz@gmail.com)
+Comment out Legal/Regulatory info <5 months ago> [43fc66f1ba]
+by: Corey Edwards (ensabahnur16@gmail.com)
+Comment out double options that were under accessibility <5 months ago> [4bc121f149]
+by: Alex Cruz (du.alexcruz@gmail.com)
+settings: Protect sensitive info on About device <6 months ago> [3d0fca2e78]
+by: El Dainosor (eldainosor@gmail.com)
+Prevent null point exception <5 months ago> [35048a7375]
+by: Raff Tsai (rafftsai@google.com)
+Settings: Respect preference's visibility in VideoPreferenceController, take 2 <7 months ago> [6664ea0512]
+by: LuK1337 (priv.luk@gmail.com)
+Settings: Respect preference's visibility in VideoPreferenceController <7 months ago> [aadfdfc1f2]
+by: LuK1337 (priv.luk@gmail.com)
+Add accessibility timeout video and illustration <6 months ago> [4eb64f0b88]
+by: Kevin Chang (kevincpchang@google.com)
+Settings: Use landscape qrcode scanner layout for sw600dp <7 months ago> [cf4b8c8f80]
+by: LuK1337 (priv.luk@gmail.com)
+Settings: Fix QrCamera crash on devices without flash <7 months ago> [5df9bf3769]
+by: LuK1337 (priv.luk@gmail.com)
+InstalledAppDetails: fix refreshing storage summary after force stop <3 years, 10 months ago> [b4ccb291c7]
+by: Altaf-Mahdi (altaf.mahdi@gmail.com)
+InstalledApp: show link to Google Play <3 years, 10 months ago> [c4cbd6d376]
+by: George G (kreach3r@users.noreply.github.com)
+Settings: Add missing animations <8 months ago> [10f599db6c]
+by: mydongistiny (jaysonedson@gmail.com)
+Add DerpQuest dashboard entry <2 years, 8 months ago> [2c38506c1b]
+by: maxwen (max.weninger@gmail.com)
+
+[packages/services/Telecomm]
+Revert "Add back increasing ring feature (1/2)." <27 hours ago> [add816e9]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Revert "Telecom: Add sensitive phone numbers hooks" <27 hours ago> [9b568a60]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Revert "Telecom: Convert to using singleton class" <27 hours ago> [3da723bd]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Revert "Telecom: Adapt to the new location of SensitivePhoneNumbers" <27 hours ago> [7ded428e]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Bluetooth: Support to know if there is High Def call <1 year, 1 month ago> [21de8ba8]
+by: Nivedita Sarkar (nsarkar@codeaurora.org)
+
+[packages/services/Telephony]
+Revert "Telephony: use Build.DATE to check for system update" <28 hours ago> [6dbe7471f]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Revert "Use build date to check for system update" <28 hours ago> [ce341e0b4]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[system/core]
+fastbootd: hacks for legacy <10 weeks ago> [04fb26cfe]
+by: Alessandro Astone (ales.astone@gmail.com)
+Revert "fastbootd: always return unlocked in GetDeviceLockStatus" <7 weeks ago> [11a68964e]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+fastbootd: usb: fallback to v1 descriptors <10 weeks ago> [0dbb0a5ef]
+by: Alessandro Astone (ales.astone@gmail.com)
+reboot: allow opting-in to fastbootd <10 weeks ago> [82bd8fa61]
+by: Alessandro Astone (ales.astone@gmail.com)
+
+[vendor/derp]
+Never allow neverallows <1 year, 3 months ago> [dd5444b]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+kernel: Allow specifying a custom linker binary <4 weeks ago> [5907b64]
+by: Luca Stefani (luca.stefani.ge1@gmail.com)
+repopick: use python 3 <9 days ago> [007f479]
+by: Akhil Narang (me@akhilnarang.dev)
+build: kernel: Add back support for selecting latest clang version <3 weeks ago> [205a2f3]
+by: Subhajeet Muhuri (subhajeet.muhuri@gmail.com)
+vendor: Let's add our Shishufied back <7 months ago> [e5d03d8]
+by: El Dainosor (eldainosor@gmail.com)
+vendor: Update Longshot <3 months ago> [5ad2429]
+by: Anushek Prasal (anushekprasal@gmail.com)
+vendor: Import modded Longshot app <9 months ago> [6a3746a]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+Import Custom switch and category <3 months ago> [a946bfe]
+by: Alex (du.alexcruz@gmail.com)
+[2/5] Port face unlock feature <5 weeks ago> [bb3c9b8]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+vendor: OPScreenRecorder: Update to v2.3.0 <5 weeks ago> [9cf939d]
+by: AnierinB (anierinb@evolution-x.org)
+vendor: Build OP Screen Recorder <5 months ago> [9a88c23]
+by: Stallix (team.evolutionx.rom@gmail.com)
+Revert "aosip: build Updater" <4 weeks ago> [cc628ab]
+by: NurKeinNeid (mralexman3000@gmail.com)
+prebuilts: Add libstdc++ to libjni_latinimegoogle shared libs <6 weeks ago> [f9dd05f]
+by: Eamon Powell (eamonpowell@outlook.com)
+privapp-permissions: Grant CHANGE_OVERLAY_PACKAGES perm to OmniStyle <9 weeks ago> [0eb09d1]
+by: Kailash (kailash.sudhakar@gmail.com)
+vendor: add OmniStyle <4 years, 3 months ago> [3456f2c]
+by: maxwen (max.weninger@gmail.com)
+apns-conf.xml: fix APN for tre.dk. <1 year, 3 months ago> [1fcb36d]
+by: Nvertigo (nvertigo67@gmail.com)
+backuptool: Fix backup/restore functionality <9 weeks ago> [abfb4ae]
+by: z3DD3r (z3dd3r@gmail.com)
+backuptool: Properly unmount system partition <9 weeks ago> [5d707c2]
+by: z3DD3r (z3dd3r@gmail.com)
+extract_utils: Fix up 4a2b65fb60af23b6beccd8c405fc7cea90b9474d <8 weeks ago> [d127c20]
+by: Han Wang (416810799@qq.com)
+extract_utils: Fix bad substitution for zsh <4 months ago> [927049f]
+by: XiNGRZ (chenxingyu92@gmail.com)
+derp: configs: Flatten APEX(s) on official builds <9 weeks ago> [172fddd]
+by: Nolen Johnson (johnsonnolen@gmail.com)
+apn: Update Canadian carriers <2 years ago> [b532f42]
+by: Marc Bourgoin (themard85@gmail.com)
+backuptool: Remove backup blacklist/whitelist <3 months ago> [eb1d498]
+by: Wang Han (416810799@qq.com)
+dtbo: Sort the files we found <10 weeks ago> [49b1716]
+by: Andreas Schneider (asn@cryptomilk.org)
+tasks: dtbo: Add support for custom dtbo generation rules <3 months ago> [f1cb775]
+by: Kshitij Gupta (kshitijgm@gmail.com)
+kernel: allow devices to use newer GCC <4 months ago> [6510980]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+kernel: remove x86 target support <4 months ago> [72a976e]
+by: Park Ju Hyung (qkrwngud825@gmail.com)
+vendor: Optimize Pixel charger animation <3 months ago> [9508320]
+by: Anushek Prasal (anushekprasal@gmail.com)
+vendor: Use Pixel charger animation <3 months ago> [f19e777]
+by: Arseniy Graur (argraur@gmail.com)
+kernel: Fix ccache not being used when building <6 months ago> [bd95a0a]
+by: mydongistiny (jaysonedson@gmail.com)
+vendor: Build sqlite3 <4 months ago> [eac09f5]
+by: James Taylor (jmz.taylor16@gmail.com)
+vendor: Use speed tuning for performance critical applications <7 months ago> [3c64479]
+by: Jake Weinstein (jake@aospa.co)
+envsetup: fix mka behavior <6 months ago> [dd4a6ac]
+by: shagbag913 (sh4gbag913@gmail.com)
+vendor: Bring back Android Beam <6 months ago> [94e67be]
+by: LuK1337 (priv.luk@gmail.com)
+prebuilt: init: custom-system: hide Magisk better <9 months ago> [ffc1c83]
+by: Simao Gomes Viana (xdevs23@outlook.com)
+Revert "aosip: Add sysfs permissions for pocket bridge" <5 months ago> [cb90b88]
+by: NurKeinNeid (mralexman3000@gmail.com)
+kernel: pass custom compiler string directly to make <7 months ago> [1cbf532]
+by: shagbag913 (sh4gbag913@gmail.com)
+Revert "aosip: remove usage of KBUILD_COMPILER_STRING" <4 months ago> [d3e3b99]
+by: NurKeinNeid (mralexman3000@gmail.com)
+vendor: allow editing build date format from device tree <6 months ago> [b5ebcf0]
+by: Mayur Varde (44891334+marshmello61@users.noreply.github.com)
+changelog: Improve Changelog generator <2 weeks ago> [5925ae6]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+changelog: properly split each of manifest entry <3 weeks ago> [0ab1f83]
+by: Nauval Rizky (enuma.alrizky@gmail.com)
+changelog: Also generate for repos in local manifests <3 weeks ago> [5099a07]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+changelog: Prettify output for readability <3 weeks ago> [c445932]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+vendor: changelog: Avoid using repo to cycle through all repos <3 weeks ago> [e3ba12e]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+vendor: changelog: Make number of changlog days generated stand out with colors <4 months ago> [4189940]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+tools: changelog: Only fetch necessary dates <5 months ago> [00ae432]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+tools: changelog: Shorten the line. <7 months ago> [5aff14d]
+by: spezi77 (spezi7713@gmx.net)
+vendor: Changelog bringup [squashed] <3 years, 10 months ago> [22685d0]
+by: kantjer (kantjer@gmail.com)
+soong_config: Add TARGET_IGNORES_FTP_PPTP_CONNTRACK_FAILURE <5 weeks ago> [62c1c93]
+by: theimpulson (aayushgupta219@gmail.com)
+vendor: soong: add target_needs_client_info <8 months ago> [b655ea5]
+by: Marko Man (darkobas@gmail.com)
+soong_config: add TARGET_NEEDS_NETD_DIRECT_CONNECT_RULE <8 months ago> [026e26d]
+by: Jan Altensen (info@stricted.net)
+vendor: Add soong variable for TARGET_CAMERA_BOOTTIME_TIMESTAMP <8 months ago> [77953a8]
+by: jhenrique09 (jhenrique09.mcz@hotmail.com)
+build: Show the DerpFest bloody ascii on build complete <4 months ago> [dedbf08]
+by: Mayur Varde (44891334+marshmello61@users.noreply.github.com)
+May the GOD bless my ancestors... <1 year, 9 months ago> [13df018]
+by: storm119 (storm119@gmail.com)
+
+[vendor/overlay]
+tmp <3 days ago> [9b3206c]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+
+====================
+     05-02-2020
+====================
+
+[frameworks/opt/telephony]
+Telephony: Fix crash while updating Operator Name <3 days ago> [949cd75e2]
+by: Pranav Vashi (neobuddy89@gmail.com)
+
+[packages/services/Telephony]
+fixup! Add isApplicationOnUicc API <2 days ago> [3f7fb94a4]
+by: LuK1337 (priv.luk@gmail.com)
+Add isApplicationOnUicc API <1 year, 4 months ago> [357fdfad3]
+by: Hyungjun Park (hjun78.park@samsung.com)
+
+[packages/overlays/Shishufied]
+lazy push <3 days ago> [ad11e75]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[prebuilts/clang/host/linux-x86]
+Update prebuilt Clang to r383902. <4 days ago> [29a15b0]
+by: Yabin Cui (yabinc@google.com)
