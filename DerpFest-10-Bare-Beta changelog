@@ -2097,3 +2097,10 @@ by: NurKeinNeid (mralexman3000@gmail.com)
 [prebuilts/clang/host/linux-x86]
 Update prebuilt Clang to r383902. <4 days ago> [29a15b0]
 by: Yabin Cui (yabinc@google.com)
+
+Device changelog :-
+
+- Added xiaomiparts
+- Added Gcam Go
+- Added Via browser
+- kernel Clarity
