@@ -1,54 +1,23 @@
-Source Changelog
+Source Chnagelog :-
 
-- Disabled Emergency and Advanced Reboot by default
-- Fixed Dark Theming
-- Updated AboutBliss to v2.0
-- UI Improvements
-- Reduced APPS debugging output
-- Removed Photos and Google Dialer
-- Three button Navigation by default (Change in Settings -> System -> Gestures)
-- R Style Notifications
-- Ambient Edge Improvements
-- Charging sound
-- R style notification
-- Translucent broken or not
-- QS primary color fix (maybe)
-- launcher long click to styles n wall
-- translucent notification feature in display > lockscreen 
-- ambient pulse layout feature for edge light  , its to choose between faded or solid 
-- screen recording, added video bitrate and improved audio 
-- improved screen recorder layout 
-- Remove prebuilt themes in styles and wallpaper, thus fixing themes crash
-- Switched to launcher3 now bliss launcher with a lot of updates
-- added primary color to wifi/bt panels
-- Fix statusbar padding for notch devices
-- Fix custom rounded corner cutouts for some devices
-- Fix network traffic layout in quick statusbar header
-- System wide dark theme improvements
-- fix header drop down list in qs header
-- fix notification guts to follow system theme (when u long press app notification)
-- improve settings themeing
-- improve many other parts system wide
-- Remove lte qs tile
-- Remove advanced location tile, was active even in battery saver mode thus removed
-- Added charcoal primary
-- Added lead black primary
-- Added OnePlus dark primary
-- Added solarised dark primary
-- Added flame primary
-- Added system icons toggle for vpn, data saver, roaming
-- Make bliss black proper black (notifications background)
-- Update gapps to latest
-- fixed oversized battery icon
-- date allignment for type clock , Omni Weather not yet
-- Owner info allignment with type clock
-- Misc Improvements
+- May Security patch
+- New AOSPA Volume dialog 
+- Expanded volume panel overhaul
+- Make icon spacing more equal on statusbar
+- fix npe in powershare tile
+- Align date widget for type clock
+- Add padding to date widget for type clock
+- Adb over network tile improvements
+- Network traffic improvements
 
-Device Changelog
+Device Changelog :-
 
-- Change default Hotspot name (Bliss_mido)
-- Added Gcam go 
-- Added Xiaomi Parts (thanks to my lovely friend @smokey_18)
-- Used FIngerprint from Pixel 4 to pass CTS
-- Exclude lineage-sdk overlays from RRO
-- Improve System stability
+- Switch back to stock fp
+- Convert remaining configstore settings to props
+- Added mac randomization
+- Added TWRP configuration
+- Added missing fstab (thanks to @aryankedare)
+- Update vendor security patch level
+- Update power_profile from ysl
+- Fix Smartcharging
+- Switch default thermal zone for CPU info overlay
