@@ -1,23 +1,33 @@
 Source Chnagelog :-
 
-- May Security patch
-- New AOSPA Volume dialog 
-- Expanded volume panel overhaul
-- Make icon spacing more equal on statusbar
-- fix npe in powershare tile
-- Align date widget for type clock
-- Add padding to date widget for type clock
-- Adb over network tile improvements
-- Network traffic improvements
+- Add Asus long screenshot in place of oneplus longshot
+- Remove nerves clock ( only created problems)
+- Fix default clock style handlng/improvements and fixes
+- Add shit ton of fonts 
+- Fix vpn layout in quick settings
+- Add them to lock clock, date and carrier label
+- Added a different switch to hide clock now instead of clock style hidden entry
+- Orono, divided, mnml box and minmal  that had date in them , will be hidden by default on locksceen ( wll show in doze)
+- fix fod cutout hidden (thanks to @pivcer )
+- Multi sim rigntone fixes
+- Default dialer fix for non gapps
+- Add Notification log n Improvements
+- Music title and artist in doze/pulse
 
 Device Changelog :-
 
-- Switch back to stock fp
-- Convert remaining configstore settings to props
-- Added mac randomization
-- Added TWRP configuration
-- Added missing fstab (thanks to @aryankedare)
-- Update vendor security patch level
-- Update power_profile from ysl
-- Fix Smartcharging
 - Switch default thermal zone for CPU info overlay
+- Adapt the exact values for lockscreen charging info
+- Hide vendor mismatch pop-up
+- XiaomiParts: Add Speaker Gain
+- XiaomiParts: Disable USB Fastcharge toggle
+- XiaomiParts: Fix USB Fastcharge
+- XiaomiParts: Add Ambient Display Gestures
+- Add Custom Doze Support 
+- Replace KeyDisabler class with Touch HAL
+- Fix wrong log tag
+- Don't include <binder/ProcessState.h>
+- Fix Cast for sure
+- Fix the flicker issue this time
+- Remove KPI marker at ADSP start
+- Make UI more smooth 
