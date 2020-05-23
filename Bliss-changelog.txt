@@ -13,6 +13,21 @@ Source Chnagelog :-
 - Default dialer fix for non gapps
 - Add Notification log n Improvements
 - Music title and artist in doze/pulse
+- Add Custom Text clock.
+- Text clock allgnment and padding.
+- Add Statusbar clock font, size n color.
+- Fix applying different clocks when text clock is applied.
+- Added Suspend actions
+- Fix qs footer vpn layout with drag handle enabled.
+- Hide navbar gesture completely.. more improvements.
+- Add toggle ime space below keyboard.
+- Revert old notch hide, and move to 3 notch city, hide ,immersive and normal
+  now in blissify > more.
+- Settings: Fix gesture dialog , haptic switch allignment, n overall layout improvement.
+- Aux camera exposing improvements.
+- Fix freeform windows dragging once again (by google).
+- Some string improvements in blissify.
+- Add icon for slim recents in blissify.
 
 Device Changelog :-
 
