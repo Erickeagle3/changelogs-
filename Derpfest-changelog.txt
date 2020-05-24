@@ -1,64 +1,36 @@
 :-Source Changelogs:
 
-- Android April Sec Patch R33 Merged
-- Added Firmware & Recovery PlaceHolder In DerpQuest About
-- Fixed system crashing after connected to Android Auto or started screen record
-- OPScreenRecorder: Updated to 2.3.0 (From OP6T OB5)
-- Removed restrictions for system audio record
-- Cleaned up pixel live wallpaper port
-- Updated some qs tile icons to MD2
-- Ported pixel navigation bar
-- Ported more Assist things from Pixel SystemUI
-- QS blur improvements
-- Fixed binary clock update
-- Added Eggtimer to Caffeine tile
-- DataSwitchTile: Added drawable for No SIM
-- Added outline style to caffeine qs tile drawable
-- Added advanced location qs tile options
-- Added new long click QS tiles panel for mobile data, bluetooth, data tile, wifi and nfc
-- Partial screenshot block gestures/headsup: code improvements
-- Fixed screenshot shutter sound toggle
-- Screenshot: Removed white flash if dark mode is enabled • Added a toggle for the QS tint 
-- Allowed to backup LS clock & date styles values
-- Added a permission group for signature spoofing
-- Make sure media artwork blur restored radius value is valid
-- Added full accent sammy clock style
-- Brand new colorful and shape adaptable icons under DerpQuest section
-- Disabled junky LS clock & slice transition animations
-- Fixed padding bug when header image is enabled but not selected
-- Cleaned up running services fragment layout
-- Added notification log history
-- Brought back pixel layout in qs panel
-- Added Flame primary color
-- Added OnePlus Dark primary color
-- Removed duplicate exposures
-- Cleaned up hardcoded colors and used/overlay AOSP values
-- Added Matlog prebuilt
-- Some more things maybe I can't remember more :P
+- Fixed hide navigation pill on landscape
+- Added SELinux switch
+- Bug fixes for perm manager (log spam at boot gone)
+- Allow choosing a custom pressed icon color for FOD (irrelevant to our device)
+- Improved master switch divider visibility, and make it resistant to themes
+- Enabled aux camera for 3rd party apps (added sepolicy rules)
+- Added old circle battery style back
+- Fixed detail view not showing for a few QS tiles
+- Fixed wrong activity for longpress on LTE QS tile
+- Allow showing StatusBar ticker for media
+- Updates to translations
 
 :-Device Changelogs:
-
-- Fix take HDR picture spin forever issue 
-- Update qti-telephony-common from motoroal-10-QPU30.52
-- Disable mobile data always active 
-- QPower and Deep Sleep at the same time
-- Fix lag while screen recording
-- Enable auto power modes
-- Enable status bar burn-in protection 
-- Improve Ram management
-- Update API config
-- Update IR node
-- Restore stock ACDB blobs
-- Drop mediaextractor seccomp policy
-- Update sha1sum: (Add condition for line split,Better handle line breaks,Handle line with opts)
-- Format update-sha1sums.py with yapf 
-- Address cnd & dpmd denials
-- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE
-- Convert remaining configstore settings to props
-- Replace qcom's deep_buffer with AOSP low_latency
-- Added GCam Go
-- Added Via Browser as default 
-- Added aosp gallery 
-- Fixed Bluetooth call thanks to @smokey_18,@beingstargazer ( tested by me,@ndroidLover,@deepakagarwal29,@Sd6600)
-- Fixed Random reboot issue 
-- Fixed reboot on setup wizard
+- Switch back to stock fp
+- Adapt the exact values for lockscreen charging info
+- Hide vendor mismatch pop-up
+- Use AOSP SurfaceFlinger
+- XiaomiParts: Add Speaker Gain
+- Xiaomiparts: Add Spectrum Tile
+- XiaomiParts: Disable USB Fastcharge toggle
+- XiaomiParts: Fix USB Fastcharge
+- XiaomiParts: Add FPS info
+- XiaomiParts: Add Ambient Display Gestures
+- XiaomiParts: Digital-style icon for FPSInfo QS Tile
+- Fix Cast for sure 
+- Remove KPI marker at ADSP start
+- Fix Reboot issue
+- Enable QPower and Deep sleep at the same time 
+- Fix Screen Glitches
+- Improve touch detection
+- Added Lau's magic props
+- Make ui more smooth
+- Added CAF props
+- Fix cant apply prebuilt theme 
