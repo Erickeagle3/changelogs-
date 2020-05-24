@@ -13,6 +13,7 @@
 - Updates to translations
 
 :-Device Changelogs:
+
 - Switch back to stock fp
 - Adapt the exact values for lockscreen charging info
 - Hide vendor mismatch pop-up
