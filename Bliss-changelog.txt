@@ -42,7 +42,6 @@ Device Changelog :-
 - Replace KeyDisabler class with Touch HAL
 - Fix wrong log tag
 - Don't include <binder/ProcessState.h>
-- Fix Cast for sure
 - Fix the flicker issue this time
 - Remove KPI marker at ADSP start
 - Make UI more smooth 
