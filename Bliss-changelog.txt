@@ -46,3 +46,9 @@ Device Changelog :-
 - Fix the flicker issue this time
 - Remove KPI marker at ADSP start
 - Make UI more smooth 
+- Introduce SafailNet
+- Switch to old Auto Selection Network UI
+- Update smoe prop
+
+Bug :- screen cast (maybe)
+feel lag on system dont worry just change the kernel 
