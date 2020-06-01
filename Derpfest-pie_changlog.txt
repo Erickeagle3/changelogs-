@@ -1,10 +1,6 @@
-- Added May patch 
-- Added Updated Via browser (users demand)
-- Added some config for Wifi
-- Added some config in order to make UI more smooth 
-- Update DerpFest logo from Q
-- Allow to quickly open Running Services from QS panel
-- CameraMetadata: HAX - Fix front cam on Playground
-- Fix use-before-init in CREATE_PLUGIN
-- Fixes for internal audio recording
-- Chnage default wallpaper
+
+- Change launcher to QuickStep
+- add some prop in order to fix legend bug (screen flickering) 
+- improve app opening maybe
+- update Via browser
+- Update gcam-go
