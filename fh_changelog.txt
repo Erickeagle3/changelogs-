@@ -1,0 +1,21 @@
+Sorurce changelog :-
+
+- Gradient picker
+- QQS tiles config
+- OOS clear all button
+- Lockscreen weather
+- Brightness slider fixes
+- QS tiles panel fixes
+- Sensor block per package
+- Switched to Asus longshot implementation
+- Added Slim recents
+- Added R style Notification header
+- Many more fixes
+
+Device Changelog :- 
+
+- Fixed screen cast
+- change kernel to Moessyndrome kernel
+- Update carrrier config
+- update wcnss_service 
+Some more things maybe I can't remember more 😁😁
