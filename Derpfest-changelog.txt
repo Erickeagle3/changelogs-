@@ -1,37 +1,27 @@
 :-Source Changelogs:
 
-- Fixed hide navigation pill on landscape
-- Added SELinux switch
-- Bug fixes for perm manager (log spam at boot gone)
-- Allow choosing a custom pressed icon color for FOD (irrelevant to our device)
-- Improved master switch divider visibility, and make it resistant to themes
-- Enabled aux camera for 3rd party apps (added sepolicy rules)
-- Added old circle battery style back
-- Fixed detail view not showing for a few QS tiles
-- Fixed wrong activity for longpress on LTE QS tile
-- Allow showing StatusBar ticker for media
-- Updates to translations
+- manually configure dark theme for list
+- allow framework to do dark theming automatically
+- Don't forcefully convert wallpaper to SRGB
+- Add 3 mode display cutout handler
+- Update RU translation
+- Fix NPE if default supervisor is not defined
+- Update Greek translation
+- Allow showing SB ticker for media
+- Bring back good ol' circle battery style
+- Add Etar and DeskClock for VANILLA builds
+- Some more things maybe I can't remember more :P
 
 :-Device Changelogs:
 
-- Switch back to stock fp
-- Adapt the exact values for lockscreen charging info
-- Hide vendor mismatch pop-up
-- Use AOSP SurfaceFlinger
-- XiaomiParts: Add Speaker Gain
-- Xiaomiparts: Add Spectrum Tile
-- XiaomiParts: Disable USB Fastcharge toggle
-- XiaomiParts: Fix USB Fastcharge
-- XiaomiParts: Add FPS info
-- XiaomiParts: Add Ambient Display Gestures
-- XiaomiParts: Digital-style icon for FPSInfo QS Tile
-- Fix Cast for sure 
-- Remove KPI marker at ADSP start
-- Fix Reboot issue
-- Enable QPower and Deep sleep at the same time 
-- Fix Screen Glitches
-- Improve touch detection
-- Added Lau's magic props
-- Make ui more smooth
-- Added CAF props
-- Fix cant apply prebuilt theme 
+- Fix screen cast
+- Fix BT media 
+- Removed XiaomiParts ( will add something in next build )
+- Update CarrierConfig from LA.UM.8.6.r1-04400-89xx.0
+- Drop unused camera firmware 
+- disable SF backpressure 
+- Drop offset properties
+- Add Fw link and recovery link to Derpquest about 
+- Improve systme stability
+
+Note :- Clean flash recommend don't spam if you did dirty flash also no ota for this update 
