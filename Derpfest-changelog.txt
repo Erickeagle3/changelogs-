@@ -1,27 +1,51 @@
 :-Source Changelogs:
 
-- manually configure dark theme for list
-- allow framework to do dark theming automatically
-- Don't forcefully convert wallpaper to SRGB
-- Add 3 mode display cutout handler
-- Update RU translation
-- Fix NPE if default supervisor is not defined
-- Update Greek translation
-- Allow showing SB ticker for media
-- Bring back good ol' circle battery style
-- Add Etar and DeskClock for VANILLA builds
+- May sec patch (r34)
+- Removed the junky LockScreen clock date animation
+- Redistribute QS tile on orientation change
+- Moved brightness slider settings out of tuner 
+- Adds the ability to back em up as the rest and fixes some bugs related
+- In-rom changelog got a new look, and is more readable and user friendly now
+- Set a default custom QS header image
+Make sure the padding changes in QS header only apply if a header is really selected
+- Reverted RGB picker (was causing issues on some 3rd party apps)
+- Switch to use AOSP SettingsIntelligence (No more random settings crashes for some users & search is more reliable)
+- Hide notch options
+- Some bluetooth related fixes
+- Screen recording lags fixed
+- Added "R style" notification titles
+- Added new HeadsUp settings (Blacklist, stoplist, duration, snooze...)
+- Allow toggling between the new QS panels and the old in-qs view
+- Fixed a bug where old QS detail view UI would show instead of panels
+- Fixed some translations related bugs
+- Tuned some dimens to make StatusBar icons equal in size and padding
+- Added battery bar (improvements yet to come)
+- Move StatusBar brightness control to gesture settings
+- Updates to translations
+- Fixed hide power menu on LS switch
+- Added flash local file option via OpenDelta
+- Expandable volume panel
+- Added charging bolt on battery text (toggleable)
+- New icon to battery saver QS tile
 - Some more things maybe I can't remember more :P
 
 :-Device Changelogs:
 
 - Fix screen cast
 - Fix BT media 
-- Removed XiaomiParts ( will add something in next build )
+- Removed XiaomiParts
+- Add Advanced Control
 - Update CarrierConfig from LA.UM.8.6.r1-04400-89xx.0
 - Drop unused camera firmware 
 - disable SF backpressure 
 - Drop offset properties
 - Add Fw link and recovery link to Derpquest about 
+- Kang missing camera libs from Hydrogen
+- switch to prebuilt hwc blobs 
+- Update and modify wcnss_service.
+- Cleanup/fixup Bluetooth blobs
+- Partiaedlly update QMI/RIL/IMS from LA.UM.8.6.r1-04000-89xx.0
+- Fix Brightness slider not showing in landscape mode
 - Improve systme stability
 
 Note :- Clean flash recommend don't spam if you did dirty flash also no ota for this update 
