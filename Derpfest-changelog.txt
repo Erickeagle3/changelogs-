@@ -34,7 +34,7 @@ Make sure the padding changes in QS header only apply if a header is really sele
 - Fix screen cast
 - Fix BT media 
 - Removed XiaomiParts
-- Add Advanced Control
+- Add Advanced Control ( thanks to @beingstargazer )
 - Update CarrierConfig from LA.UM.8.6.r1-04400-89xx.0
 - Drop unused camera firmware 
 - disable SF backpressure 
@@ -46,6 +46,6 @@ Make sure the padding changes in QS header only apply if a header is really sele
 - Cleanup/fixup Bluetooth blobs
 - Partiaedlly update QMI/RIL/IMS from LA.UM.8.6.r1-04000-89xx.0
 - Fix Brightness slider not showing in landscape mode
-- Improve systme stability
+- Improve systme stability ( thanks to @beingstargazer zeelog )
 
-Note :- Clean flash recommend don't spam if you did dirty flash also no ota for this update 
+Note :- Clean flash recommend don't spam if you did dirty flash also no ota for this update (dirty flash strictly prohibited for this update  )
