@@ -1,53 +1,49 @@
-Source Chnagelog :-
+:-Source Changelog 
 
-- Add Asus long screenshot in place of oneplus longshot
-- Remove nerves clock ( only created problems)
-- Fix default clock style handlng/improvements and fixes
-- Add shit ton of fonts 
-- Fix vpn layout in quick settings
-- Add them to lock clock, date and carrier label
-- Added a different switch to hide clock now instead of clock style hidden entry
-- Orono, divided, mnml box and minmal  that had date in them , will be hidden by default on locksceen ( wll show in doze)
-- fix fod cutout hidden (thanks to @pivcer )
-- Multi sim rigntone fixes
-- Default dialer fix for non gapps
-- Add Notification log n Improvements
-- Music title and artist in doze/pulse
-- Add Custom Text clock.
-- Text clock allgnment and padding.
-- Add Statusbar clock font, size n color.
-- Fix applying different clocks when text clock is applied.
-- Added Suspend actions
-- Fix qs footer vpn layout with drag handle enabled.
-- Hide navbar gesture completely.. more improvements.
-- Add toggle ime space below keyboard.
-- Revert old notch hide, and move to 3 notch city, hide ,immersive and normal
-  now in blissify > more.
-- Settings: Fix gesture dialog , haptic switch allignment, n overall layout improvement.
-- Aux camera exposing improvements.
-- Fix freeform windows dragging once again (by google).
-- Some string improvements in blissify.
-- Add icon for slim recents in blissify.
+- June patch merged
+- Add brightness buttons function and auto brightness toggle icon to qqs brightness slider
+- Made screenshot type in blissify> more > screenshot type ..apply only for volume button key combo
+- Add option to disable asus longshot,
+(It'll only work if u select extended screenshot in blissify> more > screenshot type)
+- Fix date widget padding for defaul text clock
+- Improve qqs brightness slider layout
+- Improve statusbar clock visibility
+- Allow users to take longshot in home screen(app drawer, where it's possible)
+- Add accelerometer sensors to sensor block list
+- Quick qs brightness slider
+- Add center type clock
+- Allign owner info to center type clock
+- Fix divided clocks preview
+- Fix divided clock layout
+- Fix mnml clocks layout
+- Fix type clock preview
+- added gradient to volume panel
+- added fix for screenshot arrow showing up in edge swipe for screenshot
+- sRGB wallpaper fix
+- Bliss version 12.8
 
-Device Changelog :-
+:-Device Changelogs:
 
-- Switch default thermal zone for CPU info overlay
-- Adapt the exact values for lockscreen charging info
-- Hide vendor mismatch pop-up
-- XiaomiParts: Add Speaker Gain
-- XiaomiParts: Disable USB Fastcharge toggle
-- XiaomiParts: Fix USB Fastcharge
-- XiaomiParts: Add Ambient Display Gestures
-- Add Custom Doze Support 
-- Replace KeyDisabler class with Touch HAL
-- Fix wrong log tag
-- Don't include <binder/ProcessState.h>
-- Fix the flicker issue this time
-- Remove KPI marker at ADSP start
-- Make UI more smooth 
-- Introduce SafailNet
-- Switch to old Auto Selection Network UI
-- Update smoe prop
+- Fix screen cast
+- Fix BT media 
+- Removed XiaomiParts
+- Add Advanced Control ( thanks to @beingstargazer )
+- Update CarrierConfig from LA.UM.8.6.r1-04400-89xx.0
+- Drop unused camera firmware 
+- disable SF backpressure 
+- Drop offset properties
+- Add Fw link and recovery link to Derpquest about 
+- Kang missing camera libs from Hydrogen
+- switch to prebuilt hwc blobs 
+- Update and modify wcnss_service.
+- Cleanup/fixup Bluetooth blobs
+- Partiaedlly update QMI/RIL/IMS from LA.UM.8.6.r1-04000-89xx.0
+- Fix Brightness slider not showing in landscape mode
+- Improve systme stability ( thanks to @beingstargazer zeelog )
+- Fix Gapps issue ( big thatnks to @Rafiester )
+- Update qti-telephony-manager from Vsmart Casuari
+- Build separate system and vendor HIDL libs
+- Enable compilation of android.hidl.manager@1.0-java
+- Navbar toggle and enable it by default ( if you dont like this just tell me ill remove this  )
 
-Bug :- screen cast (maybe)
-feel lag on system dont worry just change the kernel 
+Note :- Clean flash recommend don't spam if you did dirty flash also no ota for this update (dirty flash strictly prohibited for this update  )
