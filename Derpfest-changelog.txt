@@ -1,7 +1,7 @@
 :-Device Changelogs:
 
 - Remove Advanced Control
-- Added XiaomiParts control 
+- Added XiaomiParts 
 - Enable Zygote Preforking
 - Add Spectrum Support
 - Fix Parallax Hub gitCrash for other Kernel
