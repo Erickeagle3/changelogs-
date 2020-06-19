@@ -1,10 +1,10 @@
 :-Device Changelogs:
 
 - Remove Advanced Control
-- Added Advanced control 
+- Added XiaomiParts control 
 - Enable Zygote Preforking
 - Add Spectrum Support
-- Fix Parallax Hub Crash for other Kernel
+- Fix Parallax Hub gitCrash for other Kernel
 - Add GPU Boost Controler ( XiaomiParts )
 - Add CPU Boost profile ( XiaomiParts )
 - Enable MultiUser UI
