@@ -3,10 +3,10 @@
 - Remove Advanced Control
 - Added XiaomiParts 
 - Enable Zygote Preforking
-- Add Spectrum Support
+- Add Spectrum Support speacial thanks to my dear friend @smokey_18
 - Fix Parallax Hub gitCrash for other Kernel
-- Add GPU Boost Controler ( XiaomiParts )
-- Add CPU Boost profile ( XiaomiParts )
+- Add GPU Boost Controler ( XiaomiParts ) special thanks to my dear friend @smokey_18
+- Add CPU Boost profile ( XiaomiParts ) special thanks to my dear frined @smokey_18
 - Enable MultiUser UI
 - Update left-over CarrierConfig overlays from Tissot
 - Update some props
