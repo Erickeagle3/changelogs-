@@ -1,50 +1,47 @@
 :-Source Changelog 
 
-- June patch merged
-- Add brightness buttons function and auto brightness toggle icon to qqs brightness slider
-- Made screenshot type in blissify> more > screenshot type ..apply only for volume button key combo
-- Add option to disable asus longshot,
-(It'll only work if u select extended screenshot in blissify> more > screenshot type)
-- Fix date widget padding for defaul text clock
-- Improve qqs brightness slider layout
-- Improve statusbar clock visibility
-- Allow users to take longshot in home screen(app drawer, where it's possible)
-- Add accelerometer sensors to sensor block list
-- Quick qs brightness slider
-- Add center type clock
-- Allign owner info to center type clock
-- Fix divided clocks preview
-- Fix divided clock layout
-- Fix mnml clocks layout
-- Fix type clock preview
-- added gradient to volume panel
-- added fix for screenshot arrow showing up in edge swipe for screenshot
-- sRGB wallpaper fix
-- Bliss version 12.8
+- Add top/bottom option for Quick quick setting brightness slider 
+- FIX the infamous new tint style for same color bug.. new tint style works perfectly now
+- Add option to change QS tile label
+- Follow Secondary line to QS tile label
+- Adapt Screenshot sound to ringer modes
+- Lot of changes to network traffic
+* units at the bottom like oneplus net traffic
+* dynamic icon switching for upload and download
+* both upload and download together is unavailable as of now.
+* may encounter some tiny bugs here n there it'll be fixed in days to come.
+- Long press caffiene tile for infinity
+- Fix qs tiles padding for some devices
+- Block heads up and other notifications while taking partial screenshot
+- Add heads up for music option ( on track change) 
+- Fix qs quickbar coloums ( remember this depends on dpi, lower the dpi will accomadate more tiles) 
+- Improve working of screenshot ( READ CAREFULLY ) 
+* Screenshot type is now moved to blissify > buttons 
+* as the name suggests this controls volume button combo screenshot type. to enable asus longshot , select that
+  selecting others will disable longshot
+* Screenshot QS tile can be used to control all 3 types
+  also has an additional OFF state, 
+  if u want to use volume button combo set the tile to OFF , or it'll conflict. 
+* Tile is basically to use something other than vol button, if u have normal screenshot in vol buttons, u can use tile for longshot
+* 3 finger screenshot will follow whichever is set by either of the two above cases :) 
+- Improve qs data usage 
+* add icon and improve layout
+* add option for daily usage and monthly usage
+* add the same in cellular tile
+- Messaging : fix a bug when attaching images failed
+- Etar : dark mode updates , make it more black
 
 :-Device Changelogs:
 
-- Fix screen cast
-- Fix BT media 
-- Removed XiaomiParts
-- Add Advanced Control ( thanks to @beingstargazer )
-- Update CarrierConfig from LA.UM.8.6.r1-04400-89xx.0
-- Drop unused camera firmware 
-- disable SF backpressure 
-- Drop offset properties
-- Add Fw link and recovery link to Derpquest about 
-- Kang missing camera libs from Hydrogen
-- switch to prebuilt hwc blobs 
-- Update and modify wcnss_service.
-- Cleanup/fixup Bluetooth blobs
-- Partiaedlly update QMI/RIL/IMS from LA.UM.8.6.r1-04000-89xx.0
-- Fix Brightness slider not showing in landscape mode
-- Improve systme stability ( thanks to @beingstargazer zeelog )
-- Fix Gapps issue ( big thatnks to @Rafiester )
-- Update qti-telephony-manager from Vsmart Casuari
-- Build separate system and vendor HIDL libs
-- Enable compilation of android.hidl.manager@1.0-java
-- Navbar toggle and enable it by default ( if you dont like this just tell me ill remove this  )
-
-Note :- Clean flash recommend don't spam if you did dirty flash also no ota for this update (dirty flash strictly prohibited for this update  )
-Now you can flash this rom using any recovery we finally fix  ot thanks to @aryankedare
+- Remove Advanced Control
+- Added XiaomiParts 
+- Enable Zygote Preforking
+- Fix Parallax Hub gitCrash for other Kernel
+- Add Audio High Performance mode toggle 
+- Add Spectrum Support speacial thanks to my dear friend @smokey_18
+- Add MSM Thermal Control ( XiaomiParts ) special thanks to my dear friend @smokey_18
+- Add GPU Boost Controler ( XiaomiParts ) special thanks to my dear friend @smokey_18
+- Add CPU Boost profile ( XiaomiParts ) special thanks to my dear frined @smokey_18
+- Enable MultiUser UI
+- Update left-over CarrierConfig overlays from Tissot
+- Update some props
