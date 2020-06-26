@@ -7,3 +7,4 @@
 - Update msm_irqbalance from sailfish PQ2A.190205.003
 - Enable USB Debugging on boot
 - Update CarrierConfig overlay from LA.UM.8.6.r1-02900-89xx.0 
+
