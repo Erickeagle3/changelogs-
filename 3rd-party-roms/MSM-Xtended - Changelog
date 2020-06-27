@@ -1,0 +1,31 @@
+Source changelog :-
+
+- Release version bump to V10.5
+- Added Xtended Clear Signature Theme
+- Added QsTile Styles from Pie (15 Styles to Choose)
+- Added Switch Styles (5 Styles to Choose)
+- Added New AOSP Clock Variant of Dividend Lines
+- Added New Clock Ornos Square Variant
+- Added 2 New Variant of Minimal Clocks
+- Added Setting Dashboard Icons
+- Added Grid & Lock Desktop Option in Launcher
+- Fixed Qs Blur on Landscape Mode
+- Fixed Call Recording not working/not saving
+- Fixed Keyguard Security Misaligned View
+- Fixed Some Theme Issues on Tiles
+- Fixed Navbar Layout Funtion
+- Misc changes, bug fixes, and optimizations. Look in the changelog in About Phone section
+
+Device changelog :-
+
+- Added XiaomiParts 
+- Enable Zygote Preforking
+- Fix Parallax Hub gitCrash for other Kernel
+- Add Audio High Performance mode toggle 
+- Add Spectrum Support speacial thanks to my dear friend @smokey_18
+- Add MSM Thermal Control ( XiaomiParts ) special thanks to my dear friend @smokey_18
+- Add GPU Boost Controler ( XiaomiParts ) special thanks to my dear friend @smokey_18
+- Add CPU Boost profile ( XiaomiParts ) special thanks to my dear frined @smokey_18
+- Enable MultiUser UI
+- Update left-over CarrierConfig overlays from Tissot
+- Update some props
