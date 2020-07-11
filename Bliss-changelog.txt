@@ -1,47 +1,52 @@
-:-Source Changelog 
+:-Source Chane logs:
 
-- Add top/bottom option for Quick quick setting brightness slider 
-- FIX the infamous new tint style for same color bug.. new tint style works perfectly now
-- Add option to change QS tile label
-- Follow Secondary line to QS tile label
-- Adapt Screenshot sound to ringer modes
-- Lot of changes to network traffic
-* units at the bottom like oneplus net traffic
-* dynamic icon switching for upload and download
-* both upload and download together is unavailable as of now.
-* may encounter some tiny bugs here n there it'll be fixed in days to come.
-- Long press caffiene tile for infinity
-- Fix qs tiles padding for some devices
-- Block heads up and other notifications while taking partial screenshot
-- Add heads up for music option ( on track change) 
-- Fix qs quickbar coloums ( remember this depends on dpi, lower the dpi will accomadate more tiles) 
-- Improve working of screenshot ( READ CAREFULLY ) 
-* Screenshot type is now moved to blissify > buttons 
-* as the name suggests this controls volume button combo screenshot type. to enable asus longshot , select that
-  selecting others will disable longshot
-* Screenshot QS tile can be used to control all 3 types
-  also has an additional OFF state, 
-  if u want to use volume button combo set the tile to OFF , or it'll conflict. 
-* Tile is basically to use something other than vol button, if u have normal screenshot in vol buttons, u can use tile for longshot
-* 3 finger screenshot will follow whichever is set by either of the two above cases :) 
-- Improve qs data usage 
-* add icon and improve layout
-* add option for daily usage and monthly usage
-* add the same in cellular tile
-- Messaging : fix a bug when attaching images failed
-- Etar : dark mode updates , make it more black
+- Fix some Systemui crashes while setting accent and gradient color
+- Notification ui lag for some devices
+- July Security patch merged
+- Add Settings Animations: https://twitter.com/Bliss_ROMs/status/1280372798087520257
+- Add more Lockscreen Charging styles: phone, wavy, and stack.
+- Redesign Preference category: https://imgur.com/1QiRaVA
+- More Ui optimizations
+- Perfomance improvements
+- Add option to theme settings dashboard icons
+- Add option for 120 hz rate setting
+- Add cosmos qs style
+- Add NeonLike qs style
+- Add OOS qs style
+- Add Triangles qs style
+- Add Squircle qs style
+- Add Teardrop qs style
 
 :-Device Changelogs:
 
-- Remove Advanced Control
-- Added XiaomiParts 
-- Enable Zygote Preforking
-- Fix Parallax Hub gitCrash for other Kernel
-- Add Audio High Performance mode toggle 
-- Add Spectrum Support speacial thanks to my dear friend @smokey_18
-- Add MSM Thermal Control ( XiaomiParts ) special thanks to my dear friend @smokey_18
-- Add GPU Boost Controler ( XiaomiParts ) special thanks to my dear friend @smokey_18
-- Add CPU Boost profile ( XiaomiParts ) special thanks to my dear frined @smokey_18
-- Enable MultiUser UI
-- Update left-over CarrierConfig overlays from Tissot
-- Update some props
+- Add support for 32/48KHz voip
+- Add path hph-lowpower-mode
+- Increase in-call earpiece volume
+- Move/Add rild properties to system.prop 
+- Update Graphics & Camera firmware from Daisy 
+- Enable AOSP low_latency in audio output config
+- Add missing net_raw to pm-service
+- Enable ro.telephony.use_old_mnc_mcc_format
+- Remove qti_libpermissions.xml
+- Drop QMI libqmi_cci_system blobs
+- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE
+- Add audiosphere effect support
+- sepolicy: address per_mgr denial 
+- Fix a wcnss_service denial
+- Fix VoLTE in SIM Slot 2
+- XiaomiParts: Add Audio High Performance mode toggle
+- XiaomiParts: Add MSM Thermal Control
+- Remove via Browser
+- Pin critical system apps that always need to be responsive, no
+mattter what
+- Update blobs from LA.UM.8.6.r1-04400-89xx.0 
+- Update GPS configs from LA.UM.8.6.r1-04400-89xx.0
+- Update RIL permissions from LA.UM.8.6.r1-04400-89xx.0
+- Add Audiosphere blobs from LA.UM.8.6.r1-04400-89xx.0
+- Remove Zygote preforking prop
+- Buttons cust added back
+- Fix Nav bar (now no need to search)
+- Fix wrong charging value on lockscreen 
+- Fix reboot on USB tethering 
+- Fix lag in Developer Options
+-
