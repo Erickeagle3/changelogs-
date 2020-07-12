@@ -1,4 +1,4 @@
-:-Source Chane logs:
+:-Source Changelogs:
 
 - Fix some Systemui crashes while setting accent and gradient color
 - Notification ui lag for some devices
