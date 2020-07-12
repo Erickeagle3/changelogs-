@@ -49,4 +49,10 @@ mattter what
 - Fix wrong charging value on lockscreen 
 - Fix reboot on USB tethering 
 - Fix lag in Developer Options
--
+- Removed Default Navbar after boot
+
+Notes :-
+
+- Clean flash recommend don't spam if you did dirty flash (dirty flash strictly prohibited for this update  )
+  and please dont flash Bliss over PE/Havoc please
+- maybe you will face a bug with qs tiles in landscape mode (there is a fix change default settings for landscape qs tile row) (ss for help https://ibb.co/NTPd8T3 )
