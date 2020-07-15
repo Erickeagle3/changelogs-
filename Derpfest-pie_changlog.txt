@@ -1,10 +1,3 @@
-- June SP
-- Remove Gcam go 
-- Added snap cam 
-- Update Advanced Control 
-- AF state in UrgentMetadata 
-- Update GPS hal 
-- Update msm_irqbalance from sailfish PQ2A.190205.003
-- Enable USB Debugging on boot
-- Update CarrierConfig overlay from LA.UM.8.6.r1-02900-89xx.0 
-
+- july SP
+- Removed Via Browser
+- Added Firefox lite
