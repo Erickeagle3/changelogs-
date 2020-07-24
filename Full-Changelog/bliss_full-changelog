@@ -1,0 +1,444 @@
+====================
+     07-24-2020
+====================
+
+
+ * frameworks/base
+cd5e72d967f Revert "Revert "SystemUI: Fix persistent Settings icon mess""
+
+====================
+     07-23-2020
+====================
+
+
+ * frameworks/base
+9a6131cba02 Fix color mismatch of pointers
+a8b359a3a6e Automatic translation import
+99808a2dca7 SystemUI: add tuner switch to hide keyguard assistant handles
+3cac0514b34 Fix custom lockscreen shortcut icons being white
+432eb1ea73a Lockscreen bottom shortcuts fixes
+1e21541fe63 base: tuner: add a hide config to left and right shortcut
+a084a140812 Revert "SystemUI: Bring back lockscreen tuner (1/2)"
+ea110b0ccda base: wake from aod on unplug if we show on charging only
+ecf81fe91d1 FODCircleView: let's smoothly fade-out the view, before going to View.GONE
+8cd06a59933 FODCircleView: handle more visibility cases
+68c9c9ed66c SystemUI: use path specification for rounded corners
+408d85a1c23 Screenstabilization: Catch DeadObjectException
+69c015b4924 NetworkTraffic: Adjust spacing
+aa9eba65f03 FODCircleView: Reset view offset to (0,0) on BurnInTimer.cancel()
+75629371ba8 Refactor SoundEffectsHelper for asynchronous loading
+839f32bd7ce AudioService: factor out sound effects handling
+b43a9b9f8a9 Lockscreen timeout: Make timeout configurable
+dba4629f0f5 StatubarIconList: Fix Network traffic visibility on overlayChange()
+76a8b014f83 SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod
+31a1b17df01 Revert "SystemUI: use DOUBLE_TAP_TO_WAKE setting also for wake from aod"
+
+ * frameworks/opt/telephony
+a3012ed84 Telephony: Add option for using regular poll state for airplane mode
+
+ * packages/apps/Blissify
+b70e9a0 Automatic translation import
+133b8d0 Blissify: reset navbar layout to default when gestural mode is enabled
+e15558f Blissify: hide stock navbar settings if gestural mode is enabled
+
+ * packages/apps/Contacts
+e5df8337a Automatic translation import
+
+ * packages/apps/Launcher3
+e7c1bc2e5 update wallpaper picker package
+e460e9672 Launcher3: use bliss icon for welcome msg
+50c01d751 Rebrand to Blissify Launcher
+6c99563cf Launcher3: fix imports
+5a12a5fd7 Revert "Launcher3: Use AICP icon in random messages"
+d9380e173 Revert "quickstep: replace stock empty recents drawable with ours"
+55dc039e8 Revert "Launcher3: quickstep: animate AICP again"
+
+ * packages/apps/Settings
+48bc76ca7f Settings: Add About Phone Bliss lottie animation
+1eed09a2c6 Revert "Animated Bliss Logo in About phone"
+dddd6a5327 Automatic translation import
+
+ * vendor/bliss
+db94f3d8 Merge "bliss: Bump to Bliss v12.10 Release" into q10
+faad6ce6 bliss: Bump to Bliss v12.10 Release
+
+====================
+     07-22-2020
+====================
+
+
+ * frameworks/base
+0f96740f328 fixup! fixup! lockscreen: Add support for showing unlock screen directly
+d2104bffe6c Make USB-Debugging notification less important
+7f3f0447502 StatusBar: Add STATUS_BAR_CUSTOM_HEADER to TunerService
+a082bf704db base: Make transparent QS background user configurable
+34e5a2e91d4 SystemUI: Allow hiding Black Gradient behind QSPanel
+
+ * packages/apps/Blissify
+f2a2af6 Blissify: Allow hiding Black Gradient behind QSPanel
+7e2cadb Add tunables for navbar layout customization [2/2]
+6fcee3a Blissify: qs: reorder preferences
+2ec53df Blissify: unify statusbar options in one fragment
+
+ * packages/apps/Settings
+6e43dbfb41 Settings: Make lockscreen timeout configurable [2/2]
+
+====================
+     07-21-2020
+====================
+
+
+ * device/lineage/sepolicy
+849906f common: Remove no longer needed uncrypt rule
+
+ * device/qcom/sepolicy-legacy-um
+2f55f2f sepolicy: cnd: Fix wifi_prop neverallow for compatible props
+ec85061 sepolicy: cnd: Allow access to wifi_prop
+
+ * external/asus/stitchimage
+01774ce Automatic translation import
+088d359 Automatic translation import
+03df377 Automatic translation import
+
+ * external/pulse
+7401727 Pulse: Do not show when navbar is hidden
+
+ * frameworks/base
+baba97eade8 Merge changes from topic "fullscreen-apps" into q
+60eaec58bc8 fixup! QSTileImpl: code improvements to new tint style
+5aaf633f84d fixup! QSPanel: fix brightness slider logic
+137bc49a0f9 SystemUI: Don't re add brightness slider if its already present
+bd1c95736b1 BlissUtils: Introduce method to detect if gesture navbar is used
+0857a94850b base: notch-city: Do not apply immersive rules to 180 rotation
+ee09baed797 Revert "Extended audio panel - fixes for unlinked notifications"
+eb6556867f3 SystemUI: VolumePanel: Version 1.1
+b17678c9950 Cutout force full screen: Remove fullscreen checks
+ae76ee794d1 base: [1/2] Implement cutout force full screen
+
+ * lineage-sdk
+003172fd LineageSettingsService: prevent setting net.hostname to null
+
+ * packages/apps/Settings
+09a40d8307 Cutout force fullscreen: Disable fast scroller
+592775ac6b Settings: [2/2] Implement cutout force full screen
+8cddaa9ae3 fixup! BasebandVersionPreferenceController: Trim baseband if needed
+cc13330b28 Settings: Fix fallback summary for power_button_instantly_locks preference
+
+ * system/core
+1b4133d8d libcutils: change trace file error to verbose
+72048d6fa Boost init priority before main loop
+
+ * system/sepolicy
+72a90e4f Uncrypt: Allow uncrypt to write on ota_package_file.
+f7aec2e6 Export missing audio volume properties
+
+ * vendor/themes
+1de720d overlay: update Ethereal theme colors
+2be000b Overlay: Add Ethereal primary
+5016b99 GestureNav: Adjust size of the edge panel arrow
+
+====================
+     07-20-2020
+====================
+
+
+ * build/soong
+5c0e5acd Re-allow relative paths for modules
+
+ * frameworks/base
+e9bc7eab2cd Pulse: add automatic albumart color mode [2/3]
+a8c5e99cffb Allow to get theme accent color from context
+8179a48a103 Pulse navbar audio gfx visualizer for Android 10 [1/4]
+9d527fb5d0e QSHeader: Live data usage info
+9c0b08d0fda Partially Revert "QSHeaderDataUsage: hide usage if device is not connected to internet"
+89e7c78ea92 base: notch-city: Dejank immersive mode with QS panel
+ded7ff514b4 ScreenDecorations: Fix derp in calling updateCutoutMode
+9b23bc9d45e base: notch-city: Reduce QS header offset on immersive & hide modes [1/2]
+f210a0cc551 base: notch-city: Make it smarter with orientation [1/2]
+f840a746bd9 ScreenDecorations: Account notch-city for custom cutout
+dec781d7e8f ScreenDecorations: Simplify rounded size selection
+42e5004bef9 base: notch-city: Add 3 mode display cutout handler [1/3]
+947dfe75865 Add tunable to hide display cutout [1/2]
+eccf13c60c6 Revert "base: notch-city: Add 3 mode display cutout handler"
+917c2a35ab4 Add requiredSystemPropertyValue support in idmap2
+379320a34f2 Notification: Fix no icon shown for data limit notification
+0c4d4772326 core: ChooserActivity: fix android crash from null object
+b4e963c6857 Release SQLite page cache as much as it can
+9d581d5c800 SystemUI: Use regular global_actions_column layout for layout-sw600dp-land
+24bfe17a87f fw/b: Add support for per app network isolation
+
+ * manifest
+1fbb9eb manifest: track pulse
+
+ * packages/apps/Blissify
+43f1961 Accent presets: set summary and value properly
+9c2b287 Blissify: Pulse: Add automatic album art color mode [3/3]
+a4a96b4 Blissify: Pulse navbar audio gfx visualizer for Android 10 [3/4]
+43e2c4b notch-city: update 3 mode display cutout handler
+
+ * packages/apps/Launcher3
+8c29641ea Automatic AICP translation import
+2261bc122 Automatic AICP translation import
+
+ * vendor/bliss
+b4a0acd8 Merge changes from topic "notch-city" into q10
+db695151 vendor: notch-city: Reduce QS header offset on immersive & hide mode [2a/2]
+6009c82c vendor: notch-city: update 3 mode display cutout handler
+
+ * vendor/support
+c8ffa7a Customseekbar: add missing PreferenceDataStore calls
+
+ * vendor/themes
+867176e update Switch styles [2/4]
+
+====================
+     07-19-2020
+====================
+
+
+ * frameworks/base
+f70d055e7bb KeyguardIndication: fix fc for certain devices on lockscreen charging info
+1199b574635 SystemUI: Add OnePlus Minimalism clock
+fae80728746 SystemUI: Add OnePlus Analog Clock Style
+c80c3406c8e SystemUI: Add OnePlus Roman analog clock
+2c0d42399ed SystemUI: Add Oneplus Minimal analog clock
+198d3f62080 SystemUI: Add OnePlus Numbers clock
+d4450b025bc SystemUI: improve analog clock layouts
+bbc281a95db SystemUI: increase size of analog clocks
+89927307ab8 Update dark material colors
+ad87113a7ca StitchImageUtility: Remove screenshot sound setting
+8569210153f ScreenStabilizationTile: Fix velocity amplitude format
+05f83d59326 Add switch to select SBC HD by default [1/3]
+eb4aedbcb5f BT: Always update service object in BluetoothDevice Class
+ec8a717c2b6 Bluetooth: Avoid reentrant lock in getService method
+f42b1cb1197 Add missing strings for SBC Dual Channel
+c3e35c701d3 A2DP codec priority [1/3]
+9fc2a063311 Add CHANNEL_MODE_DUAL_CHANNEL constant
+e78802a260f Allow SBC as HD audio codec in Bluetooth device configuration
+5080af74924 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+eb93f7413d8 EdgeLighting: Fix ghost view after pulsing
+4cbdd23c576 fix padding between signal icons - battery - percentage
+ca4786b76fd QSTileHost: add reloadAllTiles() public function
+e361ec20477 QSTileImpl: code improvements to new tint style
+0f8f8f56bec Allow to invert the icon color for active quicksettings icons [1/2].
+30606bcecef QsTileStyle: adapt for gradient & our tinting options
+9aed9994f58 QS Tile : fix the issue of icons disappearing
+2d8580820f4 QSTileBaseView: Make QS Tile Disco a bit more random
+bd5d84e08af disco dingo the qs [1/2]
+0d518569dcf Random Qs Tint: tint active QS Tiles with random colors [1/2]
+dd1ac039544 ColorUtils: Allow overriding Random seeds
+96d5582ecef base: Disco mode!
+249bb079dd6 ColorUtils: Make random color generation consistent
+831b211bb1b SystemUI: Update icon for Heads up tile.
+
+ * manifest
+73fafb5 manifest: track more bt repos
+
+ * packages/apps/Bluetooth
+7df2bcec0 Add switch to select SBC HD by default [2/3]
+80ef67371 Disable Dual channel for SBC by default
+07602074c A2DP codec priority [2/3]
+95ae52d14 Assume optional codecs are supported if were supported previously
+cce172f5b SBC Dual Channel (SBC HD Audio) support
+bb7ebdb8b Check Null-safeness when switching optional-codecs state
+
+ * packages/apps/Settings
+71d1bda631 Settings: Add support for per app network isolation
+1726b2ac12 Add switch to select SBC HD by default [3a/3]
+62e42897b9 Add Dual Channel into Bluetooth Audio Channel Mode developer options menu
+59ad6f98ab A2DP codec priority [3a/3]
+
+ * system/bt
+c8d32b2d1 Allow using alternative (higher) SBC HD bitrates with a property
+f9cc2e98e Explicit SBC Dual Channel (SBC HD) support
+170b53bc4 Increase maximum Bluetooth SBC codec bitrate for SBC HD
+
+ * system/netd
+4d400bd5 system/netd: Add support for per app network isolation
+
+ * vendor/qcom/opensource/commonsys/bluetooth_ext
+c29c795 Fix compilation with SBC Dual Channel suport
+
+ * vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+f146a47bd Add switch to select SBC HD by default [2/3]
+6954c8661 Disable Dual channel for SBC by default
+6e45bb304 A2DP codec priority [2/3]
+ede0bd22a Assume optional codecs are supported if were supported previously
+68a2f26c9 SBC Dual Channel (SBC HD Audio) support
+b10b25b8c Check Null-safeness when switching optional-codecs state
+
+ * vendor/qcom/opensource/commonsys/system/bt
+1fb1872f1 Allow using alternative (higher) SBC HD bitrates with a property
+ffd594f96 Explicit SBC Dual Channel (SBC HD) support
+820c41196 Increase maximum Bluetooth SBC codec bitrate for SBC HD
+
+ * vendor/themes
+fd03065 Allow to invert the icon color for active quicksettings icons [2/2].
+
+====================
+     07-18-2020
+====================
+
+
+ * external/chromium-webview
+f05c347 Upgrade Chromium Webview to 84.0.4147.89
+
+ * packages/apps/Blissify
+177fc2a QsLabel: random accent tint
+9647976 disco dingo the qs [2/2]
+f4041f5 Random Qs Tint: tint active QS Tiles with random colors [2/2]
+
+ * packages/apps/Jelly
+00e8737 Jelly: Fix find in page functionality
+
+====================
+     07-17-2020
+====================
+
+
+ * packages/apps/Blissify
+a32c5d0 Blissify: increase default rows for landscape
+
+====================
+     07-16-2020
+====================
+
+
+ * build/make
+929f80319 core: Introduce build colors
+
+ * hardware/qcom-caf/sdm845/display
+95a2d7c71 gralloc: Add option for unaligned YCrCb/YCbCr pixel format height
+
+====================
+     07-15-2020
+====================
+
+
+ * packages/apps/Dialer
+2d2deedea Dialer: Use a DayNight launch theme
+
+ * packages/apps/Launcher3
+e05aa810b Allow recents rotation again
+
+ * packages/apps/Messaging
+5954fed Messaging: Use a DayNight launch theme
+
+ * vendor/bliss
+b0f59ace bliss: update GMS updater component disable list
+f3ecc0c0 Remove deprecated backup overlay
+1004bfd4 tasks: Do not include entire build path in MD5 file
+
+====================
+     07-14-2020
+====================
+
+
+====================
+     07-13-2020
+====================
+
+
+ * external/pulse
+5fad6be Pulse: Add automatic album art color mode [2/3]
+
+ * packages/apps/Launcher3
+558d796f4 2 button / swipe navigation: fix for config_navBarCanMove = false
+
+====================
+     07-12-2020
+====================
+
+
+ * frameworks/base
+faef1679ca1 QSHeaderDataUsage: fix npe for wifi only devices
+bf1be26f318 Merge changes from topic "freeform-buttons" into q
+75dfb5c7840 Update back button graphics
+055965192c2 Add back button for freeform window
+bf8164f2433 Settings dashboard icons: Fix theme for external icons on 10 [1/2]
+089c3a34143 base: Use only 18px size icon for notification count
+bc3f997299f Show infinity for large notification counts
+436b751c821 SystemUI: Forward-port notification counters [1/2]
+b4acaf41bf8 Set Assistant UID of the current user.
+5effc585acf Calm down attention service logspam
+99afda61a59 NetworkTraffic: Ensure icon visibility after overflow occurs
+583485460ce NetworkTraffic: Better workaround for RequestLayout() spam
+515de39aeb4 Zygote: enable zygote preforking (USAP pool) by default
+3952c4902b0 Adds Zygote policy flags to control how applications are launched
+93c0a39ac16 Start process of next activity with top priority in advance
+7ee751b3982 Teaches the ProcessCpuTracker about USAPs.
+d48b2663b3d Fixed an issue Zygote initialization.
+8fad54dc559 Improved timekeeping logic for USAP Pool refill mechanism.
+1cb157f7573 Resets the refill action/timing info after a pool fill event.
+88f8f30f8e4 Make the USAP Pool refill delay configurable.
+eac7dc4ccec Re-adds a trace point that was accidentally removed.
+ebe71e05958 Moved some thread priority changes.
+85f40f98745 Adjust Java Language thread priority in new processes.
+0582a5f4ace Adjusts the USAP pool refill mechanism.
+bf11bb5b0d8 Change USAP name to application name as soon as possible.
+1af990ef9e8 NetworkTraffic: Switch back to old drawable
+fc2abf44125 base: overlays: Add new icon shapes from Android R
+64f18f837ab Permissions: Stop auto-granting location to system browsers
+16727905026 SystemUI: Add VoLTE/VoWiFi icons from OOS 10
+
+ * packages/apps/Settings
+ecc6350710 Settings dashboard icons: Fix theme for external icons on 10 [2/2]
+
+====================
+     07-11-2020
+====================
+
+
+ * frameworks/base
+6f6bbc9b2b8 Fix typos related to sortSelectionIndices
+cece77aaa08 Fix app crash if the selection is from reverse direction.
+d3d8c2421ea SystemUI: Call setOnlyAlertOnce(true) for PowerShare notification
+191f17c580b BLE: Fix NPE during start advertising
+
+ * manifest
+99a25b9 manifest: Track opt/net/wifi from BlissRoms
+
+ * packages/apps/BlissUpdater
+0f2ddcf BlissUpdater: Display Bliss Version single line
+
+ * packages/apps/Blissify
+077bbd0 Add a switch for notification counters [2/2]
+
+ * vendor/qcom/opensource/commonsys/packages/apps/Bluetooth
+2ca8b3cbd Clean up duplicate uses-permission entries
+
+====================
+     07-10-2020
+====================
+
+
+ * manifest
+f45b515 manifest: Sync sm8250 HALs from LOS
+
+ * packages/apps/BlissUpdater
+ff465d4 Updater: Theme actionbar text too
+2437f08 Updater: Use accent for actionbar items
+aedff1b Updater: Expose the lower background color
+a81e3c8 BlissUpdater: Blissified Adaptive Icons
+36ecd71 BlissUpdater: Always show preferences
+63f9480 Updater: Remove padding from button
+8918ffb Fix layout for Changelog button
+4b73d99 UpdatesActivity: Append device name to the header text
+838d2a6 UpdaterService: set installed notification to ongoing
+1b9738e BlissUpdater: Set changelog text with caps
+3b1074d BlissUpdater: Prioritize A/B updates by default
+48e2d0f BlissUpdater: Remove unused method
+18d0152 Updater: Introduce option to choose sourceforge mirrors
+c0c12f0 BlissUpdater: Remove download speed on UpdatesListAdapter
+e0599cf BlissUpdater: Correct cleanup notification action
+2b5abee BlissUpdater: Add little delay before sending broadcast
+fb5fcc7 BlissUpdater: Add network speed into some parts
+cfa1a09 BlissUpdater: Refresh list when update get deleted
+f6f6e9d BlissUpdater: Remove URL Link in Update Blocked dialog box
+6c79948 BlissUpdater: Add changelog dialog
+688f8f4 BlissUpdater!
+35ba82c BlissUpdater: Disable Bliss Version Checks
+29b61d0 BlissUpdater: Update buildtype and Version props
+6b031b7 Updater: Refactor for BlissRoms
+f939306 BlissUpdater: Update Gradle Deps
+
