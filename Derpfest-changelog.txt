@@ -1,63 +1,38 @@
 :-Source Changelogs:
 
-- Merged July security patch (r40)
-- Reworked expanded volume dialog (fixes many bugs with it)
-- Lowered fullscreen gesture trigger area
-- Fixed fullscreen pill showing on landscape for some back heights
-- Fixed a FC for new FOD implementation (irrelevant for this device)
-- Fixed screen stabilization QS tile
-- Added StatusBar notification counters
-- Added USB tethering QS tile
-- Added log QS tile
-- Added EvolveSans & Linotte system fonts
-- Added MatLog QS tile
-- dded Bootlegger's AOSP screen recorder (& improved UI)
-- Removed Omni & OOS Screen recorders
-- Removed internal recording restrictions for 3rd party apps
-- Removed useless / non working system fonts
-- Updated GApps
-- Randomize DerpQuest summary with funny strings
-- Reworked blink flashlight on call, again. This time I'm done, Promise 
-- Fixed reboot for APEX update
-- Added derp blue theme
-- Added FOD extensions support (irrelevent for this device)
-- Added arrow keys on navbar while typing
-- Added StatusBar VoWiFi icon (& a switch)
-- Update & Apply custom carrier label position correctly
-- Fixed inactive WiFi icon in some icon packs
-- Fixed the double navbar switch issues (for hw buttons devices)
-- Minor fix for the new OpenDelta UI
-- Disable "R style" notification headers by default
-- Wake on charge regardless of AoD settings
+- Merged August security patch (r41)
+- Fixed the no default dialer issue
+- Added navbar pulse
+- Made master switches summaries dynamic (in DerpQuest)
+- Added yet more settings to backup array
+- Added an easter egg
+- Added media HeadsUp
+- Made sound QS tile toggle to silent instead of DND
+- Added back RGB accent picker (works fine with 3rd parties now)
+- Added back RGB accent presets
+- Removed the color step from ThemePicker
+- Removed color overlays
+- Removed lockscreen / ambient wake gesture switch (was not working properly)
+- Allowed setting QS clock size separately
+- Refactored fonts & sizes implementation (reduced 2600~ lines of bad, bad code to 260~)
+  you can actually feel the difference in QS, SB and especially LS
+- Some statusbar padding and style fixes
+- A lot of other bug / code fixes all around
 - Updates to translations
-- Some more minor derps/bugs fixes
-
+- Improve custom settings observer
+- Allow camera to use power key as shutter
+- Improve PowerMenu backround filter
 
 :-Device Changelogs:
 
-- Add support for 32/48KHz voip
-- Add path hph-lowpower-mode
-- Increase in-call earpiece volume
-- Move/Add rild properties to system.prop 
-- Update Graphics & Camera firmware from Daisy 
-- Enable AOSP low_latency in audio output config
-- Add missing net_raw to pm-service
-- Enable ro.telephony.use_old_mnc_mcc_format
-- Remove qti_libpermissions.xml
-- Drop QMI libqmi_cci_system blobs
-- Add voip_tx profile to policy conf
-- Drop AUDIO_FEATURE_ENABLED_AUDIOSPHERE
-- Add audiosphere effect support
-- sepolicy: address per_mgr denial 
-- Fix a wcnss_service denial
-- Fix VoLTE in SIM Slot 2
-- XiaomiParts: Add Audio High Performance mode toggle
-- XiaomiParts: Add MSM Thermal Control
-- Remove via Browser
-- Pin critical system apps that always need to be responsive, no
-mattter what
-- Update blobs from LA.UM.8.6.r1-04400-89xx.0 
-- Update GPS configs from LA.UM.8.6.r1-04400-89xx.0
-- Update RIL permissions from LA.UM.8.6.r1-04400-89xx.0
-- Add Audiosphere blobs from LA.UM.8.6.r1-04400-89xx.0
-- Remove Zygote preforking prop
+- Add Dolby Audio
+- Remove KPI marker at ADSP start 
+- Remove left-over c2 codecs reference 
+- Update qcom-sh service user permission
+- Disable BSS flush 
+- Enable IWLAN overlays 
+- Allow all apps to use smart replies
+- Fixed Random reboot issue 
+- Added mat log again 
+- Fix Spectrum toogle force stop
+- Added Auto call recording support ( only for vanilla )
