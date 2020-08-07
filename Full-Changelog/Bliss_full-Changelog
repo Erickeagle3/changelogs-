@@ -1,0 +1,494 @@
+====================
+     08-07-2020
+====================
+
+
+====================
+     08-06-2020
+====================
+
+
+ * packages/apps/Blissify
+040da21 Blissify: hide pixel navigation animation on gestural mode
+b72723f Blissify: update volte icon strings
+
+ * vendor/themes
+21b60e4 Revert "themes: enable media picker for ringtones"
+
+====================
+     08-05-2020
+====================
+
+
+ * build/make
+f2a8abb36 Merge tag 'android-10.0.0_r41' into q
+
+ * frameworks/av
+e18a16e81 Merge tag 'android-10.0.0_r41' into q
+
+ * frameworks/base
+c4e5efdc41f Pixel navbar toggle [1/2]
+241b5f30ec9 QuickStep in Q needs setShelfHeight, remove the permissions check
+99cf406a0db Merge tag 'android-10.0.0_r41' into q
+
+ * manifest
+6bf3d21 Merge tag 'android-10.0.0_r41' into q
+
+ * packages/apps/Blissify
+57e01c5 Pixel Navbar animation toggle [2/2]
+0b81c69 GVM chooser adjustment [2/2]
+
+ * packages/apps/Settings
+72d3f360c9 Merge tag 'android-10.0.0_r41' into q
+
+ * packages/services/Telephony
+e7f8ad1a2 Merge tag 'android-10.0.0_r41' into q
+
+ * vendor/themes
+977aa19 Add GVM-URM-S overlay
+
+====================
+     08-04-2020
+====================
+
+
+ * device/lineage/sepolicy
+a3d4882 sepolicy: Add back rgb rules
+
+ * manifest
+458a841 Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001)
+
+ * vendor/themes
+20f254c Edit some overlay gvm
+1f42a42 vendor: GVM chooser adjustment [1/2]
+6dfb7e3 squash: Fix color
+bafdd3b vendor: Merge GVM (URMM, URMVL, PGIOS) [2/2]
+
+====================
+     08-03-2020
+====================
+
+
+ * frameworks/base
+a27460c544c Automatic translation import
+
+ * packages/apps/Settings
+bba5f54b95 Settings: categorise battery settings
+
+ * vendor/themes
+6aa2ee2 partially revert "update Switch styles [2/4]"
+
+====================
+     08-02-2020
+====================
+
+
+ * packages/apps/Blissify
+589a65a Blissify: update clock preferences as per clock style
+dfa601c Blissify: move clock options to a new screen
+
+====================
+     08-01-2020
+====================
+
+
+ * frameworks/base
+eaf0625cb77 globalactions: Disable emergency menu by default
+b7509520486 Qstile Styles : fix some inconsistencies
+044e323f231 Add isFaceAuthEnabledForUser checks in KeyguardLiftController
+6b2d4ffb966 Add synchronization for invokeForAllObservers call
+b599ee2c2cd Return null on failed insert due to permissions
+755d8c80599 Fixes crash/race condition when destroyActivity
+212c8b147c9 base: Remove keyguard delay completely
+c7856538233 API changes due to importing RI BigInteger
+8de97f5638e Send top-app's render thread tid to perf HAL
+a969b08d091 Remove unused / unimplemented CorePlatformAPI methods.
+85412db8194 Remove references to Dalvik logger.
+a946765cc5e trigger file removal when slice permission is removed
+1750e5fb0be Throw XmlParserException when client tag cannot be found when parsing slice permissions.
+224cf2a159a [viewcompiler] Switch to slicer DEX opcode definitions
+f12108361a8 PackageInstallerSession: Minor refactorings and cleanups
+5e87a0a6ab8 Simplifying callback calls in PackageInstallerSession
+fa6f64d6ad6 Fix PackageWatchdog::syncRequestsAsync and related code
+82bc3afcd61 framework/base: add parallel verifyV1
+e15a227be50 Perf: Boost UI thread during app launching
+ad9d5fa31d7 framework: add boost for package installation
+b15cc9788ed BoostFramework: New hintType for App Starting from BG.
+6d45ecf239e remove obsoleted cgroup follow option
+4d7546b5086 perf: Load performance lib from Zygote
+7cab226a28f perf: enable gesture fling boost by default
+d27b9209c74 [SQUASH] BoostFramework: To Enhance performance.
+ef63ee75ed3 Revert "Base: AM: create config to set Max Cached Processes"
+47b19963018 Add USSD codes over IMS feature
+4e008f87454 Telephony: IMS: Cache subscriber associated uri
+f36d674ad00 SystemUI: Fix SystemUI failed to go to doze issue
+803beae462c Use same NFC icon as that in QS tile
+
+ * manifest
+f404e68 manifest: track backgrounds and exactcalulator from los
+
+ * packages/apps/Launcher3
+9214f43c8 Gestures: restart on double tap pref
+
+ * packages/apps/Settings
+dccb88764d Settings: set maintainer string as non-translatable
+
+ * packages/services/OmniJaws
+c8160fe OmniJaws: Add privapp permissions xml
+b2b1821 OmniJaws: Update owm weather icons' sunset/sunrise dependency
+d26e896 OmniJaws: Use openweather api for sunset/sunrise and change weather icons accordingly
+
+ * vendor/bliss
+9cd0e448 bliss: add email and exactcalculator for non-gapps builds
+83ff14fc vendor: cleanup berry style packages
+
+ * vendor/themes
+4b89458 themes: Show all main tiles by default
+baed70f themes: enable media picker for ringtones
+bd0b910 themes: set eleven as default music player
+98fc785 themes: set bliss dialer as default instead of google
+
+====================
+     07-31-2020
+====================
+
+
+ * hardware/lineage/livedisplay
+ce63fc9 livedisplay: sysfs: Add generic implementation for simple sysfs modes
+b8ca32c livedisplay: sysfs: Modularize all components
+22462db livedisplay: sysfs: Refine interface registration
+8a01e72 livedisplay: sysfs: Miscellaneous clean-ups
+d0580f3 livedisplay: sysfs: Use POSIX api to check file access
+b1a97e0 livedisplay: sysfs: Move string literals to anonymous namespace
+8888a4b livedisplay: sysfs: Follow naming rules of Google C++ Style Guide
+44e1a1f livedisplay: sdm: Modularize all components
+5e27e56 livedisplay: sdm: Fix a mismatched data type
+4afd662 livedisplay: sdm: Miscellaneous clean-ups
+5c154dc livedisplay: sdm: Improve SendDppsCommand
+bb5ff4a livedisplay: sdm: Move constants and helpers to anonymous namespace
+b8a246a livedisplay: sdm: Move SDM feature version check to utils
+39b8735 livedisplay: sdm: Convert Utils class to namespace
+07e4ea4 livedisplay: sdm: Use default member initializers
+143150e livedisplay: sdm: Follow naming rules of Google C++ Style Guide
+9d5a9c9 livedisplay: sdm: Implement a sane callback to update default PA
+a15a1f3 livedisplay: sdm: Restart when any QDCM backend not ready
+7468c41 livedisplay: sdm: Use RAII semantics where possible
+
+ * packages/apps/Launcher3
+325d8fc27 Launcher3: show Date instead of Now Playing
+9aa6eb45c Launcher3: Let's set spacing
+6bf4ef13d Launcher3: Add READ_FRAME_BUFFER permission
+44445dc5d Launcher3: Add needed priv app permissions
+2ad11f6ba Launcher3: Allow At a glance to be full uppercase
+f7e0a8e90 Launcher3: Let's change at a glance fonts
+a71fd912e Launcher3: bring back more double-tap actions
+52aa10220 Gestures: Add more actions to double-tap
+7823526cd Add Google search double tap option
+f86bf0b71 Launcher3: add gesture options
+511bcc724 Reimplement save scroll position feature
+e77cfe11f Add option to save scroll position in drawer
+d302423d5 Launcher3: check need for restart on resume
+7966b4e8a update wallpaper picker package
+d049464e0 Specify the component name to start the picker
+8b588f04b Specify the wallpaper picker package
+4585f235e Properly expose GridOptionsProvider
+723b5c3f4 Revert "Add developer options for grid change for Styles"
+7f500a19b Launcher3: Add more dates
+62be9b3ec add option to change date format for QuickSpace
+b1bae541e Revert "config: enable LAUNCHER3_PROMISE_APPS_IN_ALL_APPS"
+4f077370a Fixup uninstall shortcut factory
+9e53c3cf7 Launcher3: switch to PackageManagerHelper for Uninstall
+fe10ba153 Launcher3: Fix up widget theming
+07445ed2d Launcher3: appinfo_bottom_sheet: Tint Headline text with accent color.
+6755d73f9 Launcher3: Fix font family for App Info sheet
+bbc4d7a83 Launcher3: Do not attempt to show promise icon when info is null
+6ce427448 Launcher3: Fix IntentFilter leak in QuickEventsController
+ac9b0e12c Launcher3: Add MANAGE_ACTIVITY_STACKS permission
+f7b118bd5 Utilities: Use MODEL_EXECUTOR for needs restart code
+5064759ad Launcher3: Follow system color for dark style
+ed08f55da Launcher3: Add missing permission PACKAGE_USAGE_STATS
+c79e90505 Launcher3: Add permission to allow updating database
+b1dd720d9 Launcher3: disable promisse apps
+208c87c3a Launcher3: Use system fonts
+f5f05fd72 Launcher3: Follow system color for dark style
+ed234ab06 Add double tap to sleep gesture
+502e9a918 QSB: request round search bar
+3bb97e0f0 proguard: Also keep FixedScaleDrawable
+751bf1768 Launcher3: use bliss icon for welcome msg
+05be9e60f Rebrand to Blissify Launcher
+f55a130fc Launcher3: Add extra privapp permissions xml
+208b16594 Quickspace: Use system font
+1f9d8d96a Quickspace: Let's add a marquee
+7a5731744 Quickspace: Add contextual messages/greetings event
+26b336626 Quickspace: Enable Now Playing by default
+ad379705c Quickspace: Toggle the Now Playing status
+ee93426e1 Launcher3: The return of the Now Playing
+575ba34e8 Launcher3: Add alternate Quickspace layout
+e0ad59a42 Quickspace: refresh the views more frequently
+02cddc216 Launcher3: Let's bring back device introduction action
+6af219afe Launcher: Call mStateManager directly
+0743f8c9b SystemShortcut: Add uninstall option
+e800655d6 Launcher3: Allow to set a default icon pack
+6f2678746 quickstep: Always show all apps divider in prediciton view
+161a77b42 Add Quick events support in Quickspace
+0afcc2a24 Launcher3: Introduce Quickspace [squashed]
+10daa4697 Launcher3: Improve work banner layout at the bottom of the app drawer
+b472ec1c2 Launcher3: Change padding in work tab footer
+1a1c19c2c Launcher3: Do not check fast scroll movement to fix unresponsiveness
+679078edb AospLauncher: Clear all icon overrides when changing global icon pack
+5a4133444 AospLauncher: Bypass adaptive icon wrapping with icon pack icons
+4e99ed03c IconLoader: Add config hint to bypass adaptive icon wrapping
+15de0e1da Launcher3: Add Icon Pack Support from Shade Launcher
+3b992767b AospLauncher: Add AppInfo Bottom Sheet from Shade Launcher
+4c913fe78 Launcher3: Consider extra header content as visible elements
+d9cc75e4f Increase all apps top padding to avoid visual glitch in recents
+e0018cb9d Launcher3: enable grid control provider
+1c38556ff Launcher3: add a 6x6 grid device profile while we are here
+6253af166 Launcher3: correctly apply grid changes from grid control provider
+6118615cc Launcher3: remove extra space for hotseat
+512611522 Launcher3: allow to swipe down on recents view to clear all
+d7e2ad5a3 Launcher3: Use system fonts
+434070314 Launcher3: delet the shade
+0b05544f5 Launcher3: Fix back button on settings
+6d4a5c7ae Launcher3: Make shadespace toggleable
+2383d18a6 Replace Smartspace widget host view with Shade Space
+98acefd60 Launcher3: Extend notification listener with proxy
+bb9d91f17 Launcher3: Disable top/hotseat gradient
+cd6c23235 Use Google's strings for Google now panel
+64e9848d0 Launcher3: new icon for kill app option
+a819dbc3d New Recents: add kill action to app shortcuts popup
+bcbcd862e Launcher3: Rely on the internal theming isMainColorDark for dark gfeed
+ab18ac357 Decompiled feed lib with dark theme support
+d181986d8 Launcher3: Add updated Google Feed lib from Pixel 3 launcher
+eebd5af2c Launcher3: Allow swipe for google now to be optional
+b1719c45d Launcher3: Animate workspace when animating the Google now page
+d08a710ac Launcher3: Make sure service is connected before trying to unbind
+f2f885a21 Launcher3: Support google now tab
+ac63742c8 Launcher3: Import reversed google now lib
+38e027e51 Launcher3: Add permission to allow updating database
+a99e28c1d Elevate to 'core/platform' app'
+b0dd3cc58 Skip unneded package manager calls when checking QSB availability
+52d595ae3 Set a toggle to show Search bar on first screen
+8a5f71c9e Launcher3: Add restart action for toggling settings
+8022b27af Rearrange settings
+5b3b88fb9 Launcher3: Fix launcher preview rendering
+50bae392f Fix divide by zero
+112fa4247 Can't search out local app by Chinese
+af9ceeedb Fix pointer index out of range
+70b748410 Allow resizing any widget
+4c4f5d5c3 Add back button to Settings
+2f5ca9d4e Enable LAUNCHER3_PROMISE_APPS_IN_ALL_APPS
+f358b4ea6 Stability NullPointer issue
+947b60db3 No Calendarwidget 4x4 widget displayed
+16a87172e Launcher3: use common style for recents task menu divider
+
+ * packages/apps/LineageParts
+c0f36dc LineageParts: Privacy: Add icon for Trust Category
+
+ * packages/apps/Settings
+8a87653331 Settings: add icons for privacy settings
+c3f3c175c3 Settings: Add new face settings video
+fb51eaa89d Settings: Improve disabling icon space reserved for preferences
+589ca84e29 Settings: update some lottie animations
+
+ * vendor/themes
+cbab649 themes: add bool to use accent color for qs themes [2/2]
+fe65177 themes: QsTile: cleanup unnecessary color n config files
+c08088f Don't allow gms access to DeviceConfig table
+
+====================
+     07-30-2020
+====================
+
+
+ * device/qcom/sepolicy-legacy-um
+b7f6c3b sepolicy: Unlabel vendor_wifi_version
+
+ * frameworks/base
+b5caab6da4c NetworkTraffic: Do not call updateViews() for screen off
+
+ * packages/apps/Launcher3
+366c06da0 Fix search bar incorrectly positioned after swiping up to home
+40c1ff8b9 Launcher3: Let's make the search bar on all apps round
+
+ * packages/services/OmniJaws
+50d93e8 Revert "OmniJaws: Use openweather api for sunset/sunrise and change weather icons accordingly"
+
+ * vendor/bliss
+40e6bebd vendor: move omnijaws permissions to its repo
+
+====================
+     07-29-2020
+====================
+
+
+ * art
+6380b2b423 ARM: Optimize Div/Rem by positive const for non-negative dividends
+fc53c73ac8 ARM: Optimize Div/Rem by 2^n for non-negative dividends
+
+ * device/lineage/sepolicy
+d7f013a sepolicy: Add wifi ext sepolicy rules
+
+ * device/qcom/sepolicy
+743bfbe0 sepolicy: Include wifi-ext sepol
+
+ * device/qcom/sepolicy-legacy-um
+8bebb7f sepolicy: Include wifi-ext sepol
+
+ * external/libjpeg-turbo
+69bedfe libjpeg-turbo: add config to disable merged upsample
+
+ * external/skia
+babd9418c2 external/skia: Take Fast Jpeg Decoding Path
+
+ * frameworks/base
+cbf90437726 Optimize AbsListView to reduce click operation latency
+4c5cef58c36 avoid duplicate doFrame calls.
+e0ad1f9d663 make ui touch optimization work normally.
+1904bfe759a add VSYNC scheduled flag and avoid two doFrame calls in one period
+99fec9cf8be core: touch response optimizations
+
+ * frameworks/native
+7b0945d23 touch response optimizations
+
+ * lineage-sdk
+9a505876 lineage-sdk: Add device key action for partial screenshot [3/3]
+
+ * packages/apps/Blissify
+8d2619f Add MaterialOcean System Theme [3/3]
+a22ee38 themes: bring back the Xtended Clear theme [3/3]
+acf82b2 Add DarkGrey System Theme [3/3]
+00c2d46 Themes: Add PitchBlack Theme [3/3]
+34994d7 Blissify: System Themes [2/2]
+
+ * packages/apps/LineageParts
+65fd18e LineageParts: disable icon space reserved
+bf072df LineageParts: Redesign PreferenceCategory
+
+ * packages/apps/Settings
+9eaa393806 BatteryHealth: Make it optional
+5d64dadebb BatteryHealth: show Charge Cycles Completed
+5ace30ff9b BatteryHealth: make resources overlayable
+7dcdc767e2 Settings: Add BatteryHealth section
+8939d3c1f7 Revert "Settings: Tweak some search dimens"
+
+ * vendor/bliss
+b411997a vendor: Define isStatic argument on setupwizard overlay
+aee9175f vendor: Refactor setup wizard overlays
+77a63330 vendor: Enable and refactor SetupWizardOverlay
+e1187643 Revert "vendor: Remove SettingsIntelligence"
+2b001917 vendor: config: Include vendor/google/customization
+f030b277 vendor: Import PixelConfigOverlay* GoogleConfigOverlay GoogleWebV…
+
+====================
+     07-28-2020
+====================
+
+
+====================
+     07-27-2020
+====================
+
+
+ * frameworks/base
+ab97b6eb6a5 base: Add Linotte font [1/2]
+151b52fd9e9 Add MaterialOcean System Theme [2/3]
+
+ * manifest
+f9020c9 manifest: track system/apex and vendor google_customisation
+
+ * system/apex
+68700fd Disable the build of com.android.apex.cts.shim.v1_prebuilt
+
+ * vendor/themes
+3e51cbe themes: remove duplicate dimen overlay
+0a01f74 themes: move in overlays from vendor/bliss
+ee67759 themes: Round system dialogs, buttons and progress bars
+6f9474f themes: Use round icons
+a6dda3c themes: Show swipe up gesture option
+9ffa4e0 themes: Enable smart battery
+57c41cb themes: Disable all caps text on buttons
+27a9fdf themes: Import PixelConfigOverlay* GoogleConfigOverlay GoogleWebViewOverlay for full GMS support
+5289275 themes: set Google Sans as default font.
+7870d6b themes: Don't enable aware lock/skip gestures
+5dee368 themes: Distinguish HSPA data icon from UMTS data icon, vibrate on icon animation
+f20857a Correctly remove carrier related overlays
+44caac1 themes: Import Telephony/Telecomm/SettingsProvider/SystemUI overlays
+6b0cc0e themes: Add missing Settings overlay for Wallpapers and styles
+76d081a themes: Import settings overlays from SettingsGoogle
+a6c32a2 themes: Import settings bools
+cd11463 themes: Import settings overlay
+
+====================
+     07-26-2020
+====================
+
+
+ * frameworks/base
+df1b35fc1cf base: Add partial screenshot device key action [1/3]
+6115ede80cd themes: bring back Clear theme [2/3]
+ac37b38e481 Add DarkGrey System Theme [2/3]
+aac00f53d19 Themes: Add PitchBlack Theme [1/3]
+fa27405c7ee Themes: Add moar themes [1/3]
+2d30dcb97ae Themes: Add Default Stock theme
+c3d0c609adc base: System Themes [1/2]
+42c883de7a4 base: Show or Hide manual rotation button [1/2]
+8cde6fb828a base: clipboard toast toggle [1/2]
+10436a3d888 base: iOS-like toast notification for clipboard access
+b8682fcec20 Revert "ScreenDecorations: Account notch-city for custom cutout"
+
+ * packages/apps/Blissify
+774559b Themes: Add moar themes [3/3]
+ba1e99b Blissify: hide force show navbar preference in search
+cb01e29 Blissify: Show or Hide manual rotation button [2/2]
+609b9fa Add device key action for partial screenshot [2/3]
+
+ * vendor/bliss
+cf268ce0 vendor: move overlays to vendor/themes [1/2]
+
+ * vendor/themes
+2644af9 themes: Add Linotte font [2/2]
+35ea5f0 Add MaterialOcean System Theme [1/3]
+fce3bf1 themes: disable bliss clear primary overlay
+7f5a652 themes: Add default stock theme
+
+====================
+     07-25-2020
+====================
+
+
+ * frameworks/base
+af920b31dee NotificationPanelView: Fix initial touch co-ordinates
+
+ * packages/apps/BlurView
+f667213 BlurView: Fix Typo find: `packages/apps/BlurView/library/src/main/rs'
+d8ddae2 Increase downsampling
+02147ee BlurView: convert to Android.mk
+0250d12 fix build
+10b3f33 Increase default blur radius
+
+ * packages/apps/Settings
+e2972ce587 Settings: Clipboard toast toggle [2/2]
+
+ * vendor/themes
+55ba1a4 themes: bring back the Xtended Clear theme [1/3]
+7e07292 themes: add Settings exposures for new themes
+e3745b0 Add DarkGrey System Theme [1/3]
+e2f4166 Themes: Add PitchBlack Theme [2/3]
+6e169d6 Themes: Add moar themes [2/3]
+
+====================
+     07-24-2020
+====================
+
+
+ * manifest
+ab95b6a manifest: Remove external/google
+
+ * packages/apps/CarrierConfig
+0f4ac84 Fix voicemail for Bouygues Telecom France
+
+ * vendor/themes
+b7c5ff8 themes: increase padding between signal and battery area
+
+

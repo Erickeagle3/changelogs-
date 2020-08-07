@@ -1,13 +1,11 @@
 Device Changelog :-
 
-- Use opensource btconfigstore 
-- Aemove KPI marker at ADSP start
-- Remove more deprecated display flags 
-- Remove left-over c2 codecs reference
-- Update qcom-sh service user permission 
-- Disable BSS flush 
-- Enable Fast BSS Transition 
-- Increase maximum number of BSS in memory 
+- add Dolby 
+- Update FireFox lite
+- cts pass without root
+- Fix Bluetooth crash 
+- Enable QS System info
 - Enable IWLAN overlays 
-- Enable Auto Call Recording
-- Added overlays for QS System info
+- Add battery health overlay
+- Fix Auto call recording 
+- Fix Youtube Black screen
