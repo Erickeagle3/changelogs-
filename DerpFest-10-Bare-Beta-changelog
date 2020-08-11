@@ -1,0 +1,11 @@
+Device Changelog :- 
+
+- Enable default ringtone picker
+- Fix Bootreceiver crash on LOCKED_BOOT_COMPLETED
+- Add Dolby
+- Increase maximum number of BSS in memory 
+- Enable Fast BSS Transition 
+- Disable BSS flush 
+- Update qcom-sh service user permission 
+- Add power@2.0 and IOP to tampering blacklist
+- Add node tampering blacklist function 

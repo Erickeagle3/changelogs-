@@ -1,0 +1,81 @@
+====================
+     08-10-2020
+====================
+
+[vendor/google-customization]
+Revert "google-customization: Build with ModuleMetadataGooglePrebuilt for all devices" <8 hours ago> [5042da1]
+by: erickeagle3 (sayanchakraborty334@gmail.com)
+
+
+====================
+     08-09-2020
+====================
+
+[bootable/recovery]
+recovery: fixup `compute displayable item count while drawing` <3 weeks ago> [2fda1ac3]
+by: Alessandro Astone (ales.astone@gmail.com)
+recovery: Derpify <2 days ago> [7b5af2d8]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[manifest]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into HEAD <2 days ago> [91bbbbd]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <2 days ago> [bb0b0ed59]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into HEAD <2 days ago> [0d8bf1ea1]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[frameworks/base]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into HEAD <2 days ago> [d7fdb73591b]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[packages/apps/CustomDoze]
+CustomDoze: update aod title string <3 weeks ago> [d8c2e9f]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+
+[packages/apps/Settings]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <2 days ago> [abc0de3135]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Settings: Fix customseekbar "min" value calls <9 days ago> [053dd9bcc9]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <2 days ago> [17fa6cdaf]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[vendor/overlay]
+overlay: drop some configs <4 weeks ago> [9dbf73c]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: drop white and black accents <7 days ago> [d48883a]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+
+====================
+     08-08-2020
+====================
+
+[frameworks/base]
+base: Fix navbar when IME space is hidden <6 weeks ago> [a07d62445b7]
+by: Anushek Prasal (anushekprasal@gmail.com)
+base: TypeClockAlt: Set shouldShowStatusArea to false <10 days ago> [0d7f2b40679]
+by: NurKeinNeid (mralexman3000@gmail.com)
+NotificationPanelView: Fix initial touch co-ordinates <3 weeks ago> [990946352df]
+by: Pranav Vashi (neobuddy89@gmail.com)
+base: QS battery improvements <4 weeks ago> [cc716986e18]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+
+====================
+     08-04-2020
+====================
+
+[manifest]
+Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <7 days ago> [458a841]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+
+
