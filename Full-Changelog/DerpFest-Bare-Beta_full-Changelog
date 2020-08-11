@@ -77,5 +77,193 @@ by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
 Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <7 days ago> [458a841]
 by: The Android Open Source Project (initial-contribution@android.com)
 
+====================
+     08-10-2020
+====================
+
+[manifest]
+manifest: Track nosubs repos <5 weeks ago> [09bf3c8]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[external/pulse]
+external/pulse: Extend Pulse to Ambient Screen[3/3] <2 days ago> [113c46d]
+by: spezi77 (spezi7713@gmx.net)
+LS/Nav Pulse: fix FC and improve performances [1/2] <3 days ago> [ca83bfe]
+by: ezio84 (brabus84@gmail.com)
+Extend NavBar Pulse to LockScreen [2/3] <4 days ago> [4697dff]
+by: Pranav Vashi (neobuddy89@gmail.com)
+
+[frameworks/base]
+webkit: SystemImpl: Make systemIsDebuggable() check IS_ENG as well <6 weeks ago> [70261094c36]
+by: LuK1337 (priv.luk@gmail.com)
+Revert "DO NOT MERGE Revert Privacy Indicators to P" <5 weeks ago> [2357bd599b0]
+by: Michael Bestas (mkbestas@lineageos.org)
+Extend Pulse to Ambient Screen [1/3] <8 days ago> [21b6a9a190d]
+by: spezi77 (spezi7713@gmx.net)
+LS/Nav Pulse: fix FC and improve performances [2/2] <4 days ago> [779fc02e3c1]
+by: ezio84 (brabus84@gmail.com)
+Extend NavBar Pulse to LockScreen [1/3] <4 days ago> [f43f7038262]
+by: Pranav Vashi (neobuddy89@gmail.com)
+Remove lockscreen/ambient visualizer <6 days ago> [b8eb35f5acc]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[packages/apps/DerpQuest]
+Extend Pulse to Ambient Screen [2/2]. <8 days ago> [760fd1b]
+by: spezi77 (spezi7713@gmx.net)
+Extend NavBar Pulse to LockScreen [3/3] <4 days ago> [dfe1eca]
+by: Pranav Vashi (neobuddy89@gmail.com)
+nuke lockscreen visualizer <6 days ago> [e23f01e]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[packages/apps/Settings]
+Settings: Bring back on/off toggle for physical SIMs <4 months ago> [9df22969e9]
+by: Joey Huab (joey@evolution-x.org)
+
+[vendor/derp]
+support: add SimpleCustomSecureSeekBarPreference <2 days ago> [749c9038]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[vendor/overlay]
+overlay: Add Derp Clear Primary <12 days ago> [d73760d]
+by: deadmanxxd (deadmanxxd@gmail.com)
+
+
+[vendor/oneplus]
+msm8998: Switch to wahoo perf stack <10 hours ago> [f7fd9c29]
+by: Subhajeet Muhuri (subhajeet.muhuri@gmail.com)
+
+
+====================
+     08-09-2020
+====================
+
+[bootable/recovery]
+recovery: fixup `compute displayable item count while drawing` <3 weeks ago> [2fda1ac3]
+by: Alessandro Astone (ales.astone@gmail.com)
+recovery: Derpify <2 days ago> [7b5af2d8]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[manifest]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/manifest into HEAD <2 days ago> [91bbbbd]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[build/make]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/build into HEAD <2 days ago> [bb0b0ed59]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[frameworks/av]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/av into HEAD <2 days ago> [0d8bf1ea1]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[frameworks/base]
+Taskhelper api: fix NPE <4 days ago> [84205766fab]
+by: ezio84 (brabus84@gmail.com)
+screenrecord: UI Improvements <6 weeks ago> [f7d49d292c4]
+by: Ido Ben-Hur (idoybh2@gmail.com)
+Revert "screenrec: Layout improvements and summary cleanup" <2 days ago> [f3fc456cc54]
+by: NurKeinNeid (mralexman3000@gmail.com)
+overlay: Rename the icon pack overlays to pixel names <8 months ago> [5a7df6c7bf2]
+by: Dyneteve (dyneteve@pixelexperience.org)
+add placeholder 'preview' for lockscreen bottom shortcuts It looked kinda empty <8 months ago> [e1b67623c6d]
+by: 00day0 (therandomuser11@gmail.com)
+Redesign lockscreen bottom shortcuts <8 months ago> [f8a49d1bfe3]
+by: 00day0 (therandomuser11@gmail.com)
+Adjust QS tile background and icon color + make qs tile icon smaller by 1dp + reduce qs tile vertical margin <8 months ago> [c3782266240]
+by: 00day0 (therandomuser11@gmail.com)
+Tint QSTile icon with accent color and change opacity of QSTile background <8 months ago> [9740b165cbb]
+by: 00day0 (therandomuser11@gmail.com)
+Make QS.Status font bolder and bigger <8 months ago> [47c1d67cf9a]
+by: 00day0 (therandomuser11@gmail.com)
+QS tile label: tint it with accent color and use bolder font <8 months ago> [3471f4b22bc]
+by: 00day0 (therandomuser11@gmail.com)
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/frameworks/base into HEAD <2 days ago> [d7fdb73591b]
+by: NurKeinNeid (mralexman3000@gmail.com)
+base: Fix navbar when IME space is hidden <6 weeks ago> [a07d62445b7]
+by: Anushek Prasal (anushekprasal@gmail.com)
+base: TypeClockAlt: Set shouldShowStatusArea to false <9 days ago> [0d7f2b40679]
+by: NurKeinNeid (mralexman3000@gmail.com)
+NotificationPanelView: Fix initial touch co-ordinates <3 weeks ago> [990946352df]
+by: Pranav Vashi (neobuddy89@gmail.com)
+base: QS battery improvements <4 weeks ago> [cc716986e18]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[packages/apps/CustomDoze]
+CustomDoze: update aod title string <3 weeks ago> [d8c2e9f]
+by: Omkar Chandorkar (forumomkar@gmail.com)
+
+[packages/apps/Settings]
+LocaleListEditor: fix layout stuck at 0dp <4 months ago> [9506747b08]
+by: Lucchetto (lucchetto.tie@live.com)
+SettingsBaseActivity: fix clipped or not matching height settings content <4 months ago> [a2fb17c1bc]
+by: Lucchetto (lucchetto.tie@live.com)
+MobileNetworkActivity: fix bottom nav gravity <4 months ago> [b9d61df46b]
+by: Lucchetto (lucchetto.tie@live.com)
+SettingsBaseActivity: use androidX CardView <7 months ago> [826b7a1b9e]
+by: Lucchetto (lucchetto.tie@live.com)
+MobileNetworkActivity: blur the action bar <7 months ago> [8e41fe9ffa]
+by: Lucchetto (lucchetto.tie@live.com)
+MobileNetworkActivity: draw behind the action bar <7 months ago> [0fc0bf08d9]
+by: Lucchetto (lucchetto.tie@live.com)
+Settings: Blur the action bar <8 months ago> [2745d7f547]
+by: Lucchetto (lucchetto.tie@live.com)
+SettingsBaseActivity: draw behind the toolbar <8 months ago> [0dc18f175a]
+by: Lucchetto (lucchetto.tie@live.com)
+Settings: blur the search bar <8 months ago> [12b487096c]
+by: Lucchetto (lucchetto.tie@live.com)
+Revert "Settings: Avoid enforcing weird backgrounds" <2 weeks ago> [db063590b9]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/apps/Settings into HEAD <2 days ago> [abc0de3135]
+by: NurKeinNeid (mralexman3000@gmail.com)
+Settings: Fix customseekbar "min" value calls <9 days ago> [053dd9bcc9]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+[packages/services/Telephony]
+Merge tag 'android-10.0.0_r41' of https://android.googlesource.com/platform/packages/services/Telephony into HEAD <2 days ago> [17fa6cdaf]
+by: NurKeinNeid (mralexman3000@gmail.com)
+
+[vendor/overlay]
+overlay: add configs for pixellauncher <4 months ago> [cb0f1b9]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: drop some configs <4 weeks ago> [9dbf73c]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+overlay: drop white and black accents <7 days ago> [d48883a]
+by: Josh Fox (XlxFoXxlX) (joshfox87@gmail.com)
+
+
+====================
+     08-08-2020
+====================
+
+
+====================
+     08-07-2020
+====================
+
+[vendor/oneplus]
+msm8998-common: Update ims.apk and qti-telephony-common.jar <5 days ago> [ec4f28b8]
+by: Pranav Vashi (neobuddy89@gmail.com)
+msm8998-common: Add ipa init files from stock <4 weeks ago> [3529ab2e]
+by: Pranav Vashi (neobuddy89@gmail.com)
+
+
+====================
+     08-06-2020
+====================
+
+
+====================
+     08-05-2020
+====================
+
+
+====================
+     08-04-2020
+====================
+
+[manifest]
+Manifest for Android 10.0.0 Release 41 (QQ3A.200805.001) <6 days ago> [458a841]
+by: The Android Open Source Project (initial-contribution@android.com)
+
+
 
 
