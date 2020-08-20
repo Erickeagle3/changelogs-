@@ -1,38 +1,39 @@
 :-Source Changelogs:
 
-- Merged August security patch (r41)
-- Fixed the no default dialer issue
-- Added navbar pulse
-- Made master switches summaries dynamic (in DerpQuest)
-- Added yet more settings to backup array
-- Added an easter egg
-- Added media HeadsUp
-- Made sound QS tile toggle to silent instead of DND
-- Added back RGB accent picker (works fine with 3rd parties now)
-- Added back RGB accent presets
-- Removed the color step from ThemePicker
-- Removed color overlays
-- Removed lockscreen / ambient wake gesture switch (was not working properly)
-- Allowed setting QS clock size separately
-- Refactored fonts & sizes implementation (reduced 2600~ lines of bad, bad code to 260~)
-  you can actually feel the difference in QS, SB and especially LS
-- Some statusbar padding and style fixes
-- A lot of other bug / code fixes all around
+- Merged august security patch (r41)
+- Fixed Freeform window moving & resize issues
+- QS make sure we dont show empty row
+- Make lockscreen timeout configurable
+- Fix WebView vulnerability by disallowing file access
+- Added Pulse Navbar
+- Added automatic album art color mode for navbar pulse 
+- Added Switch Styles
+- Reverted Vowifi Icon Implementation
+- Refactor LockScreen elements font type & size implementation
+- dded RGB accenter
+- Added Bluetooth QTI Implementation
+- Improved Network Traffic Monitor
+- Added support for a custom icon for Toast 
+- Allow showing music heads up on new tracks
+- Added QS header styles
+- Added Powermenu Background filter 
+- Make Master switches summaries dynamic 
+- Added a name fitting easter egg
+- Added Derp Clear Primary
+- Added Snap Camera Support
 - Updates to translations
-- Improve custom settings observer
-- Allow camera to use power key as shutter
-- Improve PowerMenu backround filter
+- Some more minor derps/bugs fixes
 
 :-Device Changelogs:
 
-- Add Dolby Audio
-- Remove KPI marker at ADSP start 
-- Remove left-over c2 codecs reference 
-- Update qcom-sh service user permission
-- Disable BSS flush 
-- Enable IWLAN overlays 
-- Allow all apps to use smart replies
-- Fixed Random reboot issue 
-- Added mat log again 
-- Fix Spectrum toogle force stop
-- Added Auto call recording support ( only for vanilla )
+- Import data-ipa-cfg-mgr from LA.UM.8.6.2.r1-07100-89xx.0
+- Update data-ipa-cfg-mgr LA.UM.8.6.2.r1-08100-89xx.0
+- Fix memory leaks 
+- Configure thermal throttle limit 
+  ( Set up thermal freq limit to 2GHz when reach throttle limit, to avoid cpu lock at some frequencies limit
+    ex: 1.6GHz)
+- Enable default ringtone picker
+- Bootreceiver crash on LOCKED_BOOT_COMPLETED
+- Update firefox
+- Fix Vibration strength reset to default after reboot
+- Remove Duplicate toggles from XiaomiParts
