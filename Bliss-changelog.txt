@@ -1,11 +1,9 @@
 Device Changelog :-
 
-- add Dolby 
-- Update FireFox lite
-- cts pass without root
-- Fix Bluetooth crash 
-- Enable QS System info
-- Enable IWLAN overlays 
-- Add battery health overlay
-- Fix Auto call recording 
-- Fix Youtube Black screen
+- Enable default ringtone picker
+- Fix Vibration strength reset to default after reboot
+- Remove duplicate toggles from Xiaomi Parts 
+- Remove firefox
+- Add Back Button Light support 
+- Fix Xiaomi Parts crashing 
+- Fix Bootreceiver crash
