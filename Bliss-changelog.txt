@@ -1,9 +1,16 @@
 Device Changelog :-
 
-- Enable default ringtone picker
-- Fix Vibration strength reset to default after reboot
-- Remove duplicate toggles from Xiaomi Parts 
-- Remove firefox
-- Add Back Button Light support 
-- Fix Xiaomi Parts crashing 
-- Fix Bootreceiver crash
+- Fix smart charging 
+- Update sha1sum for modified gps configs  
+- Enable VoLTE for Mobifone Vietnam
+- Add FPS info tile
+- Enable Smart pixel
+- Fix System ui fc
+- Removed XiaomiParts & Added Advanced control 
+- Notification Ticker back 
+- Fix Navbar Pulse 
+- kernel Changed to Perf (special thanks to Zeelog, @beingstargazer & @Zile995)
+- Build with Proton 12
+- Update Firefox lite
+- Update Gcam go to v1.7.3286
+- Add Spectrum Support 
