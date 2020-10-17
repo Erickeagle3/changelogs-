@@ -1,16 +1,11 @@
-Device Changelog :-
+Device Changelog 
 
-- Fix smart charging 
-- Update sha1sum for modified gps configs  
-- Enable VoLTE for Mobifone Vietnam
-- Add FPS info tile
-- Enable Smart pixel
-- Fix System ui fc
-- Removed XiaomiParts & Added Advanced control 
-- Notification Ticker back 
-- Fix Navbar Pulse 
-- kernel Changed to Perf (special thanks to Zeelog, @beingstargazer & @Zile995)
-- Build with Proton 12
-- Update Firefox lite
-- Update Gcam go to v1.7.3286
-- Add Spectrum Support 
+- Kernel Switch to 4.9
+- Fix Smart Charging
+- Add back AOD Settings 
+- Add Xiaomi Parts 
+- Fix Navbar Crash 
+- Added New Vibration & haptic strength ( Accessibility > Vibration & haptic strength )
+- Update qti-telephony-manager from Vsmart Casuari 
+- mido: Pin critical system apps that always need to be responsive, no mattter what
+- mido: Update blobs from LA.UM.8.6.2.r1-08100-89xx.0
