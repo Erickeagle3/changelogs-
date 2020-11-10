@@ -1,11 +1,12 @@
-Device Changelog 
+Device Changelog :-
 
-- Kernel Switch to 4.9
-- Fix Smart Charging
-- Add back AOD Settings 
-- Add Xiaomi Parts 
-- Fix Navbar Crash 
-- Added New Vibration & haptic strength ( Accessibility > Vibration & haptic strength )
-- Update qti-telephony-manager from Vsmart Casuari 
-- mido: Pin critical system apps that always need to be responsive, no mattter what
-- mido: Update blobs from LA.UM.8.6.2.r1-08100-89xx.0
+- Update FireFox
+- Enable VoLTE for Mobifone Vietnam
+- Add AOSP RCS package
+- Update bdroid_buildcfg values from caf
+- Refactor & Fix WCNSS symlink
+- Fix path to SystemUI.apk for pinner service
+- Fix copying file msm_irqbalance_little_big
+- Update P blobs from Tissot V10.0.24.0
+- Enable vibration multiple intensities
+- Fix Reboot issue
